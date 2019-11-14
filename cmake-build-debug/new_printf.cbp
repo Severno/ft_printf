@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="new_printf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sapril/Desktop/new_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sapril/Desktop/new_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sapril/Desktop/new_printf/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new_printf">
+				<Option output="/Users/sapril/Desktop/new_printf/cmake-build-debug/new_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sapril/Desktop/new_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 new_printf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="new_printf/fast">
+				<Option output="/Users/sapril/Desktop/new_printf/cmake-build-debug/new_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sapril/Desktop/new_printf/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 new_printf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sapril/Desktop/new_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_abs.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_atoi.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_atol.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_bzero.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_check_end_spaces.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_check_start_spaces.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_convert_dec_base.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_convert_undec_base.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_isalnum.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_isalpha.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_isascii.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_isdigit.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_isprint.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_isspace.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_itoa.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_lstadd.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_lstdel.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_lstdelone.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_lstiter.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_lstmap.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_lstnew.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_memalloc.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_memccpy.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_memchr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_memcmp.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_memcpy.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_memdel.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_memmove.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_memset.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_num_of_digits.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_num_of_fields.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_putchar.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_putchar_fd.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_putendl.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_putendl_fd.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_putnbr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_putnbr_fd.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_putstr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_putstr_fd.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_str_is_lowercase.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_str_is_numeric.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_str_is_printable.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_str_is_uppercase.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strcat.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strchr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strclr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strcmp.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strcpy.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strdel.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strdup.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strequ.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_striter.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_striteri.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strjoin.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strlcat.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strlen.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strmap.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strmapi.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strncat.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strncmp.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strncpy.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strnequ.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strnew.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strnlen.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strnstr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strrchr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strsplit.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strstr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strsub.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_strtrim.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_tolower.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/libft/ft_toupper.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/alignment.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/flag_cs.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/flag_di.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/flag_o.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/flag_precision.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/flag_u.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/flag_upx.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/flag_x.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/ft_printf.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/ftpf_strchr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/get_flags.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/main.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/parse_flags.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/srcs/utils.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/Desktop/new_printf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

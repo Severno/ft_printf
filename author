@@ -1,0 +1,24 @@
+sapril
+
+
+void check_width(t_param *param , long long int *value)
+{
+    unsigned long long int unsign_fields = ft_num_of_fields(ft_abs((int)param->arg_value));
+    long long int sign_fields = ft_num_of_fields((int)param->arg_value);
+	if (param->precision >= unsign_fields && param->get_arg_value >= 0)
+		*value = param->width - param->precision;
+	else if (param->precision >= unsign_fields && param->get_arg_value < 0)
+		*value = param->width - param->precision - 1;
+	else if (param->width >= sign_fields)
+		*value = param->width - sign_fields;
+	else if (param->width >= unsign_fields)
+		*value = param->width - unsign_fields;
+	if (param->zero_sign == '0' && param->get_arg_value < 0 && param->neg_sign_value == 0 && param->precision == 0)
+		put_sign(param, '-');
+	if (param->is_space == 1 && param->pos_sign_value == 0 && param->get_arg_value >= 0)
+		*(value) -= 1;
+	if (param->plus_sign == '+' && param->get_arg_value >= 0)
+		*(value) -= 1;
+	if (param->precision == 0 && (int)param->arg_value == 0 && param->dot == 1)
+		*(value) += 1;
+}
