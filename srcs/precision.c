@@ -8,9 +8,9 @@
 /*   Created: 2019/10/24 17:05:32 by sapril            #+#    #+#             */
 /*   Updated: 2019/11/14 22:32:32 by sapril           ###   ########.fr       */
 /*                                                                            */
-#include "../includes/ft_printf.h"
-
 /* ************************************************************************** */
+
+#include "../includes/ft_printf.h"
 
 static void calc_width(t_param *param, int *iter)
 {
@@ -37,7 +37,10 @@ void flag_width(t_param *param, int *iter)
 	if ((param->str[(*iter)] >= '0' && param->str[(*iter)] <= '9'))
 		calc_width(param, iter);
 	if (param->str[(*iter)] == '.')
+	{
 		*iter += 1;
+		param->precision = 0;
+	}
 	if ((param->str[(*iter)] >= '0' && param->str[(*iter)] <= '9'))
 		calc_precision(param, iter);
 }

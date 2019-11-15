@@ -16,6 +16,7 @@ void get_flags(t_param* param)
 {
 	int iter;
 	int size;
+	int length;
 
 	iter = param->iter;
 	size = 10;
@@ -48,42 +49,46 @@ void get_flags(t_param* param)
 		if (ftpf_strchr("123456789.", param->str[iter]))
 			flag_width(param, &iter);
 	}
+	length = ft_strlen(param->flags);
+	param->flags[length] = (char)param->current_flag;
+	remove_conflicted_flags(param);
 	param->iter = iter;
 }
 
 void parse_flag(t_param *param)
 {
-	param->str[param->iter] == 'd' ? flag_d(param) : 0;
-	param->str[param->iter] == 'ld' ? flag_ld(param) : 0;
-	param->str[param->iter] == 'lld' ? flag_lld(param) : 0;
-	param->str[param->iter] == 'hd' ? flag_hd(param) : 0;
-	param->str[param->iter] == 'hhd' ? flag_hhd(param) : 0;
-	param->str[param->iter] == 'i' ? flag_d(param) : 0;
-	param->str[param->iter] == 'li' ? flag_ld(param) : 0;
-	param->str[param->iter] == 'lli' ? flag_lld(param) : 0;
-	param->str[param->iter] == 'hi' ? flag_hd(param) : 0;
-	param->str[param->iter] == 'hhi' ? flag_hhd(param) : 0;
-	param->str[param->iter] == 'u' ? flag_u(param) : 0;
-	param->str[param->iter] == 'lu' ? flag_lu(param) : 0;
-	param->str[param->iter] == 'llu' ? flag_llu(param) : 0;
-	param->str[param->iter] == 'hu' ? flag_hu(param) : 0;
-	param->str[param->iter] == 'hhu' ? flag_hhu(param) : 0;
-	param->str[param->iter] == 'o' ? flag_o(param) : 0;
-	param->str[param->iter] == 'lo' ? flag_lo(param) : 0;
-	param->str[param->iter] == 'llo' ? flag_llo(param) : 0;
-	param->str[param->iter] == 'ho' ? flag_ho(param) : 0;
-	param->str[param->iter] == 'hho' ? flag_hho(param) : 0;
-	param->str[param->iter] == 'x' ? flag_x(param) : 0;
-	param->str[param->iter] == 'lx' ? flag_lx(param) : 0;
-	param->str[param->iter] == 'llx' ? flag_llx(param) : 0;
-	param->str[param->iter] == 'hx' ? flag_hx(param) : 0;
-	param->str[param->iter] == 'hhx' ? flag_hhx(param) : 0;
-	param->str[param->iter] == 'lX' ? flag_lupx(param) : 0;
-	param->str[param->iter] == 'llX' ? flag_llupx(param) : 0;
-	param->str[param->iter] == 'hX' ? flag_hupx(param) : 0;
-	param->str[param->iter] == 'hhX' ? flag_hhupx(param) : 0;
-	param->str[param->iter] == 'c' ? flag_char(param) : 0;
-	param->str[param->iter] == 's' ? flag_str(param) : 0;
+	ft_strstr(param->flags, "lld") ? flag_lld(param) : 0;
+	ft_strstr(param->flags, "ld") ? flag_ld(param) : 0;
+	ft_strstr(param->flags, "hhd") ? flag_hhd(param) : 0;
+	ft_strstr(param->flags, "hd") ? flag_hd(param) : 0;
+	ft_strstr(param->flags, "d") ? flag_d(param) : 0;
+	ft_strstr(param->flags, "lli") ? flag_lld(param) : 0;
+	ft_strstr(param->flags, "li") ? flag_ld(param) : 0;
+	ft_strstr(param->flags, "hhi") ? flag_hhd(param) : 0;
+	ft_strstr(param->flags, "hi") ? flag_hd(param) : 0;
+	ft_strstr(param->flags, "i") ? flag_d(param) : 0;
+	ft_strstr(param->flags, "llu") ? flag_llu(param) : 0;
+	ft_strstr(param->flags, "lu") ? flag_lu(param) : 0;
+	ft_strstr(param->flags, "hhu") ? flag_hhu(param) : 0;
+	ft_strstr(param->flags, "hu") ? flag_hu(param) : 0;
+	ft_strstr(param->flags, "u") ? flag_u(param) : 0;
+	ft_strstr(param->flags, "llo") ? flag_llo(param) : 0;
+	ft_strstr(param->flags, "lo") ? flag_lo(param) : 0;
+	ft_strstr(param->flags, "hho") ? flag_hho(param) : 0;
+	ft_strstr(param->flags, "ho") ? flag_ho(param) : 0;
+	ft_strstr(param->flags, "o") ? flag_o(param) : 0;
+	ft_strstr(param->flags, "llx") ? flag_llx(param) : 0;
+	ft_strstr(param->flags, "lx") ? flag_lx(param) : 0;
+	ft_strstr(param->flags, "hhx") ? flag_hhx(param) : 0;
+	ft_strstr(param->flags, "hx") ? flag_hx(param) : 0;
+	ft_strstr(param->flags, "x") ? flag_x(param) : 0;
+	ft_strstr(param->flags, "llX") ? flag_llupx(param) : 0;
+	ft_strstr(param->flags, "lX") ? flag_lupx(param) : 0;
+	ft_strstr(param->flags, "hhX") ? flag_hhupx(param) : 0;
+	ft_strstr(param->flags, "hX") ? flag_hupx(param) : 0;
+	ft_strstr(param->flags, "X") ? flag_upx(param) : 0;
+	ft_strstr(param->flags, "c") ? flag_char(param) : 0;
+	ft_strstr(param->flags, "s") ? flag_str(param) : 0;
 }
 
 void remove_conflicted_flags(t_param *param)
@@ -101,7 +106,24 @@ void remove_conflicted_flags(t_param *param)
 		param->flags = ft_find_and_remove_char(param->flags, ' ');
 		free(tmp);
 	}
+	if ((ft_strstr(param->flags, " ")) && check_convention(param) < 0)
+	{
+		tmp = param->flags;
+		param->flags = ft_find_and_remove_char(param->flags, ' ');
+		free(tmp);
+	}
+}
 
+void remove_current_flags(t_param *param, char *flags)
+{
+	int i;
+
+	i = 0;
+	while (flags[i])
+	{
+		ft_find_and_remove_char(param->flags, flags[i]);
+		i++;
+	}
 }
 
 char *ft_find_and_remove_char(char *str, char find)

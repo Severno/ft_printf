@@ -76,18 +76,23 @@ add_executable(new_printf
         libft/ft_strtrim.c
         libft/ft_tolower.c
         libft/ft_toupper.c
+        srcs/alignment.c
         srcs/flag_cs.c
         srcs/flag_di.c
         srcs/flag_o.c
-        srcs/flag_precision.c
+        srcs/precision.c
         srcs/flag_u.c
         srcs/flag_upx.c
         srcs/flag_x.c
         srcs/ft_printf.c
         srcs/ftpf_strchr.c
         srcs/get_flags.c
-        srcs/main.c
-        srcs/parse_flags.c
-        srcs/get_flags.c
-        srcs/alignment.c
-        srcs/utils.c)
+        main.c
+        srcs/print_d.c
+        srcs/utils.c
+        srcs/calc_unsigned_precision.c
+        srcs/calc_signed_precision.c
+        srcs/calc_signed_width.c
+        srcs/calc_unsigned_width.c
+        srcs/check_conventions.c
+        srcs/pfft_putnbr.c srcs/print_o.c libft/ft_atoul.c libft/ft_unnum_of_fields.c libft/ft_putunbr.c srcs/print_u.c)

@@ -13,7 +13,7 @@
 
 #include "libft.h"
 
-static char		get_value(int num, char sign)
+static char		get_value(unsigned long long num, char sign)
 {
 	char letter;
 	if (sign == 'X')

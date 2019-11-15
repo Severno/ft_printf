@@ -14,65 +14,70 @@
 
 void flag_d(t_param *param)
 {
-	int value;
-	char *tmp;
+	char flags[2] = "di";
 
-	value = (int)param->arg_value;
-	param->val_length = ft_num_of_fields(value);
-
-	if ((ft_strstr(param->flags, "+")) && value < 0)
-	{
-		tmp = param->flags;
-		param->flags = ft_find_and_remove_char(param->flags, '+');
-		free(tmp);
-	}
-	ftpf_putnbr(value, param);
+	param->value = check_convention(param);
+	param->val_length = ft_num_of_fields(param->value);
+	param->val_nums = (int)ft_num_of_digits(param->value);
+	calc_reserved_fields(param);
+	get_do_precision(param);
+	get_do_width(param);
+	print(param);
+	remove_current_flags(param, flags);
 }
 
 void flag_lld(t_param *param)
 {
-	long long int value;
+	char flags[4] = "lldi";
 
-	value = (long long int)param->arg_value;
+	param->value = check_convention(param);
+	param->val_length = (int)ft_num_of_fields(param->value);
+	param->val_nums = (int)ft_num_of_digits(param->value);
+	calc_reserved_fields(param);
+	get_do_precision(param);
+	get_do_width(param);
+	print(param);
+	remove_current_flags(param, flags);
 }
 
 void flag_ld(t_param *param)
 {
-	long int value;
+	char flags[3] = "ldi";
 
-	value = (long int)param->arg_value;
+	param->value = check_convention(param);
+	param->val_length = (int)ft_num_of_fields(param->value);
+	param->val_nums = (int)ft_num_of_digits(param->value);
+	calc_reserved_fields(param);
+	get_do_precision(param);
+	get_do_width(param);
+	print(param);
+	remove_current_flags(param, flags);
 }
 
 void flag_hhd(t_param *param)
 {
-	char value;
+	char flags[4] = "hhdi";
 
-	value = (char)param->arg_value;
+	param->value = check_convention(param);
+	param->val_length = (int)ft_num_of_fields(param->value);
+	param->val_nums = (int)ft_num_of_digits(param->value);
+	calc_reserved_fields(param);
+	get_do_precision(param);
+	get_do_width(param);
+	print(param);
+	remove_current_flags(param, flags);
 }
 
 void flag_hd(t_param *param)
 {
-	short value;
+	char flags[3] = "hdi";
 
-	value = (short)param->arg_value;
-}
-
-
-void ftpf_putnbr(int value, t_param *param)
-{
-	if (value < 0)
-	{
-		param->do_precision = param->precision - param->val_length + 1;
-		fill_width(param);
-		write(1, "-", 1);
-		fill_precision(param);
-		ft_putnbr(value * -1);
-	}
-	else
-	{
-		param->do_precision = param->precision - param->val_length;
-		fill_precision(param);
-		ft_putnbr(value);
-		fill_width(param);
-	}
+	param->value = check_convention(param);
+	param->val_length = (int)ft_num_of_fields(param->value);
+	param->val_nums = (int)ft_num_of_digits(param->value);
+	calc_reserved_fields(param);
+	get_do_precision(param);
+	get_do_width(param);
+	print(param);
+	remove_current_flags(param, flags);
 }

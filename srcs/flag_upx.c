@@ -14,25 +14,34 @@
 
 void flag_upx(t_param *param)
 {
+	unsigned int value;
+	value = (unsigned int)param->arg_value;
 
 }
 
 void flag_llupx(t_param *param)
 {
+	unsigned long long int value;
+	value = (unsigned long long int)param->arg_value;
 
 }
 
 void flag_lupx(t_param *param)
 {
+	unsigned long int value;
+	value = (unsigned long int)param->arg_value;
 
 }
 
 void flag_hhupx(t_param *param)
 {
+	unsigned char value;
+	value = (unsigned char)param->arg_value;
 
 }
 
 void flag_hupx(t_param *param)
 {
-
+	unsigned short int value;
+	value = (unsigned short int)param->arg_value;
 }

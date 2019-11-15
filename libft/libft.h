@@ -106,6 +106,9 @@ char				*ft_convert_dec_base(int base, long long int input_num, char sign);
 int					ft_num_of_fields(long long int num);
 int					ft_abs(int num);
 long long int		ft_atol(const char* str);
-char			*ft_convert_undec_base(int base, unsigned long long int input_num, char sign);
+char				*ft_convert_undec_base(int base, unsigned long long int input_num, char sign);
+unsigned long long int		ft_atoul(const char* str);
+int		ft_unnum_of_fields(unsigned long long int num);
+void	ft_putunbr(unsigned long long int nb);
 
 #endif

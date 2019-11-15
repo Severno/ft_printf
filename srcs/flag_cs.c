@@ -14,10 +14,11 @@
 
 void flag_str(t_param *param)
 {
-
+	(void)param;
 }
 
 void flag_char(t_param *param)
 {
+	(void)param;
 
 }

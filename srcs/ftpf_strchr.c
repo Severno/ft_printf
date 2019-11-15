@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "../includes/ft_printf.h"
 
 char		ftpf_strchr(const char *s, int c)
 {

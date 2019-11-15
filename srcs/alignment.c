@@ -14,20 +14,28 @@
 
 void fill_width(t_param *param)
 {
-	if (param->width > param->precision && param->width > param->val_length)
-		param->do_width = param->width - ft_max_of_two(param->precision, param->val_length);
-	fill(param->do_width, ' ');
+	if (ftpf_strchr(param->flags, '0') && param->precision == -1 )
+		fill(param->do_width, '0', param);
+	else
+		fill(param->do_width, ' ', param);
 }
 
 void fill_precision(t_param *param)
 {
-	fill(param->do_precision, '0');
+	fill(param->do_precision, '0', param);
 }
 
-void fill(int value, char sign)
+void fill(int value, char sign, t_param *param)
 {
+	(void)param;
+	if (ftpf_strchr(param->flags, ' '))
+	{
+		write(1, " ", 1);
+		ft_find_and_remove_char(param->flags, ' ');
+	}
 	while (value > 0) {
 		write(1, &sign, 1);
 		value--;
 	}
 }
+

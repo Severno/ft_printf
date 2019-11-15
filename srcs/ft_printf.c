@@ -14,12 +14,16 @@
 
 static void param_init(t_param *param)
 {
+	param->value = 0;
+	param->un_value = 0;
+	param->reserved_fields = 0;
 	param->current_flag = '~';
 	param->convention = '~';
 	param->arg_value = va_arg(param->args, void *);
 	param->width = -1;
 	param->precision = -1;
-	param->val_length = 1;
+	param->val_length = 0;
+	param->val_nums = 0;
 	param->do_precision = 0;
 	param->do_width = 0;
 }

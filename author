@@ -1,24 +1,43 @@
 sapril
 
+PRINTF_SRC =	srcs/alignment.c \
+                srcs/calc_signed_precision.c \
+                srcs/calc_signed_width.c \
+                srcs/calc_unsigned_precision.c \
+                srcs/calc_unsigned_width.c \
+                srcs/flag_cs.c \
+                srcs/flag_di.c \
+                srcs/flag_o.c \
+                srcs/flag_precision.c \
+                srcs/flag_u.c \
+                srcs/flag_upx.c \
+                srcs/flag_x.c \
+                srcs/ft_printf.c \
+                srcs/ftpf_strchr.c \
+                srcs/get_flags.c \
+                srcs/print_d.c \
+                srcs/utils.c \
+                srcs/check_conventions.c \
+                srcs/pfft_putnbr.c \
+                srcs/print_o.c
 
-void check_width(t_param *param , long long int *value)
-{
-    unsigned long long int unsign_fields = ft_num_of_fields(ft_abs((int)param->arg_value));
-    long long int sign_fields = ft_num_of_fields((int)param->arg_value);
-	if (param->precision >= unsign_fields && param->get_arg_value >= 0)
-		*value = param->width - param->precision;
-	else if (param->precision >= unsign_fields && param->get_arg_value < 0)
-		*value = param->width - param->precision - 1;
-	else if (param->width >= sign_fields)
-		*value = param->width - sign_fields;
-	else if (param->width >= unsign_fields)
-		*value = param->width - unsign_fields;
-	if (param->zero_sign == '0' && param->get_arg_value < 0 && param->neg_sign_value == 0 && param->precision == 0)
-		put_sign(param, '-');
-	if (param->is_space == 1 && param->pos_sign_value == 0 && param->get_arg_value >= 0)
-		*(value) -= 1;
-	if (param->plus_sign == '+' && param->get_arg_value >= 0)
-		*(value) -= 1;
-	if (param->precision == 0 && (int)param->arg_value == 0 && param->dot == 1)
-		*(value) += 1;
-}
+PRINTF_OBJ =	alignment.o \
+				calc_signed_precision.o \
+                calc_signed_width.o \
+                calc_unsigned_precision.o \
+                calc_unsigned_width.o \
+				flag_cs.o \
+				flag_di.o \
+				flag_o.o \
+				flag_precision.o \
+				flag_u.o \
+				flag_upx.o \
+				flag_x.o \
+				ft_printf.o \
+				ftpf_strchr.o \
+				get_flags.o \
+                print_d.o \
+				utils.o \
+                check_conventions.o \
+				pfft_putnbr.o \
+				print_o.c
