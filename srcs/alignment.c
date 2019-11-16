@@ -14,7 +14,7 @@
 
 void fill_width(t_param *param)
 {
-	if (ftpf_strchr(param->flags, '0') && param->precision == -1 )
+	if (pf_strchr(param->flags, '0') && param->precision == -1 )
 		fill(param->do_width, '0', param);
 	else
 		fill(param->do_width, ' ', param);
@@ -28,7 +28,7 @@ void fill_precision(t_param *param)
 void fill(int value, char sign, t_param *param)
 {
 	(void)param;
-	if (ftpf_strchr(param->flags, ' '))
+	if (pf_strchr(param->flags, ' '))
 	{
 		write(1, " ", 1);
 		ft_find_and_remove_char(param->flags, ' ');

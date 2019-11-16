@@ -315,6 +315,9 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/calc_signed_width.c">
 			<Option target="new_printf"/>
 		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/calc_str_width_precision.c">
+			<Option target="new_printf"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/calc_unsigned_precision.c">
 			<Option target="new_printf"/>
 		</Unit>
@@ -345,13 +348,13 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/ft_printf.c">
 			<Option target="new_printf"/>
 		</Unit>
-		<Unit filename="/Users/artembykov/final_ft_printf/srcs/ftpf_strchr.c">
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/ft_putnbr_base.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/get_flags.c">
 			<Option target="new_printf"/>
 		</Unit>
-		<Unit filename="/Users/artembykov/final_ft_printf/srcs/pfft_putnbr.c">
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/pf_strchr.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/precision.c">
@@ -364,6 +367,9 @@
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_u.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_x.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/utils.c">

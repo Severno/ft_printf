@@ -273,18 +273,18 @@ CMakeFiles/new_printf.dir/srcs/ft_printf.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/ft_printf.c
-CMakeFiles/new_printf.dir/srcs/ftpf_strchr.c.o
+CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
- /Users/artembykov/final_ft_printf/srcs/ftpf_strchr.c
+ /Users/artembykov/final_ft_printf/srcs/ft_putnbr_base.c
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/get_flags.c
-CMakeFiles/new_printf.dir/srcs/pfft_putnbr.c.o
+CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
- /Users/artembykov/final_ft_printf/srcs/pfft_putnbr.c
+ /Users/artembykov/final_ft_printf/srcs/pf_strchr.c
 CMakeFiles/new_printf.dir/srcs/precision.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
@@ -301,6 +301,10 @@ CMakeFiles/new_printf.dir/srcs/print_u.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/print_u.c
+CMakeFiles/new_printf.dir/srcs/print_x.c.o
+ /Users/artembykov/final_ft_printf/includes/ft_printf.h
+ /Users/artembykov/final_ft_printf/libft/libft.h
+ /Users/artembykov/final_ft_printf/srcs/print_x.c
 CMakeFiles/new_printf.dir/srcs/utils.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h

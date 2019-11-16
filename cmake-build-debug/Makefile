@@ -2256,6 +2256,33 @@ srcs/calc_signed_width.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.s
 .PHONY : srcs/calc_signed_width.c.s
 
+srcs/calc_str_width_precision.o: srcs/calc_str_width_precision.c.o
+
+.PHONY : srcs/calc_str_width_precision.o
+
+# target to build an object file
+srcs/calc_str_width_precision.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o
+.PHONY : srcs/calc_str_width_precision.c.o
+
+srcs/calc_str_width_precision.i: srcs/calc_str_width_precision.c.i
+
+.PHONY : srcs/calc_str_width_precision.i
+
+# target to preprocess a source file
+srcs/calc_str_width_precision.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.i
+.PHONY : srcs/calc_str_width_precision.c.i
+
+srcs/calc_str_width_precision.s: srcs/calc_str_width_precision.c.s
+
+.PHONY : srcs/calc_str_width_precision.s
+
+# target to generate assembly for a file
+srcs/calc_str_width_precision.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.s
+.PHONY : srcs/calc_str_width_precision.c.s
+
 srcs/calc_unsigned_precision.o: srcs/calc_unsigned_precision.c.o
 
 .PHONY : srcs/calc_unsigned_precision.o
@@ -2526,32 +2553,32 @@ srcs/ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_printf.c.s
 .PHONY : srcs/ft_printf.c.s
 
-srcs/ftpf_strchr.o: srcs/ftpf_strchr.c.o
+srcs/ft_putnbr_base.o: srcs/ft_putnbr_base.c.o
 
-.PHONY : srcs/ftpf_strchr.o
+.PHONY : srcs/ft_putnbr_base.o
 
 # target to build an object file
-srcs/ftpf_strchr.c.o:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ftpf_strchr.c.o
-.PHONY : srcs/ftpf_strchr.c.o
+srcs/ft_putnbr_base.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o
+.PHONY : srcs/ft_putnbr_base.c.o
 
-srcs/ftpf_strchr.i: srcs/ftpf_strchr.c.i
+srcs/ft_putnbr_base.i: srcs/ft_putnbr_base.c.i
 
-.PHONY : srcs/ftpf_strchr.i
+.PHONY : srcs/ft_putnbr_base.i
 
 # target to preprocess a source file
-srcs/ftpf_strchr.c.i:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ftpf_strchr.c.i
-.PHONY : srcs/ftpf_strchr.c.i
+srcs/ft_putnbr_base.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.i
+.PHONY : srcs/ft_putnbr_base.c.i
 
-srcs/ftpf_strchr.s: srcs/ftpf_strchr.c.s
+srcs/ft_putnbr_base.s: srcs/ft_putnbr_base.c.s
 
-.PHONY : srcs/ftpf_strchr.s
+.PHONY : srcs/ft_putnbr_base.s
 
 # target to generate assembly for a file
-srcs/ftpf_strchr.c.s:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ftpf_strchr.c.s
-.PHONY : srcs/ftpf_strchr.c.s
+srcs/ft_putnbr_base.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.s
+.PHONY : srcs/ft_putnbr_base.c.s
 
 srcs/get_flags.o: srcs/get_flags.c.o
 
@@ -2580,32 +2607,32 @@ srcs/get_flags.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/get_flags.c.s
 .PHONY : srcs/get_flags.c.s
 
-srcs/pfft_putnbr.o: srcs/pfft_putnbr.c.o
+srcs/pf_strchr.o: srcs/pf_strchr.c.o
 
-.PHONY : srcs/pfft_putnbr.o
+.PHONY : srcs/pf_strchr.o
 
 # target to build an object file
-srcs/pfft_putnbr.c.o:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pfft_putnbr.c.o
-.PHONY : srcs/pfft_putnbr.c.o
+srcs/pf_strchr.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o
+.PHONY : srcs/pf_strchr.c.o
 
-srcs/pfft_putnbr.i: srcs/pfft_putnbr.c.i
+srcs/pf_strchr.i: srcs/pf_strchr.c.i
 
-.PHONY : srcs/pfft_putnbr.i
+.PHONY : srcs/pf_strchr.i
 
 # target to preprocess a source file
-srcs/pfft_putnbr.c.i:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pfft_putnbr.c.i
-.PHONY : srcs/pfft_putnbr.c.i
+srcs/pf_strchr.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strchr.c.i
+.PHONY : srcs/pf_strchr.c.i
 
-srcs/pfft_putnbr.s: srcs/pfft_putnbr.c.s
+srcs/pf_strchr.s: srcs/pf_strchr.c.s
 
-.PHONY : srcs/pfft_putnbr.s
+.PHONY : srcs/pf_strchr.s
 
 # target to generate assembly for a file
-srcs/pfft_putnbr.c.s:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pfft_putnbr.c.s
-.PHONY : srcs/pfft_putnbr.c.s
+srcs/pf_strchr.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strchr.c.s
+.PHONY : srcs/pf_strchr.c.s
 
 srcs/precision.o: srcs/precision.c.o
 
@@ -2714,6 +2741,33 @@ srcs/print_u.s: srcs/print_u.c.s
 srcs/print_u.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_u.c.s
 .PHONY : srcs/print_u.c.s
+
+srcs/print_x.o: srcs/print_x.c.o
+
+.PHONY : srcs/print_x.o
+
+# target to build an object file
+srcs/print_x.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_x.c.o
+.PHONY : srcs/print_x.c.o
+
+srcs/print_x.i: srcs/print_x.c.i
+
+.PHONY : srcs/print_x.i
+
+# target to preprocess a source file
+srcs/print_x.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_x.c.i
+.PHONY : srcs/print_x.c.i
+
+srcs/print_x.s: srcs/print_x.c.s
+
+.PHONY : srcs/print_x.s
+
+# target to generate assembly for a file
+srcs/print_x.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_x.c.s
+.PHONY : srcs/print_x.c.s
 
 srcs/utils.o: srcs/utils.c.o
 
@@ -2988,6 +3042,9 @@ help:
 	@echo "... srcs/calc_signed_width.o"
 	@echo "... srcs/calc_signed_width.i"
 	@echo "... srcs/calc_signed_width.s"
+	@echo "... srcs/calc_str_width_precision.o"
+	@echo "... srcs/calc_str_width_precision.i"
+	@echo "... srcs/calc_str_width_precision.s"
 	@echo "... srcs/calc_unsigned_precision.o"
 	@echo "... srcs/calc_unsigned_precision.i"
 	@echo "... srcs/calc_unsigned_precision.s"
@@ -3018,15 +3075,15 @@ help:
 	@echo "... srcs/ft_printf.o"
 	@echo "... srcs/ft_printf.i"
 	@echo "... srcs/ft_printf.s"
-	@echo "... srcs/ftpf_strchr.o"
-	@echo "... srcs/ftpf_strchr.i"
-	@echo "... srcs/ftpf_strchr.s"
+	@echo "... srcs/ft_putnbr_base.o"
+	@echo "... srcs/ft_putnbr_base.i"
+	@echo "... srcs/ft_putnbr_base.s"
 	@echo "... srcs/get_flags.o"
 	@echo "... srcs/get_flags.i"
 	@echo "... srcs/get_flags.s"
-	@echo "... srcs/pfft_putnbr.o"
-	@echo "... srcs/pfft_putnbr.i"
-	@echo "... srcs/pfft_putnbr.s"
+	@echo "... srcs/pf_strchr.o"
+	@echo "... srcs/pf_strchr.i"
+	@echo "... srcs/pf_strchr.s"
 	@echo "... srcs/precision.o"
 	@echo "... srcs/precision.i"
 	@echo "... srcs/precision.s"
@@ -3039,6 +3096,9 @@ help:
 	@echo "... srcs/print_u.o"
 	@echo "... srcs/print_u.i"
 	@echo "... srcs/print_u.s"
+	@echo "... srcs/print_x.o"
+	@echo "... srcs/print_x.i"
+	@echo "... srcs/print_x.s"
 	@echo "... srcs/utils.o"
 	@echo "... srcs/utils.i"
 	@echo "... srcs/utils.s"

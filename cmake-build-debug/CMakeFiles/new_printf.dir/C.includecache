@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/artembykov/final_ft_printf/libft/ft_atoul.c
-libft.h
+/Users/artembykov/final_ft_printf/includes/ft_printf.h
+../libft/libft.h
 /Users/artembykov/final_ft_printf/libft/libft.h
+stdarg.h
+-
+stdio.h
+-
 
 /Users/artembykov/final_ft_printf/libft/libft.h
 string.h
@@ -19,4 +23,12 @@ unistd.h
 -
 stdio.h
 -
+
+/Users/artembykov/final_ft_printf/srcs/flag_cs.c
+../includes/ft_printf.h
+/Users/artembykov/final_ft_printf/includes/ft_printf.h
+
+/Users/artembykov/final_ft_printf/srcs/get_flags.c
+../includes/ft_printf.h
+/Users/artembykov/final_ft_printf/includes/ft_printf.h
 

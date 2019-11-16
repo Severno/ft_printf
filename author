@@ -13,7 +13,7 @@ PRINTF_SRC =	srcs/alignment.c \
                 srcs/flag_upx.c \
                 srcs/flag_x.c \
                 srcs/ft_printf.c \
-                srcs/ftpf_strchr.c \
+                srcs/pf_strchr.c \
                 srcs/get_flags.c \
                 srcs/print_d.c \
                 srcs/utils.c \
@@ -34,7 +34,7 @@ PRINTF_OBJ =	alignment.o \
 				flag_upx.o \
 				flag_x.o \
 				ft_printf.o \
-				ftpf_strchr.o \
+				pf_strchr.o \
 				get_flags.o \
                 print_d.o \
 				utils.o \

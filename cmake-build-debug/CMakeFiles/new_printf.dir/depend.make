@@ -273,17 +273,17 @@ CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../srcs/ft_printf.c
 
-CMakeFiles/new_printf.dir/srcs/ftpf_strchr.c.o: ../includes/ft_printf.h
-CMakeFiles/new_printf.dir/srcs/ftpf_strchr.c.o: ../libft/libft.h
-CMakeFiles/new_printf.dir/srcs/ftpf_strchr.c.o: ../srcs/ftpf_strchr.c
+CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o: ../srcs/ft_putnbr_base.c
 
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../srcs/get_flags.c
 
-CMakeFiles/new_printf.dir/srcs/pfft_putnbr.c.o: ../includes/ft_printf.h
-CMakeFiles/new_printf.dir/srcs/pfft_putnbr.c.o: ../libft/libft.h
-CMakeFiles/new_printf.dir/srcs/pfft_putnbr.c.o: ../srcs/pfft_putnbr.c
+CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: ../srcs/pf_strchr.c
 
 CMakeFiles/new_printf.dir/srcs/precision.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/precision.c.o: ../libft/libft.h
@@ -300,6 +300,10 @@ CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../srcs/print_o.c
 CMakeFiles/new_printf.dir/srcs/print_u.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/print_u.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/print_u.c.o: ../srcs/print_u.c
+
+CMakeFiles/new_printf.dir/srcs/print_x.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/print_x.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/print_x.c.o: ../srcs/print_x.c
 
 CMakeFiles/new_printf.dir/srcs/utils.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/utils.c.o: ../libft/libft.h

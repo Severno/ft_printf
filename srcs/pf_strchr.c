@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ftpf_strchr.c                                      :+:      :+:    :+:   */
+/*   pf_strchr.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -12,7 +12,7 @@
 
 #include "../includes/ft_printf.h"
 
-char		ftpf_strchr(const char *s, int c)
+char		pf_strchr(const char *s, int c)
 {
 	char	*ts;
 	char	tc;

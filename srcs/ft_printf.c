@@ -14,6 +14,8 @@
 
 static void param_init(t_param *param)
 {
+//	param->str_value = NULL;
+//	param->flags = NULL;
 	param->value = 0;
 	param->un_value = 0;
 	param->reserved_fields = 0;

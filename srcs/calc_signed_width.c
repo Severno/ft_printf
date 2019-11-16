@@ -36,8 +36,8 @@ void calc_reserved_fields(t_param *param)
 	}
 	if (value >= 0)
 	{
-		ftpf_strchr(param->flags, '+') ? reserved_fields-- : 0;
-		ftpf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
+		pf_strchr(param->flags, '+') ? reserved_fields-- : 0;
+		pf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
 	} else
 	{
 		value < 0 ? reserved_fields -= 1 : 0;

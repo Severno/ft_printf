@@ -38,6 +38,8 @@ typedef struct s_param
 	void					*arg_value;
 	char					*flags;
 	char					*str;
+	char					*hex_value;
+	char					*str_value;
 	int						current_flag;
 	char					convention;
 	int						precision;
@@ -65,14 +67,14 @@ void						flag_width(t_param *param, int *iter);
 // get_flags.c
 void						get_flags(t_param* param);
 char						*pf_strcat(char *s1, const char *s2, int *iter);
-char						ftpf_strchr_flags(const char *s, int c, int *iter);
+char						pf_strchr_flags(const char *s, int c, int *iter);
 void						parse_flag(t_param *param);
 char						*ft_find_and_remove_char(char *str, char find);
 void						remove_conflicted_flags(t_param *param);
 void						remove_current_flags(t_param *param, char *flags);
 
-// ftpf_strchr.c
-char						ftpf_strchr(const char *s, int c);
+// pf_strchr.c
+char						pf_strchr(const char *s, int c);
 
 // flag_di.c
 void						flag_d(t_param *param);
@@ -174,6 +176,9 @@ void print_o(t_param *param);
 
 // print_u.c
 void print_u(t_param *param);
+
+// print_x.c
+void print_x(t_param *param);
 
 
 #endif

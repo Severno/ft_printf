@@ -21,7 +21,7 @@ void get_flags(t_param* param)
 	iter = param->iter;
 	size = 10;
 	param->flags = (char*)ft_strnew(size);
-	while ((param->current_flag = ftpf_strchr("diouxXeg", param->str[iter])) == 0)
+	while ((param->current_flag = pf_strchr("diouxXegsc", param->str[iter])) == 0)
 	{
 		param->str[iter] == 'd' ? pf_strcat(param->flags, "d", &iter) : 0;
 		param->str[iter] == 'i' ? pf_strcat(param->flags, "i", &iter) : 0;
@@ -33,20 +33,20 @@ void get_flags(t_param* param)
 		param->str[iter] == 's' ? pf_strcat(param->flags, "s", &iter) : 0;
 		param->str[iter] == 'p' ? pf_strcat(param->flags, "p", &iter) : 0;
 		param->str[iter] == 'f' ? pf_strcat(param->flags, "f", &iter) : 0;
-		param->str[iter] == '0' && ftpf_strchr_flags(param->flags, '0', &iter) == 0 ? pf_strcat(param->flags, "0", &iter) : 0;
-		param->str[iter] == '#' && ftpf_strchr_flags(param->flags, '#', &iter) == 0 ? pf_strcat(param->flags, "#", &iter) : 0;
-		param->str[iter] == '-' && ftpf_strchr_flags(param->flags, '-', &iter) == 0 ? pf_strcat(param->flags, "-", &iter) : 0;
-		param->str[iter] == '+' && ftpf_strchr_flags(param->flags, '+', &iter) == 0 ? pf_strcat(param->flags, "+", &iter) : 0;
-		param->str[iter] == ' ' && ftpf_strchr_flags(param->flags, ' ', &iter) == 0 ? pf_strcat(param->flags, " ", &iter) : 0;
-		param->str[iter] == '\''&& ftpf_strchr_flags(param->flags, '\'', &iter) == 0 ? pf_strcat(param->flags, "\'", &iter) : 0;
-		param->str[iter] == '$' && ftpf_strchr_flags(param->flags, '$', &iter) == 0 ? pf_strcat(param->flags, "$", &iter) : 0;
-		param->str[iter] == '*' && ftpf_strchr_flags(param->flags, '*', &iter) == 0 ? pf_strcat(param->flags, "*", &iter) : 0;
+		param->str[iter] == '0' && pf_strchr_flags(param->flags, '0', &iter) == 0 ? pf_strcat(param->flags, "0", &iter) : 0;
+		param->str[iter] == '#' && pf_strchr_flags(param->flags, '#', &iter) == 0 ? pf_strcat(param->flags, "#", &iter) : 0;
+		param->str[iter] == '-' && pf_strchr_flags(param->flags, '-', &iter) == 0 ? pf_strcat(param->flags, "-", &iter) : 0;
+		param->str[iter] == '+' && pf_strchr_flags(param->flags, '+', &iter) == 0 ? pf_strcat(param->flags, "+", &iter) : 0;
+		param->str[iter] == ' ' && pf_strchr_flags(param->flags, ' ', &iter) == 0 ? pf_strcat(param->flags, " ", &iter) : 0;
+		param->str[iter] == '\''&& pf_strchr_flags(param->flags, '\'', &iter) == 0 ? pf_strcat(param->flags, "\'", &iter) : 0;
+		param->str[iter] == '$' && pf_strchr_flags(param->flags, '$', &iter) == 0 ? pf_strcat(param->flags, "$", &iter) : 0;
+		param->str[iter] == '*' && pf_strchr_flags(param->flags, '*', &iter) == 0 ? pf_strcat(param->flags, "*", &iter) : 0;
 		param->str[iter] == 'L' && param->str[iter + 1] == 'f' ? pf_strcat(param->flags, "Lf", &iter) : 0;
 		param->str[iter] == 'h' && param->str[iter + 1] == 'h' ? pf_strcat(param->flags, "hh", &iter) : 0;
 		param->str[iter] == 'l' && param->str[iter + 1] == 'l' ? pf_strcat(param->flags, "ll", &iter) : 0;
 		param->str[iter] == 'h' ? pf_strcat(param->flags, "h", &iter) : 0;
 		param->str[iter] == 'l' ? pf_strcat(param->flags, "l", &iter) : 0;
-		if (ftpf_strchr("123456789.", param->str[iter]))
+		if (pf_strchr("123456789.", param->str[iter]))
 			flag_width(param, &iter);
 	}
 	length = ft_strlen(param->flags);
@@ -82,11 +82,11 @@ void parse_flag(t_param *param)
 	ft_strstr(param->flags, "hhx") ? flag_hhx(param) : 0;
 	ft_strstr(param->flags, "hx") ? flag_hx(param) : 0;
 	ft_strstr(param->flags, "x") ? flag_x(param) : 0;
-	ft_strstr(param->flags, "llX") ? flag_llupx(param) : 0;
-	ft_strstr(param->flags, "lX") ? flag_lupx(param) : 0;
-	ft_strstr(param->flags, "hhX") ? flag_hhupx(param) : 0;
-	ft_strstr(param->flags, "hX") ? flag_hupx(param) : 0;
-	ft_strstr(param->flags, "X") ? flag_upx(param) : 0;
+	ft_strstr(param->flags, "llX") ? flag_llx(param) : 0;
+	ft_strstr(param->flags, "lX") ? flag_lx(param) : 0;
+	ft_strstr(param->flags, "hhX") ? flag_hhx(param) : 0;
+	ft_strstr(param->flags, "hX") ? flag_hx(param) : 0;
+	ft_strstr(param->flags, "X") ? flag_x(param) : 0;
 	ft_strstr(param->flags, "c") ? flag_char(param) : 0;
 	ft_strstr(param->flags, "s") ? flag_str(param) : 0;
 }
@@ -173,7 +173,7 @@ char	*pf_strcat(char *s1, const char *s2, int *iter)
 	return (s1);
 }
 
-char		ftpf_strchr_flags(const char *s, int c, int *iter)
+char		pf_strchr_flags(const char *s, int c, int *iter)
 {
 	char	*ts;
 	char	tc;

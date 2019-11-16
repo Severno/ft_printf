@@ -33,7 +33,7 @@ unsigned long long int check_un_convention(t_param *param)
 	else if (ft_strstr(param->flags, "hho"))
 		return (unsigned char)param->arg_value;
 	else if (ft_strstr(param->flags, "ho"))
-		return (short int)param->arg_value;
+		return (unsigned short int)param->arg_value;
 	else if (ft_strstr(param->flags, "o"))
 		return (unsigned int)param->arg_value;
 	else if (ft_strstr(param->flags, "llu"))

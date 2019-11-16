@@ -2,24 +2,24 @@
 
 static void zero_handle(t_param *param)
 {
-	if (ftpf_strchr(param->flags, '-'))
+	if (pf_strchr(param->flags, '-'))
 	{
 		if (param->precision == 0)
 		{
-			ftpf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
+			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
 			fill_precision(param);
 			fill_width(param);
 		}
 		else if (param->precision == -1)
 		{
-			ftpf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
+			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
 			fill_precision(param);
 			ft_putnbr_base(param->value, 10);
 			fill_width(param);
 		}
 		else if (param->precision > 0)
 		{
-				ftpf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
+				pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
 				fill_precision(param);
 				fill_width(param);
 		}
@@ -34,25 +34,25 @@ static void zero_handle(t_param *param)
 		if (param->precision == 0)
 		{
 			fill_width(param);
-			ftpf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
+			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
 			fill_precision(param);
 		} else if (param->precision == -1)
 		{
-			if (ftpf_strchr(param->flags, '0'))
+			if (pf_strchr(param->flags, '0'))
 			{
-				ftpf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
+				pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
 				fill_width(param);
 				fill_precision(param);
 				ft_putnbr_base(param->value, 10);
 			} else
 			{
 				fill_width(param);
-				ftpf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
+				pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
 				fill_precision(param);
 				ft_putnbr_base(param->value, 10);
 			}
 		}
-		else if (ftpf_strchr(param->flags, '+'))
+		else if (pf_strchr(param->flags, '+'))
 		{
 			if (param->precision == -1)
 			{
@@ -67,7 +67,7 @@ static void zero_handle(t_param *param)
 		}
 		else
 		{
-			if (ftpf_strchr(param->flags, '0') && param->precision == -1 )
+			if (pf_strchr(param->flags, '0') && param->precision == -1 )
 			{
 				fill_width(param);
 				fill_precision(param);
@@ -88,9 +88,9 @@ void print_unsigned(t_param *param)
 		return;
 	}
 
-	if (ftpf_strchr(param->flags, '-'))
+	if (pf_strchr(param->flags, '-'))
 	{
-		if (ftpf_strchr(param->flags, '+'))
+		if (pf_strchr(param->flags, '+'))
 		{
 			param->value < 0 ? write(1, "-", 1) : write(1, "+", 1);
 			fill_precision(param);
@@ -106,9 +106,9 @@ void print_unsigned(t_param *param)
 		}
 	}
 	else{
-		if (ftpf_strchr(param->flags, '+'))
+		if (pf_strchr(param->flags, '+'))
 		{
-			if (ftpf_strchr(param->flags, '0') && param->precision == -1)
+			if (pf_strchr(param->flags, '0') && param->precision == -1)
 			{
 				param->value < 0 ? write(1, "-", 1) : write(1, "+", 1);
 				fill_width(param);
@@ -124,7 +124,7 @@ void print_unsigned(t_param *param)
 		}
 		else
 		{
-			if (ftpf_strchr(param->flags, '0') && param->precision == -1 )
+			if (pf_strchr(param->flags, '0') && param->precision == -1 )
 			{
 				param->value < 0 ? write(1, "-", 1) : 0;
 				fill_width(param);
@@ -148,9 +148,9 @@ void print(t_param *param)
 		return;
 	}
 
-	if (ftpf_strchr(param->flags, '-'))
+	if (pf_strchr(param->flags, '-'))
 	{
-		if (ftpf_strchr(param->flags, '+'))
+		if (pf_strchr(param->flags, '+'))
 		{
 			param->value < 0 ? write(1, "-", 1) : write(1, "+", 1);
 			fill_precision(param);
@@ -166,9 +166,9 @@ void print(t_param *param)
 		}
 	}
 	else{
-		if (ftpf_strchr(param->flags, '+'))
+		if (pf_strchr(param->flags, '+'))
 		{
-			if (ftpf_strchr(param->flags, '0') && param->precision == -1)
+			if (pf_strchr(param->flags, '0') && param->precision == -1)
 			{
 				param->value < 0 ? write(1, "-", 1) : write(1, "+", 1);
 				fill_width(param);
@@ -184,7 +184,7 @@ void print(t_param *param)
 		}
 		else
 		{
-			if (ftpf_strchr(param->flags, '0') && param->precision == -1 )
+			if (pf_strchr(param->flags, '0') && param->precision == -1 )
 			{
 				param->value < 0 ? write(1, "-", 1) : 0;
 				fill_width(param);

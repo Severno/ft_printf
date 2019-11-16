@@ -49,6 +49,12 @@ char			*ft_convert_undec_base(int base, unsigned long long int input_num, char s
 
 	res = ft_strnew(100);
 	index = 0;
+	if (input_num == 0)
+	{
+		res[0] = '0';
+		res[1] = '\0';
+		return (res);
+	}
 	while (input_num > 0)
 	{
 		res[index++] = get_value(input_num % base, sign);
