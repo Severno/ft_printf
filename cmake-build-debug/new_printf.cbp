@@ -336,10 +336,10 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_o.c">
 			<Option target="new_printf"/>
 		</Unit>
-		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_u.c">
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_p.c">
 			<Option target="new_printf"/>
 		</Unit>
-		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_upx.c">
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_u.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_x.c">
@@ -364,6 +364,9 @@
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_o.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_p.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_u.c">

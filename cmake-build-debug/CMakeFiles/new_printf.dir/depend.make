@@ -233,6 +233,8 @@ CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: ../srcs/calc_signed_width.c
 
+CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o: ../srcs/calc_str_width_precision.c
+
 CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: ../srcs/calc_unsigned_precision.c
@@ -257,13 +259,13 @@ CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../srcs/flag_o.c
 
+CMakeFiles/new_printf.dir/srcs/flag_p.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/flag_p.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/flag_p.c.o: ../srcs/flag_p.c
+
 CMakeFiles/new_printf.dir/srcs/flag_u.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_u.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_u.c.o: ../srcs/flag_u.c
-
-CMakeFiles/new_printf.dir/srcs/flag_upx.c.o: ../includes/ft_printf.h
-CMakeFiles/new_printf.dir/srcs/flag_upx.c.o: ../libft/libft.h
-CMakeFiles/new_printf.dir/srcs/flag_upx.c.o: ../srcs/flag_upx.c
 
 CMakeFiles/new_printf.dir/srcs/flag_x.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_x.c.o: ../libft/libft.h
@@ -296,6 +298,10 @@ CMakeFiles/new_printf.dir/srcs/print_d.c.o: ../srcs/print_d.c
 CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../srcs/print_o.c
+
+CMakeFiles/new_printf.dir/srcs/print_p.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/print_p.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/print_p.c.o: ../srcs/print_p.c
 
 CMakeFiles/new_printf.dir/srcs/print_u.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/print_u.c.o: ../libft/libft.h

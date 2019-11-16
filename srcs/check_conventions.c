@@ -66,5 +66,7 @@ unsigned long long int check_un_convention(t_param *param)
 		return (unsigned short int)param->arg_value;
 	else if (ft_strstr(param->flags, "X"))
 		return (unsigned int)param->arg_value;
+	else if (ft_strstr(param->flags, "p"))
+		return (unsigned long)param->arg_value;
 	return 0;
 }

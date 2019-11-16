@@ -24,11 +24,7 @@ unistd.h
 stdio.h
 -
 
-/Users/artembykov/final_ft_printf/srcs/flag_cs.c
-../includes/ft_printf.h
-/Users/artembykov/final_ft_printf/includes/ft_printf.h
-
-/Users/artembykov/final_ft_printf/srcs/get_flags.c
+/Users/artembykov/final_ft_printf/srcs/calc_unsigned_width.c
 ../includes/ft_printf.h
 /Users/artembykov/final_ft_printf/includes/ft_printf.h
 

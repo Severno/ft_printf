@@ -233,6 +233,8 @@ CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/calc_signed_width.c
+CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o
+ /Users/artembykov/final_ft_printf/srcs/calc_str_width_precision.c
 CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
@@ -257,14 +259,14 @@ CMakeFiles/new_printf.dir/srcs/flag_o.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/flag_o.c
+CMakeFiles/new_printf.dir/srcs/flag_p.c.o
+ /Users/artembykov/final_ft_printf/includes/ft_printf.h
+ /Users/artembykov/final_ft_printf/libft/libft.h
+ /Users/artembykov/final_ft_printf/srcs/flag_p.c
 CMakeFiles/new_printf.dir/srcs/flag_u.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/flag_u.c
-CMakeFiles/new_printf.dir/srcs/flag_upx.c.o
- /Users/artembykov/final_ft_printf/includes/ft_printf.h
- /Users/artembykov/final_ft_printf/libft/libft.h
- /Users/artembykov/final_ft_printf/srcs/flag_upx.c
 CMakeFiles/new_printf.dir/srcs/flag_x.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
@@ -297,6 +299,10 @@ CMakeFiles/new_printf.dir/srcs/print_o.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/print_o.c
+CMakeFiles/new_printf.dir/srcs/print_p.c.o
+ /Users/artembykov/final_ft_printf/includes/ft_printf.h
+ /Users/artembykov/final_ft_printf/libft/libft.h
+ /Users/artembykov/final_ft_printf/srcs/print_p.c
 CMakeFiles/new_printf.dir/srcs/print_u.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h

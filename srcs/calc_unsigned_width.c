@@ -45,6 +45,12 @@ void calc_unreserved_fields(t_param *param)
 		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision >= -1 && param->un_value != 0)
 			reserved_fields--;
 	}
+	else if (param->current_flag == 'p')
+	{
+		pf_strchr(param->flags, '+') ? reserved_fields-- : 0;
+		pf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
+		reserved_fields -= 2;
+	}
 	param->reserved_fields = reserved_fields;
 }
 

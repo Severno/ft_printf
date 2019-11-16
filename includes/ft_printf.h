@@ -122,6 +122,10 @@ void						flag_hupx(t_param *param);
 void						flag_str(t_param *param);
 void						flag_char(t_param *param);
 
+// flag_p.c
+void flag_p(t_param *param);
+
+
 // alignment.c
 void						fill_width(t_param *param);
 void						fill_precision(t_param *param);
@@ -179,6 +183,9 @@ void print_u(t_param *param);
 
 // print_x.c
 void print_x(t_param *param);
+
+// print_o.c
+void print_p(t_param *param);
 
 
 #endif

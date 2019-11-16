@@ -35,7 +35,6 @@ PRINTF_SRC = srcs/alignment.c \
 				srcs/flag_o.c \
 				srcs/precision.c \
 				srcs/flag_u.c \
-				srcs/flag_upx.c \
 				srcs/flag_x.c \
 				srcs/ft_printf.c \
 				srcs/pf_strchr.c \
@@ -47,7 +46,8 @@ PRINTF_SRC = srcs/alignment.c \
 				srcs/ft_putnbr_base.c \
 				srcs/print_o.c \
 				srcs/print_u.c \
-				srcs/print_x.c
+				srcs/print_p.c \
+				srcs/flag_p.c \
 
 PRINTF_OBJ = alignment.o \
 				calc_signed_precision.o \
@@ -59,7 +59,6 @@ PRINTF_OBJ = alignment.o \
 				flag_o.o \
 				precision.o \
 				flag_u.o \
-				flag_upx.o \
 				flag_x.o \
 				ft_printf.o \
 				pf_strchr.o \
@@ -70,7 +69,9 @@ PRINTF_OBJ = alignment.o \
 				ft_putnbr_base.o \
 				utils.o \
 				print_u.o \
-				print_x.o
+				print_x.o \
+				print_p.o \
+				flag_p.o \
 
 
 SRC		= $(LIB_SRC) $(PRINTF_SRC)

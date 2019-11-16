@@ -2445,6 +2445,33 @@ srcs/flag_o.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_o.c.s
 .PHONY : srcs/flag_o.c.s
 
+srcs/flag_p.o: srcs/flag_p.c.o
+
+.PHONY : srcs/flag_p.o
+
+# target to build an object file
+srcs/flag_p.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_p.c.o
+.PHONY : srcs/flag_p.c.o
+
+srcs/flag_p.i: srcs/flag_p.c.i
+
+.PHONY : srcs/flag_p.i
+
+# target to preprocess a source file
+srcs/flag_p.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_p.c.i
+.PHONY : srcs/flag_p.c.i
+
+srcs/flag_p.s: srcs/flag_p.c.s
+
+.PHONY : srcs/flag_p.s
+
+# target to generate assembly for a file
+srcs/flag_p.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_p.c.s
+.PHONY : srcs/flag_p.c.s
+
 srcs/flag_u.o: srcs/flag_u.c.o
 
 .PHONY : srcs/flag_u.o
@@ -2471,33 +2498,6 @@ srcs/flag_u.s: srcs/flag_u.c.s
 srcs/flag_u.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_u.c.s
 .PHONY : srcs/flag_u.c.s
-
-srcs/flag_upx.o: srcs/flag_upx.c.o
-
-.PHONY : srcs/flag_upx.o
-
-# target to build an object file
-srcs/flag_upx.c.o:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_upx.c.o
-.PHONY : srcs/flag_upx.c.o
-
-srcs/flag_upx.i: srcs/flag_upx.c.i
-
-.PHONY : srcs/flag_upx.i
-
-# target to preprocess a source file
-srcs/flag_upx.c.i:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_upx.c.i
-.PHONY : srcs/flag_upx.c.i
-
-srcs/flag_upx.s: srcs/flag_upx.c.s
-
-.PHONY : srcs/flag_upx.s
-
-# target to generate assembly for a file
-srcs/flag_upx.c.s:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_upx.c.s
-.PHONY : srcs/flag_upx.c.s
 
 srcs/flag_x.o: srcs/flag_x.c.o
 
@@ -2714,6 +2714,33 @@ srcs/print_o.s: srcs/print_o.c.s
 srcs/print_o.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_o.c.s
 .PHONY : srcs/print_o.c.s
+
+srcs/print_p.o: srcs/print_p.c.o
+
+.PHONY : srcs/print_p.o
+
+# target to build an object file
+srcs/print_p.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_p.c.o
+.PHONY : srcs/print_p.c.o
+
+srcs/print_p.i: srcs/print_p.c.i
+
+.PHONY : srcs/print_p.i
+
+# target to preprocess a source file
+srcs/print_p.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_p.c.i
+.PHONY : srcs/print_p.c.i
+
+srcs/print_p.s: srcs/print_p.c.s
+
+.PHONY : srcs/print_p.s
+
+# target to generate assembly for a file
+srcs/print_p.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_p.c.s
+.PHONY : srcs/print_p.c.s
 
 srcs/print_u.o: srcs/print_u.c.o
 
@@ -3063,12 +3090,12 @@ help:
 	@echo "... srcs/flag_o.o"
 	@echo "... srcs/flag_o.i"
 	@echo "... srcs/flag_o.s"
+	@echo "... srcs/flag_p.o"
+	@echo "... srcs/flag_p.i"
+	@echo "... srcs/flag_p.s"
 	@echo "... srcs/flag_u.o"
 	@echo "... srcs/flag_u.i"
 	@echo "... srcs/flag_u.s"
-	@echo "... srcs/flag_upx.o"
-	@echo "... srcs/flag_upx.i"
-	@echo "... srcs/flag_upx.s"
 	@echo "... srcs/flag_x.o"
 	@echo "... srcs/flag_x.i"
 	@echo "... srcs/flag_x.s"
@@ -3093,6 +3120,9 @@ help:
 	@echo "... srcs/print_o.o"
 	@echo "... srcs/print_o.i"
 	@echo "... srcs/print_o.s"
+	@echo "... srcs/print_p.o"
+	@echo "... srcs/print_p.i"
+	@echo "... srcs/print_p.s"
 	@echo "... srcs/print_u.o"
 	@echo "... srcs/print_u.i"
 	@echo "... srcs/print_u.s"
