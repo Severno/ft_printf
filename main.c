@@ -6,8 +6,8 @@ int main()
 
 	int a;
 	a = 10;
-	printf("%100p", &a);
+	printf("%10.500f", (double)7 / (double)3);
 	printf("\n");
-	ft_printf("%100p", &a);
+	ft_printf("%c", 'a');
 	return 0;
 }

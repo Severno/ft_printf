@@ -24,7 +24,9 @@ unistd.h
 stdio.h
 -
 
-/Users/artembykov/final_ft_printf/srcs/calc_unsigned_width.c
-../includes/ft_printf.h
+/Users/artembykov/final_ft_printf/main.c
+stdio.h
+-
+includes/ft_printf.h
 /Users/artembykov/final_ft_printf/includes/ft_printf.h
 

@@ -2418,6 +2418,33 @@ srcs/flag_di.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_di.c.s
 .PHONY : srcs/flag_di.c.s
 
+srcs/flag_f.o: srcs/flag_f.c.o
+
+.PHONY : srcs/flag_f.o
+
+# target to build an object file
+srcs/flag_f.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_f.c.o
+.PHONY : srcs/flag_f.c.o
+
+srcs/flag_f.i: srcs/flag_f.c.i
+
+.PHONY : srcs/flag_f.i
+
+# target to preprocess a source file
+srcs/flag_f.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_f.c.i
+.PHONY : srcs/flag_f.c.i
+
+srcs/flag_f.s: srcs/flag_f.c.s
+
+.PHONY : srcs/flag_f.s
+
+# target to generate assembly for a file
+srcs/flag_f.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_f.c.s
+.PHONY : srcs/flag_f.c.s
+
 srcs/flag_o.o: srcs/flag_o.c.o
 
 .PHONY : srcs/flag_o.o
@@ -2471,6 +2498,33 @@ srcs/flag_p.s: srcs/flag_p.c.s
 srcs/flag_p.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_p.c.s
 .PHONY : srcs/flag_p.c.s
+
+srcs/flag_percent.o: srcs/flag_percent.c.o
+
+.PHONY : srcs/flag_percent.o
+
+# target to build an object file
+srcs/flag_percent.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_percent.c.o
+.PHONY : srcs/flag_percent.c.o
+
+srcs/flag_percent.i: srcs/flag_percent.c.i
+
+.PHONY : srcs/flag_percent.i
+
+# target to preprocess a source file
+srcs/flag_percent.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_percent.c.i
+.PHONY : srcs/flag_percent.c.i
+
+srcs/flag_percent.s: srcs/flag_percent.c.s
+
+.PHONY : srcs/flag_percent.s
+
+# target to generate assembly for a file
+srcs/flag_percent.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_percent.c.s
+.PHONY : srcs/flag_percent.c.s
 
 srcs/flag_u.o: srcs/flag_u.c.o
 
@@ -2688,6 +2742,33 @@ srcs/print_d.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_d.c.s
 .PHONY : srcs/print_d.c.s
 
+srcs/print_f.o: srcs/print_f.c.o
+
+.PHONY : srcs/print_f.o
+
+# target to build an object file
+srcs/print_f.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_f.c.o
+.PHONY : srcs/print_f.c.o
+
+srcs/print_f.i: srcs/print_f.c.i
+
+.PHONY : srcs/print_f.i
+
+# target to preprocess a source file
+srcs/print_f.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_f.c.i
+.PHONY : srcs/print_f.c.i
+
+srcs/print_f.s: srcs/print_f.c.s
+
+.PHONY : srcs/print_f.s
+
+# target to generate assembly for a file
+srcs/print_f.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_f.c.s
+.PHONY : srcs/print_f.c.s
+
 srcs/print_o.o: srcs/print_o.c.o
 
 .PHONY : srcs/print_o.o
@@ -2741,6 +2822,33 @@ srcs/print_p.s: srcs/print_p.c.s
 srcs/print_p.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_p.c.s
 .PHONY : srcs/print_p.c.s
+
+srcs/print_percent.o: srcs/print_percent.c.o
+
+.PHONY : srcs/print_percent.o
+
+# target to build an object file
+srcs/print_percent.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_percent.c.o
+.PHONY : srcs/print_percent.c.o
+
+srcs/print_percent.i: srcs/print_percent.c.i
+
+.PHONY : srcs/print_percent.i
+
+# target to preprocess a source file
+srcs/print_percent.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_percent.c.i
+.PHONY : srcs/print_percent.c.i
+
+srcs/print_percent.s: srcs/print_percent.c.s
+
+.PHONY : srcs/print_percent.s
+
+# target to generate assembly for a file
+srcs/print_percent.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_percent.c.s
+.PHONY : srcs/print_percent.c.s
 
 srcs/print_u.o: srcs/print_u.c.o
 
@@ -3087,12 +3195,18 @@ help:
 	@echo "... srcs/flag_di.o"
 	@echo "... srcs/flag_di.i"
 	@echo "... srcs/flag_di.s"
+	@echo "... srcs/flag_f.o"
+	@echo "... srcs/flag_f.i"
+	@echo "... srcs/flag_f.s"
 	@echo "... srcs/flag_o.o"
 	@echo "... srcs/flag_o.i"
 	@echo "... srcs/flag_o.s"
 	@echo "... srcs/flag_p.o"
 	@echo "... srcs/flag_p.i"
 	@echo "... srcs/flag_p.s"
+	@echo "... srcs/flag_percent.o"
+	@echo "... srcs/flag_percent.i"
+	@echo "... srcs/flag_percent.s"
 	@echo "... srcs/flag_u.o"
 	@echo "... srcs/flag_u.i"
 	@echo "... srcs/flag_u.s"
@@ -3117,12 +3231,18 @@ help:
 	@echo "... srcs/print_d.o"
 	@echo "... srcs/print_d.i"
 	@echo "... srcs/print_d.s"
+	@echo "... srcs/print_f.o"
+	@echo "... srcs/print_f.i"
+	@echo "... srcs/print_f.s"
 	@echo "... srcs/print_o.o"
 	@echo "... srcs/print_o.i"
 	@echo "... srcs/print_o.s"
 	@echo "... srcs/print_p.o"
 	@echo "... srcs/print_p.i"
 	@echo "... srcs/print_p.s"
+	@echo "... srcs/print_percent.o"
+	@echo "... srcs/print_percent.i"
+	@echo "... srcs/print_percent.s"
 	@echo "... srcs/print_u.o"
 	@echo "... srcs/print_u.i"
 	@echo "... srcs/print_u.s"

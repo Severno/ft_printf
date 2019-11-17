@@ -255,6 +255,8 @@ CMakeFiles/new_printf.dir/srcs/flag_di.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_di.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_di.c.o: ../srcs/flag_di.c
 
+CMakeFiles/new_printf.dir/srcs/flag_f.c.o: ../srcs/flag_f.c
+
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../srcs/flag_o.c
@@ -262,6 +264,10 @@ CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../srcs/flag_o.c
 CMakeFiles/new_printf.dir/srcs/flag_p.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_p.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_p.c.o: ../srcs/flag_p.c
+
+CMakeFiles/new_printf.dir/srcs/flag_percent.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/flag_percent.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/flag_percent.c.o: ../srcs/flag_percent.c
 
 CMakeFiles/new_printf.dir/srcs/flag_u.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_u.c.o: ../libft/libft.h
@@ -295,6 +301,8 @@ CMakeFiles/new_printf.dir/srcs/print_d.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/print_d.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/print_d.c.o: ../srcs/print_d.c
 
+CMakeFiles/new_printf.dir/srcs/print_f.c.o: ../srcs/print_f.c
+
 CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../srcs/print_o.c
@@ -302,6 +310,10 @@ CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../srcs/print_o.c
 CMakeFiles/new_printf.dir/srcs/print_p.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/print_p.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/print_p.c.o: ../srcs/print_p.c
+
+CMakeFiles/new_printf.dir/srcs/print_percent.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/print_percent.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/print_percent.c.o: ../srcs/print_percent.c
 
 CMakeFiles/new_printf.dir/srcs/print_u.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/print_u.c.o: ../libft/libft.h

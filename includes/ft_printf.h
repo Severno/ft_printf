@@ -187,5 +187,13 @@ void print_x(t_param *param);
 // print_o.c
 void print_p(t_param *param);
 
+// flag_percent.c
+void flag_percent(t_param *param);
+
+// print_percent.c
+void print_percent(t_param *param);
+
+// flag_f.c
+void flag_f(t_param *param);
 
 #endif

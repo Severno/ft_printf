@@ -94,4 +94,4 @@ add_executable(new_printf
         srcs/calc_signed_width.c
         srcs/calc_unsigned_width.c
         srcs/check_conventions.c
-        srcs/ft_putnbr_base.c srcs/print_o.c libft/ft_atoul.c libft/ft_unnum_of_fields.c libft/ft_putunbr.c srcs/print_u.c srcs/print_x.c srcs/calc_str_width_precision.c srcs/print_p.c srcs/flag_p.c)
+        srcs/ft_putnbr_base.c srcs/print_o.c libft/ft_atoul.c libft/ft_unnum_of_fields.c libft/ft_putunbr.c srcs/print_u.c srcs/print_x.c srcs/calc_str_width_precision.c srcs/print_p.c srcs/flag_p.c srcs/flag_percent.c srcs/print_percent.c srcs/flag_f.c srcs/print_f.c)

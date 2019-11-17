@@ -21,7 +21,7 @@ void get_flags(t_param* param)
 	iter = param->iter;
 	size = 10;
 	param->flags = (char*)ft_strnew(size);
-	while ((param->current_flag = pf_strchr("diouxXegscp", param->str[iter])) == 0)
+	while ((param->current_flag = pf_strchr("diouxXegscp%", param->str[iter])) == 0)
 	{
 		param->str[iter] == 'd' ? pf_strcat(param->flags, "d", &iter) : 0;
 		param->str[iter] == 'i' ? pf_strcat(param->flags, "i", &iter) : 0;
@@ -90,6 +90,8 @@ void parse_flag(t_param *param)
 	ft_strstr(param->flags, "c") ? flag_char(param) : 0;
 	ft_strstr(param->flags, "s") ? flag_str(param) : 0;
 	ft_strstr(param->flags, "p") ? flag_p(param) : 0;
+	ft_strstr(param->flags, "f") ? flag_f(param) : 0;
+	ft_strstr(param->flags, "%") ? flag_percent(param) : 0;
 }
 
 void remove_conflicted_flags(t_param *param)

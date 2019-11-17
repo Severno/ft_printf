@@ -333,10 +333,16 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_di.c">
 			<Option target="new_printf"/>
 		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_f.c">
+			<Option target="new_printf"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_o.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_p.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_percent.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_u.c">
@@ -363,10 +369,16 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_d.c">
 			<Option target="new_printf"/>
 		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_f.c">
+			<Option target="new_printf"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_o.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_p.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_percent.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_u.c">

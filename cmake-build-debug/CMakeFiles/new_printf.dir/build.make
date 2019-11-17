@@ -1357,6 +1357,58 @@ CMakeFiles/new_printf.dir/srcs/flag_p.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_p.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_p.c -o CMakeFiles/new_printf.dir/srcs/flag_p.c.s
 
+CMakeFiles/new_printf.dir/srcs/flag_percent.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/flag_percent.c.o: ../srcs/flag_percent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/new_printf.dir/srcs/flag_percent.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_percent.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_percent.c
+
+CMakeFiles/new_printf.dir/srcs/flag_percent.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_percent.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_percent.c > CMakeFiles/new_printf.dir/srcs/flag_percent.c.i
+
+CMakeFiles/new_printf.dir/srcs/flag_percent.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_percent.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_percent.c -o CMakeFiles/new_printf.dir/srcs/flag_percent.c.s
+
+CMakeFiles/new_printf.dir/srcs/print_percent.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/print_percent.c.o: ../srcs/print_percent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/new_printf.dir/srcs/print_percent.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/print_percent.c.o   -c /Users/artembykov/final_ft_printf/srcs/print_percent.c
+
+CMakeFiles/new_printf.dir/srcs/print_percent.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/print_percent.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/print_percent.c > CMakeFiles/new_printf.dir/srcs/print_percent.c.i
+
+CMakeFiles/new_printf.dir/srcs/print_percent.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/print_percent.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/print_percent.c -o CMakeFiles/new_printf.dir/srcs/print_percent.c.s
+
+CMakeFiles/new_printf.dir/srcs/flag_f.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/flag_f.c.o: ../srcs/flag_f.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/new_printf.dir/srcs/flag_f.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_f.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_f.c
+
+CMakeFiles/new_printf.dir/srcs/flag_f.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_f.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_f.c > CMakeFiles/new_printf.dir/srcs/flag_f.c.i
+
+CMakeFiles/new_printf.dir/srcs/flag_f.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_f.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_f.c -o CMakeFiles/new_printf.dir/srcs/flag_f.c.s
+
+CMakeFiles/new_printf.dir/srcs/print_f.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/print_f.c.o: ../srcs/print_f.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/new_printf.dir/srcs/print_f.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/print_f.c.o   -c /Users/artembykov/final_ft_printf/srcs/print_f.c
+
+CMakeFiles/new_printf.dir/srcs/print_f.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/print_f.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/print_f.c > CMakeFiles/new_printf.dir/srcs/print_f.c.i
+
+CMakeFiles/new_printf.dir/srcs/print_f.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/print_f.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/print_f.c -o CMakeFiles/new_printf.dir/srcs/print_f.c.s
+
 # Object files for target new_printf
 new_printf_OBJECTS = \
 "CMakeFiles/new_printf.dir/libft/ft_abs.c.o" \
@@ -1458,7 +1510,11 @@ new_printf_OBJECTS = \
 "CMakeFiles/new_printf.dir/srcs/print_x.c.o" \
 "CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o" \
 "CMakeFiles/new_printf.dir/srcs/print_p.c.o" \
-"CMakeFiles/new_printf.dir/srcs/flag_p.c.o"
+"CMakeFiles/new_printf.dir/srcs/flag_p.c.o" \
+"CMakeFiles/new_printf.dir/srcs/flag_percent.c.o" \
+"CMakeFiles/new_printf.dir/srcs/print_percent.c.o" \
+"CMakeFiles/new_printf.dir/srcs/flag_f.c.o" \
+"CMakeFiles/new_printf.dir/srcs/print_f.c.o"
 
 # External object files for target new_printf
 new_printf_EXTERNAL_OBJECTS =
@@ -1563,9 +1619,13 @@ new_printf: CMakeFiles/new_printf.dir/srcs/print_x.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/print_p.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/flag_p.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/flag_percent.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/print_percent.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/flag_f.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/print_f.c.o
 new_printf: CMakeFiles/new_printf.dir/build.make
 new_printf: CMakeFiles/new_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Linking C executable new_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Linking C executable new_printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/new_printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

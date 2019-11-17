@@ -255,6 +255,8 @@ CMakeFiles/new_printf.dir/srcs/flag_di.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/flag_di.c
+CMakeFiles/new_printf.dir/srcs/flag_f.c.o
+ /Users/artembykov/final_ft_printf/srcs/flag_f.c
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
@@ -263,6 +265,10 @@ CMakeFiles/new_printf.dir/srcs/flag_p.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/flag_p.c
+CMakeFiles/new_printf.dir/srcs/flag_percent.c.o
+ /Users/artembykov/final_ft_printf/includes/ft_printf.h
+ /Users/artembykov/final_ft_printf/libft/libft.h
+ /Users/artembykov/final_ft_printf/srcs/flag_percent.c
 CMakeFiles/new_printf.dir/srcs/flag_u.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
@@ -295,6 +301,8 @@ CMakeFiles/new_printf.dir/srcs/print_d.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/print_d.c
+CMakeFiles/new_printf.dir/srcs/print_f.c.o
+ /Users/artembykov/final_ft_printf/srcs/print_f.c
 CMakeFiles/new_printf.dir/srcs/print_o.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
@@ -303,6 +311,10 @@ CMakeFiles/new_printf.dir/srcs/print_p.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/print_p.c
+CMakeFiles/new_printf.dir/srcs/print_percent.c.o
+ /Users/artembykov/final_ft_printf/includes/ft_printf.h
+ /Users/artembykov/final_ft_printf/libft/libft.h
+ /Users/artembykov/final_ft_printf/srcs/print_percent.c
 CMakeFiles/new_printf.dir/srcs/print_u.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
