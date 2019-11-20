@@ -14,66 +14,66 @@
 
 void flag_u(t_param *param)
 {
-	char flags[1] = "u";
+	char flags[5] = "llhhu";
 
 	param->un_value = check_un_convention(param);
 	param->val_length = ft_unnum_of_fields(param->un_value);
-	calc_unreserved_fields(param);
-	get_do_unprecision(param);
-	get_do_unwidth(param);
-	print_u(param);
+	calc_unreserved_fields(param, param->un_value);
+	get_do_unprecision(param, param->un_value);
+	get_do_unwidth(param, param->un_value);
+	print_u(param, param->un_value);
 	remove_current_flags(param, flags);
 
 }
-
-void flag_llu(t_param *param)
-{
-	char flags[3] = "llu";
-
-	param->un_value = check_un_convention(param);
-	param->val_length = ft_unnum_of_fields(param->un_value);
-	calc_unreserved_fields(param);
-	get_do_unprecision(param);
-	get_do_unwidth(param);
-	print_u(param);
-	remove_current_flags(param, flags);
-}
-
-void flag_lu(t_param *param)
-{
-	char flags[2] = "lu";
-
-	param->un_value = check_un_convention(param);
-	param->val_length = ft_unnum_of_fields(param->un_value);
-	calc_unreserved_fields(param);
-	get_do_unprecision(param);
-	get_do_unwidth(param);
-	print_u(param);
-	remove_current_flags(param, flags);
-}
-
-void flag_hhu(t_param *param)
-{
-	char flags[3] = "hhu";
-
-	param->un_value = check_un_convention(param);
-	param->val_length = ft_unnum_of_fields(param->un_value);
-	calc_unreserved_fields(param);
-	get_do_unprecision(param);
-	get_do_unwidth(param);
-	print_u(param);
-	remove_current_flags(param, flags);
-}
-
-void flag_hu(t_param *param)
-{
-	char flags[2] = "hu";
-
-	param->un_value = check_un_convention(param);
-	param->val_length = ft_unnum_of_fields(param->un_value);
-	calc_unreserved_fields(param);
-	get_do_unprecision(param);
-	get_do_unwidth(param);
-	print_u(param);
-	remove_current_flags(param, flags);
-}
+//
+//void flag_llu(t_param *param)
+//{
+//	char flags[3] = "llu";
+//
+//	param->un_value = check_un_convention(param);
+//	param->val_length = ft_unnum_of_fields(param->un_value);
+//	calc_unreserved_fields(param);
+//	get_do_unprecision(param);
+//	get_do_unwidth(param);
+//	print_u(param);
+//	remove_current_flags(param, flags);
+//}
+//
+//void flag_lu(t_param *param)
+//{
+//	char flags[2] = "lu";
+//
+//	param->un_value = check_un_convention(param);
+//	param->val_length = ft_unnum_of_fields(param->un_value);
+//	calc_unreserved_fields(param);
+//	get_do_unprecision(param);
+//	get_do_unwidth(param);
+//	print_u(param);
+//	remove_current_flags(param, flags);
+//}
+//
+//void flag_hhu(t_param *param)
+//{
+//	char flags[3] = "hhu";
+//
+//	param->un_value = check_un_convention(param);
+//	param->val_length = ft_unnum_of_fields(param->un_value);
+//	calc_unreserved_fields(param);
+//	get_do_unprecision(param);
+//	get_do_unwidth(param);
+//	print_u(param);
+//	remove_current_flags(param, flags);
+//}
+//
+//void flag_hu(t_param *param)
+//{
+//	char flags[2] = "hu";
+//
+//	param->un_value = check_un_convention(param);
+//	param->val_length = ft_unnum_of_fields(param->un_value);
+//	calc_unreserved_fields(param);
+//	get_do_unprecision(param);
+//	get_do_unwidth(param);
+//	print_u(param);
+//	remove_current_flags(param, flags);
+//}

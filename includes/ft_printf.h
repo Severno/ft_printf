@@ -16,6 +16,7 @@
 # include "../libft/libft.h"
 # include <stdarg.h>
 # include <stdio.h>
+# include <float.h>
 
 
 typedef struct s_str_param
@@ -29,6 +30,8 @@ typedef struct s_str_param
 typedef struct s_param
 {
 	long long int			value;
+	double					d_value;
+	long double				ld_value;
 	unsigned long long		un_value;
 	int						reserved_fields;
 	int						val_length;
@@ -38,23 +41,14 @@ typedef struct s_param
 	void					*arg_value;
 	char					*flags;
 	char					*str;
-	char					*hex_value;
 	char					*str_value;
 	int						current_flag;
-	char					convention;
 	int						precision;
 	int						width;
 	int						do_width;
 	int						do_precision;
 }							t_param;
 
-
-// print_d.c
-//void print_d(int value, t_param *param);
-//void print(t_param *param);
-//void left_print(t_param *param);
-//void left_negative_print(t_param *param);
-//void negative_print(t_param *param);
 
 // ft_printf.c
 void						ft_printf(char *input, ...);
@@ -70,7 +64,7 @@ char						*pf_strcat(char *s1, const char *s2, int *iter);
 char						pf_strchr_flags(const char *s, int c, int *iter);
 void						parse_flag(t_param *param);
 char						*ft_find_and_remove_char(char *str, char find);
-void						remove_conflicted_flags(t_param *param);
+void						remove_conflicted_flags(t_param *param, long double value);
 void						remove_current_flags(t_param *param, char *flags);
 
 // pf_strchr.c
@@ -130,7 +124,9 @@ void flag_p(t_param *param);
 void						fill_width(t_param *param);
 void						fill_precision(t_param *param);
 void						fill(int value, char sign, t_param *param);
-void						calc_unreserved_fields(t_param *param);
+void						fill_float_width(t_param *param, long double value);
+void						fill_float(int value, char sign, t_param *param);
+
 
 // utils.c
 int							ft_max_of_two(int a,  int b);
@@ -145,20 +141,19 @@ void get_do_precision_ll(t_param *param, long long int value);
 void get_do_precision(t_param *param);
 
 // calc_unsigned_precision.c
-void get_do_unprecision(t_param *param);
+void get_do_unprecision(t_param *param, unsigned long long value);
 
 
 // calc_signed_width.c
 void get_do_width_int(t_param *param, int value);
 void get_do_width_l(t_param *param, long int value);
 void get_do_width_ll(t_param *param, long long int value);
-void get_do_width(t_param *param);
-void calc_reserved_fields(t_param *param);
-void calc_unreserved_fields(t_param *param);
+void get_do_width(t_param *param, long long int value);
+void calc_reserved_fields(t_param *param, long long int value);
 
 // calc_unsigned_width.c
-void get_do_unwidth(t_param *param);
-void calc_unreserved_fields(t_param *param);
+void get_do_unwidth(t_param *param, unsigned long long value);
+void calc_unreserved_fields(t_param *param, unsigned long long value);
 int get_base(t_param *param);
 
 
@@ -179,7 +174,7 @@ void ft_putunbr_base(unsigned long long int n, int base);
 void print_o(t_param *param);
 
 // print_u.c
-void print_u(t_param *param);
+void print_u(t_param *param, unsigned long long value);
 
 // print_x.c
 void print_x(t_param *param);
@@ -194,6 +189,23 @@ void flag_percent(t_param *param);
 void print_percent(t_param *param);
 
 // flag_f.c
-void flag_f(t_param *param);
+void flag_f(t_param *param,long double value);
+void flag_lf(t_param *param);
+
+// calc_float_width.c
+int calc_num_of_float_fields(long double num, int precision);
+void calc_do_float_width(t_param *param);
+void calc_reserved_float_fields(t_param *param, long double value);
+void calc_reserved_lfloat_fields(t_param *param);
+void calc_reserved_lfloat_fields(t_param *param);
+
+// print_f.c
+void print_f(t_param *param, long double value, char *float_val);
+void print_lf(t_param *param);
+
+// flag_f_handle.c
+int			is_nan(long double floatNum);
+int			is_inf(long double floatNum);
+int			is_value(long double floatNum);
 
 #endif

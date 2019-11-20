@@ -1,6 +1,6 @@
 #include "../includes/ft_printf.h"
 
-static void zero_handle_u(t_param *param)
+static void zero_handle_u(t_param *param, unsigned long long value)
 {
 	if (pf_strchr(param->flags, '-'))
 	{
@@ -14,7 +14,7 @@ static void zero_handle_u(t_param *param)
 		{
 			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
 			fill_precision(param);
-			ft_putunbr(param->un_value);
+			ft_putunbr(value);
 			fill_width(param);
 		}
 		else if (param->precision > 0)
@@ -26,7 +26,7 @@ static void zero_handle_u(t_param *param)
 		else
 		{
 			fill_precision(param);
-			ft_putunbr(param->un_value);
+			ft_putunbr(value);
 			fill_width(param);
 		}
 	}
@@ -43,13 +43,13 @@ static void zero_handle_u(t_param *param)
 				pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
 				fill_width(param);
 				fill_precision(param);
-//				ft_putunbr(param->un_value);
+//				ft_putunbr(value);
 			} else
 			{
 				fill_width(param);
 				pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
 				fill_precision(param);
-				ft_putunbr(param->un_value);
+				ft_putunbr(value);
 			}
 		}
 		else if (pf_strchr(param->flags, '+'))
@@ -81,11 +81,11 @@ static void zero_handle_u(t_param *param)
 }
 
 
-void print_u(t_param *param)
+void print_u(t_param *param, unsigned long long value)
 {
-	if (param->un_value == 0)
+	if (value == 0)
 	{
-		zero_handle_u(param);
+		zero_handle_u(param, value);
 		return;
 	}
 
@@ -96,14 +96,14 @@ void print_u(t_param *param)
 			write(1, "+", 1);
 			fill_precision(param);
 			pf_strchr(param->flags, '#') != 0 ? write(1, "0", 1) : 0;
-			ft_putunbr(param->un_value);
+			ft_putunbr(value);
 			fill_width(param);
 		}
 		else
 		{
 			fill_precision(param);
 			pf_strchr(param->flags, '#') != 0 ? write(1, "0", 1) : 0;
-			ft_putunbr(param->un_value);
+			ft_putunbr(value);
 			fill_width(param);
 		}
 	}
@@ -116,14 +116,14 @@ void print_u(t_param *param)
 				fill_width(param);
 				fill_precision(param);
 				pf_strchr(param->flags, '#') != 0 ? write(1, "0", 1) : 0;
-				ft_putunbr(param->un_value);
+				ft_putunbr(value);
 			} else
 			{
 				fill_width(param);
 				write(1, "+", 1);
 				fill_precision(param);
 				pf_strchr(param->flags, '#') != 0 ? write(1, "0", 1) : 0;
-				ft_putunbr(param->un_value);
+				ft_putunbr(value);
 			}
 		}
 		else
@@ -133,12 +133,12 @@ void print_u(t_param *param)
 				fill_width(param);
 				fill_precision(param);
 				pf_strchr(param->flags, '#') != 0 ? write(1, "0", 1) : 0;
-				ft_putunbr(param->un_value);
+				ft_putunbr(value);
 			} else{
 				fill_width(param);
 				fill_precision(param);
 				pf_strchr(param->flags, '#') != 0 ? write(1, "0", 1) : 0;
-				ft_putunbr(param->un_value);
+				ft_putunbr(value);
 			}
 		}
 	}

@@ -17,11 +17,11 @@ static void param_init(t_param *param)
 //	param->str_value = NULL;
 //	param->flags = NULL;
 	param->value = 0;
+	param->d_value = 0;
+	param->ld_value = 0;
 	param->un_value = 0;
 	param->reserved_fields = 0;
 	param->current_flag = '~';
-	param->convention = '~';
-	param->arg_value = va_arg(param->args, void *);
 	param->width = -1;
 	param->precision = -1;
 	param->val_length = 0;
@@ -36,6 +36,7 @@ void ft_printf(char *input, ...)
 
 	param = (t_param*)ft_memalloc(sizeof(t_param));
 	param->str = input;
+	param->iter = 0;
 	va_start(param->args, input);
 	while (param->str[param->iter] && (size_t)param->iter < ft_strlen(input))
 	{

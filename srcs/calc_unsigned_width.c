@@ -1,8 +1,8 @@
 #include "../includes/ft_printf.h"
 
-void get_do_unwidth(t_param *param)
+void get_do_unwidth(t_param *param, unsigned long long value)
 {
-	if (param->un_value == 0)
+	if (value == 0)
 	{
 		if (pf_strchr(param->flags, '0'))
 			param->do_width = param->precision == -1 ? param->width + param->reserved_fields : param->width - param->precision + param->reserved_fields;
@@ -16,7 +16,7 @@ void get_do_unwidth(t_param *param)
 		param->do_width = param->width - param->val_length + param->reserved_fields;
 }
 
-void calc_unreserved_fields(t_param *param)
+void calc_unreserved_fields(t_param *param, unsigned long long value)
 {
 	int reserved_fields;
 
@@ -26,23 +26,23 @@ void calc_unreserved_fields(t_param *param)
 	{
 		pf_strchr(param->flags, '+') ? reserved_fields-- : 0;
 		pf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
-		if (pf_strchr(param->flags, '#') && param->precision >= -1 && param->un_value > 0)
+		if (pf_strchr(param->flags, '#') && param->precision >= -1 && value > 0)
 			reserved_fields -=2;
 	} else if (param->current_flag == 'o')
 	{
 		pf_strchr(param->flags, '+') ? reserved_fields-- : 0;
 		pf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
-		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision == 0 && param->un_value == 0)
+		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision == 0 && value == 0)
 			reserved_fields--;
-		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision >= -1 && param->un_value != 0)
+		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision >= -1 && value != 0)
 			reserved_fields--;
 	} else if (param->current_flag == 'u')
 	{
 		pf_strchr(param->flags, '+') ? reserved_fields-- : 0;
 		pf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
-		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision == 0 && param->un_value == 0)
+		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision == 0 && value == 0)
 			reserved_fields--;
-		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision >= -1 && param->un_value != 0)
+		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision >= -1 && value != 0)
 			reserved_fields--;
 	}
 	else if (param->current_flag == 'p')

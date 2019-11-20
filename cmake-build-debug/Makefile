@@ -366,6 +366,33 @@ libft/ft_convert_undec_base.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/libft/ft_convert_undec_base.c.s
 .PHONY : libft/ft_convert_undec_base.c.s
 
+libft/ft_ftoa.o: libft/ft_ftoa.c.o
+
+.PHONY : libft/ft_ftoa.o
+
+# target to build an object file
+libft/ft_ftoa.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o
+.PHONY : libft/ft_ftoa.c.o
+
+libft/ft_ftoa.i: libft/ft_ftoa.c.i
+
+.PHONY : libft/ft_ftoa.i
+
+# target to preprocess a source file
+libft/ft_ftoa.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/libft/ft_ftoa.c.i
+.PHONY : libft/ft_ftoa.c.i
+
+libft/ft_ftoa.s: libft/ft_ftoa.c.s
+
+.PHONY : libft/ft_ftoa.s
+
+# target to generate assembly for a file
+libft/ft_ftoa.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/libft/ft_ftoa.c.s
+.PHONY : libft/ft_ftoa.c.s
+
 libft/ft_isalnum.o: libft/ft_isalnum.c.o
 
 .PHONY : libft/ft_isalnum.o
@@ -2202,6 +2229,33 @@ srcs/alignment.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/alignment.c.s
 .PHONY : srcs/alignment.c.s
 
+srcs/calc_float_width.o: srcs/calc_float_width.c.o
+
+.PHONY : srcs/calc_float_width.o
+
+# target to build an object file
+srcs/calc_float_width.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o
+.PHONY : srcs/calc_float_width.c.o
+
+srcs/calc_float_width.i: srcs/calc_float_width.c.i
+
+.PHONY : srcs/calc_float_width.i
+
+# target to preprocess a source file
+srcs/calc_float_width.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_float_width.c.i
+.PHONY : srcs/calc_float_width.c.i
+
+srcs/calc_float_width.s: srcs/calc_float_width.c.s
+
+.PHONY : srcs/calc_float_width.s
+
+# target to generate assembly for a file
+srcs/calc_float_width.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_float_width.c.s
+.PHONY : srcs/calc_float_width.c.s
+
 srcs/calc_signed_precision.o: srcs/calc_signed_precision.c.o
 
 .PHONY : srcs/calc_signed_precision.o
@@ -2445,6 +2499,33 @@ srcs/flag_f.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_f.c.s
 .PHONY : srcs/flag_f.c.s
 
+srcs/flag_f_handle.o: srcs/flag_f_handle.c.o
+
+.PHONY : srcs/flag_f_handle.o
+
+# target to build an object file
+srcs/flag_f_handle.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o
+.PHONY : srcs/flag_f_handle.c.o
+
+srcs/flag_f_handle.i: srcs/flag_f_handle.c.i
+
+.PHONY : srcs/flag_f_handle.i
+
+# target to preprocess a source file
+srcs/flag_f_handle.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.i
+.PHONY : srcs/flag_f_handle.c.i
+
+srcs/flag_f_handle.s: srcs/flag_f_handle.c.s
+
+.PHONY : srcs/flag_f_handle.s
+
+# target to generate assembly for a file
+srcs/flag_f_handle.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.s
+.PHONY : srcs/flag_f_handle.c.s
+
 srcs/flag_o.o: srcs/flag_o.c.o
 
 .PHONY : srcs/flag_o.o
@@ -2580,6 +2661,33 @@ srcs/flag_x.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/flag_x.c.s
 .PHONY : srcs/flag_x.c.s
 
+srcs/ft_find_and_remove_char.o: srcs/ft_find_and_remove_char.c.o
+
+.PHONY : srcs/ft_find_and_remove_char.o
+
+# target to build an object file
+srcs/ft_find_and_remove_char.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o
+.PHONY : srcs/ft_find_and_remove_char.c.o
+
+srcs/ft_find_and_remove_char.i: srcs/ft_find_and_remove_char.c.i
+
+.PHONY : srcs/ft_find_and_remove_char.i
+
+# target to preprocess a source file
+srcs/ft_find_and_remove_char.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.i
+.PHONY : srcs/ft_find_and_remove_char.c.i
+
+srcs/ft_find_and_remove_char.s: srcs/ft_find_and_remove_char.c.s
+
+.PHONY : srcs/ft_find_and_remove_char.s
+
+# target to generate assembly for a file
+srcs/ft_find_and_remove_char.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.s
+.PHONY : srcs/ft_find_and_remove_char.c.s
+
 srcs/ft_printf.o: srcs/ft_printf.c.o
 
 .PHONY : srcs/ft_printf.o
@@ -2661,6 +2769,33 @@ srcs/get_flags.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/get_flags.c.s
 .PHONY : srcs/get_flags.c.s
 
+srcs/pf_strcat.o: srcs/pf_strcat.c.o
+
+.PHONY : srcs/pf_strcat.o
+
+# target to build an object file
+srcs/pf_strcat.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o
+.PHONY : srcs/pf_strcat.c.o
+
+srcs/pf_strcat.i: srcs/pf_strcat.c.i
+
+.PHONY : srcs/pf_strcat.i
+
+# target to preprocess a source file
+srcs/pf_strcat.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strcat.c.i
+.PHONY : srcs/pf_strcat.c.i
+
+srcs/pf_strcat.s: srcs/pf_strcat.c.s
+
+.PHONY : srcs/pf_strcat.s
+
+# target to generate assembly for a file
+srcs/pf_strcat.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strcat.c.s
+.PHONY : srcs/pf_strcat.c.s
+
 srcs/pf_strchr.o: srcs/pf_strchr.c.o
 
 .PHONY : srcs/pf_strchr.o
@@ -2687,6 +2822,33 @@ srcs/pf_strchr.s: srcs/pf_strchr.c.s
 srcs/pf_strchr.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strchr.c.s
 .PHONY : srcs/pf_strchr.c.s
+
+srcs/pf_strchr_flags.o: srcs/pf_strchr_flags.c.o
+
+.PHONY : srcs/pf_strchr_flags.o
+
+# target to build an object file
+srcs/pf_strchr_flags.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o
+.PHONY : srcs/pf_strchr_flags.c.o
+
+srcs/pf_strchr_flags.i: srcs/pf_strchr_flags.c.i
+
+.PHONY : srcs/pf_strchr_flags.i
+
+# target to preprocess a source file
+srcs/pf_strchr_flags.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.i
+.PHONY : srcs/pf_strchr_flags.c.i
+
+srcs/pf_strchr_flags.s: srcs/pf_strchr_flags.c.s
+
+.PHONY : srcs/pf_strchr_flags.s
+
+# target to generate assembly for a file
+srcs/pf_strchr_flags.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.s
+.PHONY : srcs/pf_strchr_flags.c.s
 
 srcs/precision.o: srcs/precision.c.o
 
@@ -2904,6 +3066,33 @@ srcs/print_x.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/print_x.c.s
 .PHONY : srcs/print_x.c.s
 
+srcs/removes_flags.o: srcs/removes_flags.c.o
+
+.PHONY : srcs/removes_flags.o
+
+# target to build an object file
+srcs/removes_flags.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/removes_flags.c.o
+.PHONY : srcs/removes_flags.c.o
+
+srcs/removes_flags.i: srcs/removes_flags.c.i
+
+.PHONY : srcs/removes_flags.i
+
+# target to preprocess a source file
+srcs/removes_flags.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/removes_flags.c.i
+.PHONY : srcs/removes_flags.c.i
+
+srcs/removes_flags.s: srcs/removes_flags.c.s
+
+.PHONY : srcs/removes_flags.s
+
+# target to generate assembly for a file
+srcs/removes_flags.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/removes_flags.c.s
+.PHONY : srcs/removes_flags.c.s
+
 srcs/utils.o: srcs/utils.c.o
 
 .PHONY : srcs/utils.o
@@ -2967,6 +3156,9 @@ help:
 	@echo "... libft/ft_convert_undec_base.o"
 	@echo "... libft/ft_convert_undec_base.i"
 	@echo "... libft/ft_convert_undec_base.s"
+	@echo "... libft/ft_ftoa.o"
+	@echo "... libft/ft_ftoa.i"
+	@echo "... libft/ft_ftoa.s"
 	@echo "... libft/ft_isalnum.o"
 	@echo "... libft/ft_isalnum.i"
 	@echo "... libft/ft_isalnum.s"
@@ -3171,6 +3363,9 @@ help:
 	@echo "... srcs/alignment.o"
 	@echo "... srcs/alignment.i"
 	@echo "... srcs/alignment.s"
+	@echo "... srcs/calc_float_width.o"
+	@echo "... srcs/calc_float_width.i"
+	@echo "... srcs/calc_float_width.s"
 	@echo "... srcs/calc_signed_precision.o"
 	@echo "... srcs/calc_signed_precision.i"
 	@echo "... srcs/calc_signed_precision.s"
@@ -3198,6 +3393,9 @@ help:
 	@echo "... srcs/flag_f.o"
 	@echo "... srcs/flag_f.i"
 	@echo "... srcs/flag_f.s"
+	@echo "... srcs/flag_f_handle.o"
+	@echo "... srcs/flag_f_handle.i"
+	@echo "... srcs/flag_f_handle.s"
 	@echo "... srcs/flag_o.o"
 	@echo "... srcs/flag_o.i"
 	@echo "... srcs/flag_o.s"
@@ -3213,6 +3411,9 @@ help:
 	@echo "... srcs/flag_x.o"
 	@echo "... srcs/flag_x.i"
 	@echo "... srcs/flag_x.s"
+	@echo "... srcs/ft_find_and_remove_char.o"
+	@echo "... srcs/ft_find_and_remove_char.i"
+	@echo "... srcs/ft_find_and_remove_char.s"
 	@echo "... srcs/ft_printf.o"
 	@echo "... srcs/ft_printf.i"
 	@echo "... srcs/ft_printf.s"
@@ -3222,9 +3423,15 @@ help:
 	@echo "... srcs/get_flags.o"
 	@echo "... srcs/get_flags.i"
 	@echo "... srcs/get_flags.s"
+	@echo "... srcs/pf_strcat.o"
+	@echo "... srcs/pf_strcat.i"
+	@echo "... srcs/pf_strcat.s"
 	@echo "... srcs/pf_strchr.o"
 	@echo "... srcs/pf_strchr.i"
 	@echo "... srcs/pf_strchr.s"
+	@echo "... srcs/pf_strchr_flags.o"
+	@echo "... srcs/pf_strchr_flags.i"
+	@echo "... srcs/pf_strchr_flags.s"
 	@echo "... srcs/precision.o"
 	@echo "... srcs/precision.i"
 	@echo "... srcs/precision.s"
@@ -3249,6 +3456,9 @@ help:
 	@echo "... srcs/print_x.o"
 	@echo "... srcs/print_x.i"
 	@echo "... srcs/print_x.s"
+	@echo "... srcs/removes_flags.o"
+	@echo "... srcs/removes_flags.i"
+	@echo "... srcs/removes_flags.s"
 	@echo "... srcs/utils.o"
 	@echo "... srcs/utils.i"
 	@echo "... srcs/utils.s"

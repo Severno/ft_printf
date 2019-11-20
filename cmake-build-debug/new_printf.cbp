@@ -105,6 +105,9 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/libft/ft_convert_undec_base.c">
 			<Option target="new_printf"/>
 		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/libft/ft_ftoa.c">
+			<Option target="new_printf"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/libft/ft_isalnum.c">
 			<Option target="new_printf"/>
 		</Unit>
@@ -309,6 +312,9 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/alignment.c">
 			<Option target="new_printf"/>
 		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/calc_float_width.c">
+			<Option target="new_printf"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/calc_signed_precision.c">
 			<Option target="new_printf"/>
 		</Unit>
@@ -336,6 +342,9 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_f.c">
 			<Option target="new_printf"/>
 		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_f_handle.c">
+			<Option target="new_printf"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_o.c">
 			<Option target="new_printf"/>
 		</Unit>
@@ -351,6 +360,9 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/flag_x.c">
 			<Option target="new_printf"/>
 		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/ft_find_and_remove_char.c">
+			<Option target="new_printf"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/ft_printf.c">
 			<Option target="new_printf"/>
 		</Unit>
@@ -360,7 +372,13 @@
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/get_flags.c">
 			<Option target="new_printf"/>
 		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/pf_strcat.c">
+			<Option target="new_printf"/>
+		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/pf_strchr.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/pf_strchr_flags.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/precision.c">
@@ -385,6 +403,9 @@
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/print_x.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/artembykov/final_ft_printf/srcs/removes_flags.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/artembykov/final_ft_printf/srcs/utils.c">

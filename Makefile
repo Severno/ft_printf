@@ -11,7 +11,7 @@ LIB_SRC =	libft/ft_atoi.c libft/ft_bzero.c libft/ft_check_end_spaces.c libft/ft_
 			libft/ft_strsub.c libft/ft_strtrim.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_str_is_lowercase.c libft/ft_str_is_uppercase.c \
 			libft/ft_str_is_printable.c libft/ft_str_is_numeric.c libft/ft_strnlen.c libft/ft_isspace.c libft/ft_convert_dec_base.c \
 			libft/ft_num_of_fields.c libft/ft_abs.c libft/ft_atol.c libft/ft_convert_undec_base.c libft/ft_atoul.c libft/ft_unnum_of_fields.c \
-			libft/ft_putunbr.c
+			libft/ft_putunbr.c libft/ft_ftoa.c
 
 LIB_OBJ =	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_isalnum.o \
 			ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_itoa.o ft_lstadd.o ft_lstdel.o \
@@ -23,7 +23,8 @@ LIB_OBJ =	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_
 			ft_strncpy.o ft_strnequ.o ft_strnew.o ft_strnstr.o ft_strrchr.o ft_strsplit.o ft_strstr.o \
 			ft_strsub.o ft_strtrim.o ft_tolower.o ft_toupper.o ft_str_is_lowercase.o ft_str_is_uppercase.o \
 			ft_str_is_printable.o ft_str_is_numeric.o ft_strnlen.o ft_isspace.o ft_convert_dec_base.o \
-			ft_num_of_fields.o ft_abs.o ft_atol.o ft_convert_undec_base.o ft_atoul.o ft_unnum_of_fields.o ft_putunbr.o
+			ft_num_of_fields.o ft_abs.o ft_atol.o ft_convert_undec_base.o ft_atoul.o ft_unnum_of_fields.o ft_putunbr.o \
+			ft_ftoa.o
 
 PRINTF_SRC = srcs/alignment.c \
 				srcs/calc_signed_precision.c \
@@ -52,6 +53,13 @@ PRINTF_SRC = srcs/alignment.c \
 				srcs/print_percent.c \
 				srcs/print_f.c \
                 srcs/flag_f.c \
+                srcs/calc_float_width.c \
+                srcs/flag_f_handle.c \
+                srcs/pf_strchr_flags.c \
+                srcs/pf_strcat.c \
+                srcs/ft_find_and_remove_char.c \
+                srcs/flag_f_handle.c \
+                srcs/removes_flags.c \
 
 PRINTF_OBJ = alignment.o \
 				calc_signed_precision.o \
@@ -80,6 +88,13 @@ PRINTF_OBJ = alignment.o \
 				print_percent.o \
 				print_f.o \
                 flag_f.o \
+                calc_float_width.o \
+                flag_f_handle.o \
+                pf_strchr_flags.o \
+                pf_strcat.o \
+                ft_find_and_remove_char.o \
+                flag_f_handle.o \
+                removes_flags.o \
 
 
 SRC		= $(LIB_SRC) $(PRINTF_SRC)

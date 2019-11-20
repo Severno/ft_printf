@@ -993,269 +993,9 @@ CMakeFiles/new_printf.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/libft/ft_toupper.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/libft/ft_toupper.c -o CMakeFiles/new_printf.dir/libft/ft_toupper.c.s
 
-CMakeFiles/new_printf.dir/srcs/alignment.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/alignment.c.o: ../srcs/alignment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/new_printf.dir/srcs/alignment.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/alignment.c.o   -c /Users/artembykov/final_ft_printf/srcs/alignment.c
-
-CMakeFiles/new_printf.dir/srcs/alignment.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/alignment.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/alignment.c > CMakeFiles/new_printf.dir/srcs/alignment.c.i
-
-CMakeFiles/new_printf.dir/srcs/alignment.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/alignment.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/alignment.c -o CMakeFiles/new_printf.dir/srcs/alignment.c.s
-
-CMakeFiles/new_printf.dir/srcs/flag_cs.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/flag_cs.c.o: ../srcs/flag_cs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/new_printf.dir/srcs/flag_cs.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_cs.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_cs.c
-
-CMakeFiles/new_printf.dir/srcs/flag_cs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_cs.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_cs.c > CMakeFiles/new_printf.dir/srcs/flag_cs.c.i
-
-CMakeFiles/new_printf.dir/srcs/flag_cs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_cs.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_cs.c -o CMakeFiles/new_printf.dir/srcs/flag_cs.c.s
-
-CMakeFiles/new_printf.dir/srcs/flag_di.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/flag_di.c.o: ../srcs/flag_di.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/new_printf.dir/srcs/flag_di.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_di.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_di.c
-
-CMakeFiles/new_printf.dir/srcs/flag_di.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_di.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_di.c > CMakeFiles/new_printf.dir/srcs/flag_di.c.i
-
-CMakeFiles/new_printf.dir/srcs/flag_di.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_di.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_di.c -o CMakeFiles/new_printf.dir/srcs/flag_di.c.s
-
-CMakeFiles/new_printf.dir/srcs/flag_o.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../srcs/flag_o.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/new_printf.dir/srcs/flag_o.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_o.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_o.c
-
-CMakeFiles/new_printf.dir/srcs/flag_o.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_o.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_o.c > CMakeFiles/new_printf.dir/srcs/flag_o.c.i
-
-CMakeFiles/new_printf.dir/srcs/flag_o.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_o.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_o.c -o CMakeFiles/new_printf.dir/srcs/flag_o.c.s
-
-CMakeFiles/new_printf.dir/srcs/precision.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/precision.c.o: ../srcs/precision.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/new_printf.dir/srcs/precision.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/precision.c.o   -c /Users/artembykov/final_ft_printf/srcs/precision.c
-
-CMakeFiles/new_printf.dir/srcs/precision.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/precision.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/precision.c > CMakeFiles/new_printf.dir/srcs/precision.c.i
-
-CMakeFiles/new_printf.dir/srcs/precision.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/precision.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/precision.c -o CMakeFiles/new_printf.dir/srcs/precision.c.s
-
-CMakeFiles/new_printf.dir/srcs/flag_u.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/flag_u.c.o: ../srcs/flag_u.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/new_printf.dir/srcs/flag_u.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_u.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_u.c
-
-CMakeFiles/new_printf.dir/srcs/flag_u.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_u.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_u.c > CMakeFiles/new_printf.dir/srcs/flag_u.c.i
-
-CMakeFiles/new_printf.dir/srcs/flag_u.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_u.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_u.c -o CMakeFiles/new_printf.dir/srcs/flag_u.c.s
-
-CMakeFiles/new_printf.dir/srcs/flag_x.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/flag_x.c.o: ../srcs/flag_x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/new_printf.dir/srcs/flag_x.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_x.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_x.c
-
-CMakeFiles/new_printf.dir/srcs/flag_x.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_x.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_x.c > CMakeFiles/new_printf.dir/srcs/flag_x.c.i
-
-CMakeFiles/new_printf.dir/srcs/flag_x.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_x.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_x.c -o CMakeFiles/new_printf.dir/srcs/flag_x.c.s
-
-CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../srcs/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/new_printf.dir/srcs/ft_printf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/ft_printf.c.o   -c /Users/artembykov/final_ft_printf/srcs/ft_printf.c
-
-CMakeFiles/new_printf.dir/srcs/ft_printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/ft_printf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/ft_printf.c > CMakeFiles/new_printf.dir/srcs/ft_printf.c.i
-
-CMakeFiles/new_printf.dir/srcs/ft_printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/ft_printf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/ft_printf.c -o CMakeFiles/new_printf.dir/srcs/ft_printf.c.s
-
-CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: ../srcs/pf_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o   -c /Users/artembykov/final_ft_printf/srcs/pf_strchr.c
-
-CMakeFiles/new_printf.dir/srcs/pf_strchr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/pf_strchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/pf_strchr.c > CMakeFiles/new_printf.dir/srcs/pf_strchr.c.i
-
-CMakeFiles/new_printf.dir/srcs/pf_strchr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/pf_strchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/pf_strchr.c -o CMakeFiles/new_printf.dir/srcs/pf_strchr.c.s
-
-CMakeFiles/new_printf.dir/srcs/get_flags.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../srcs/get_flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/new_printf.dir/srcs/get_flags.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/get_flags.c.o   -c /Users/artembykov/final_ft_printf/srcs/get_flags.c
-
-CMakeFiles/new_printf.dir/srcs/get_flags.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/get_flags.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/get_flags.c > CMakeFiles/new_printf.dir/srcs/get_flags.c.i
-
-CMakeFiles/new_printf.dir/srcs/get_flags.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/get_flags.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/get_flags.c -o CMakeFiles/new_printf.dir/srcs/get_flags.c.s
-
-CMakeFiles/new_printf.dir/main.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/new_printf.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/main.c.o   -c /Users/artembykov/final_ft_printf/main.c
-
-CMakeFiles/new_printf.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/main.c > CMakeFiles/new_printf.dir/main.c.i
-
-CMakeFiles/new_printf.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/main.c -o CMakeFiles/new_printf.dir/main.c.s
-
-CMakeFiles/new_printf.dir/srcs/print_d.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/print_d.c.o: ../srcs/print_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/new_printf.dir/srcs/print_d.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/print_d.c.o   -c /Users/artembykov/final_ft_printf/srcs/print_d.c
-
-CMakeFiles/new_printf.dir/srcs/print_d.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/print_d.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/print_d.c > CMakeFiles/new_printf.dir/srcs/print_d.c.i
-
-CMakeFiles/new_printf.dir/srcs/print_d.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/print_d.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/print_d.c -o CMakeFiles/new_printf.dir/srcs/print_d.c.s
-
-CMakeFiles/new_printf.dir/srcs/utils.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/utils.c.o: ../srcs/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/new_printf.dir/srcs/utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/utils.c.o   -c /Users/artembykov/final_ft_printf/srcs/utils.c
-
-CMakeFiles/new_printf.dir/srcs/utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/utils.c > CMakeFiles/new_printf.dir/srcs/utils.c.i
-
-CMakeFiles/new_printf.dir/srcs/utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/utils.c -o CMakeFiles/new_printf.dir/srcs/utils.c.s
-
-CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: ../srcs/calc_unsigned_precision.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o   -c /Users/artembykov/final_ft_printf/srcs/calc_unsigned_precision.c
-
-CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/calc_unsigned_precision.c > CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.i
-
-CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/calc_unsigned_precision.c -o CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.s
-
-CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o: ../srcs/calc_signed_precision.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o   -c /Users/artembykov/final_ft_printf/srcs/calc_signed_precision.c
-
-CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/calc_signed_precision.c > CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.i
-
-CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/calc_signed_precision.c -o CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.s
-
-CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: ../srcs/calc_signed_width.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o   -c /Users/artembykov/final_ft_printf/srcs/calc_signed_width.c
-
-CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/calc_signed_width.c > CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.i
-
-CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/calc_signed_width.c -o CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.s
-
-CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.o: ../srcs/calc_unsigned_width.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.o   -c /Users/artembykov/final_ft_printf/srcs/calc_unsigned_width.c
-
-CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/calc_unsigned_width.c > CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.i
-
-CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/calc_unsigned_width.c -o CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.s
-
-CMakeFiles/new_printf.dir/srcs/check_conventions.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/check_conventions.c.o: ../srcs/check_conventions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/new_printf.dir/srcs/check_conventions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/check_conventions.c.o   -c /Users/artembykov/final_ft_printf/srcs/check_conventions.c
-
-CMakeFiles/new_printf.dir/srcs/check_conventions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/check_conventions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/check_conventions.c > CMakeFiles/new_printf.dir/srcs/check_conventions.c.i
-
-CMakeFiles/new_printf.dir/srcs/check_conventions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/check_conventions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/check_conventions.c -o CMakeFiles/new_printf.dir/srcs/check_conventions.c.s
-
-CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o: ../srcs/ft_putnbr_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o   -c /Users/artembykov/final_ft_printf/srcs/ft_putnbr_base.c
-
-CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/ft_putnbr_base.c > CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.i
-
-CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/ft_putnbr_base.c -o CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.s
-
-CMakeFiles/new_printf.dir/srcs/print_o.c.o: CMakeFiles/new_printf.dir/flags.make
-CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../srcs/print_o.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/new_printf.dir/srcs/print_o.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/print_o.c.o   -c /Users/artembykov/final_ft_printf/srcs/print_o.c
-
-CMakeFiles/new_printf.dir/srcs/print_o.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/print_o.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/print_o.c > CMakeFiles/new_printf.dir/srcs/print_o.c.i
-
-CMakeFiles/new_printf.dir/srcs/print_o.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/print_o.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/print_o.c -o CMakeFiles/new_printf.dir/srcs/print_o.c.s
-
 CMakeFiles/new_printf.dir/libft/ft_atoul.c.o: CMakeFiles/new_printf.dir/flags.make
 CMakeFiles/new_printf.dir/libft/ft_atoul.c.o: ../libft/ft_atoul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/new_printf.dir/libft/ft_atoul.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/new_printf.dir/libft/ft_atoul.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/libft/ft_atoul.c.o   -c /Users/artembykov/final_ft_printf/libft/ft_atoul.c
 
 CMakeFiles/new_printf.dir/libft/ft_atoul.c.i: cmake_force
@@ -1268,7 +1008,7 @@ CMakeFiles/new_printf.dir/libft/ft_atoul.c.s: cmake_force
 
 CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o: CMakeFiles/new_printf.dir/flags.make
 CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o: ../libft/ft_unnum_of_fields.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o   -c /Users/artembykov/final_ft_printf/libft/ft_unnum_of_fields.c
 
 CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.i: cmake_force
@@ -1281,7 +1021,7 @@ CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.s: cmake_force
 
 CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o: CMakeFiles/new_printf.dir/flags.make
 CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o: ../libft/ft_putunbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o   -c /Users/artembykov/final_ft_printf/libft/ft_putunbr.c
 
 CMakeFiles/new_printf.dir/libft/ft_putunbr.c.i: cmake_force
@@ -1291,6 +1031,266 @@ CMakeFiles/new_printf.dir/libft/ft_putunbr.c.i: cmake_force
 CMakeFiles/new_printf.dir/libft/ft_putunbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/libft/ft_putunbr.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/libft/ft_putunbr.c -o CMakeFiles/new_printf.dir/libft/ft_putunbr.c.s
+
+CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o: ../libft/ft_ftoa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o   -c /Users/artembykov/final_ft_printf/libft/ft_ftoa.c
+
+CMakeFiles/new_printf.dir/libft/ft_ftoa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/libft/ft_ftoa.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/libft/ft_ftoa.c > CMakeFiles/new_printf.dir/libft/ft_ftoa.c.i
+
+CMakeFiles/new_printf.dir/libft/ft_ftoa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/libft/ft_ftoa.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/libft/ft_ftoa.c -o CMakeFiles/new_printf.dir/libft/ft_ftoa.c.s
+
+CMakeFiles/new_printf.dir/srcs/alignment.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/alignment.c.o: ../srcs/alignment.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/new_printf.dir/srcs/alignment.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/alignment.c.o   -c /Users/artembykov/final_ft_printf/srcs/alignment.c
+
+CMakeFiles/new_printf.dir/srcs/alignment.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/alignment.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/alignment.c > CMakeFiles/new_printf.dir/srcs/alignment.c.i
+
+CMakeFiles/new_printf.dir/srcs/alignment.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/alignment.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/alignment.c -o CMakeFiles/new_printf.dir/srcs/alignment.c.s
+
+CMakeFiles/new_printf.dir/srcs/flag_cs.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/flag_cs.c.o: ../srcs/flag_cs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/new_printf.dir/srcs/flag_cs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_cs.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_cs.c
+
+CMakeFiles/new_printf.dir/srcs/flag_cs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_cs.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_cs.c > CMakeFiles/new_printf.dir/srcs/flag_cs.c.i
+
+CMakeFiles/new_printf.dir/srcs/flag_cs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_cs.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_cs.c -o CMakeFiles/new_printf.dir/srcs/flag_cs.c.s
+
+CMakeFiles/new_printf.dir/srcs/flag_di.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/flag_di.c.o: ../srcs/flag_di.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/new_printf.dir/srcs/flag_di.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_di.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_di.c
+
+CMakeFiles/new_printf.dir/srcs/flag_di.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_di.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_di.c > CMakeFiles/new_printf.dir/srcs/flag_di.c.i
+
+CMakeFiles/new_printf.dir/srcs/flag_di.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_di.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_di.c -o CMakeFiles/new_printf.dir/srcs/flag_di.c.s
+
+CMakeFiles/new_printf.dir/srcs/flag_o.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../srcs/flag_o.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/new_printf.dir/srcs/flag_o.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_o.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_o.c
+
+CMakeFiles/new_printf.dir/srcs/flag_o.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_o.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_o.c > CMakeFiles/new_printf.dir/srcs/flag_o.c.i
+
+CMakeFiles/new_printf.dir/srcs/flag_o.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_o.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_o.c -o CMakeFiles/new_printf.dir/srcs/flag_o.c.s
+
+CMakeFiles/new_printf.dir/srcs/precision.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/precision.c.o: ../srcs/precision.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/new_printf.dir/srcs/precision.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/precision.c.o   -c /Users/artembykov/final_ft_printf/srcs/precision.c
+
+CMakeFiles/new_printf.dir/srcs/precision.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/precision.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/precision.c > CMakeFiles/new_printf.dir/srcs/precision.c.i
+
+CMakeFiles/new_printf.dir/srcs/precision.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/precision.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/precision.c -o CMakeFiles/new_printf.dir/srcs/precision.c.s
+
+CMakeFiles/new_printf.dir/srcs/flag_u.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/flag_u.c.o: ../srcs/flag_u.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/new_printf.dir/srcs/flag_u.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_u.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_u.c
+
+CMakeFiles/new_printf.dir/srcs/flag_u.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_u.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_u.c > CMakeFiles/new_printf.dir/srcs/flag_u.c.i
+
+CMakeFiles/new_printf.dir/srcs/flag_u.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_u.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_u.c -o CMakeFiles/new_printf.dir/srcs/flag_u.c.s
+
+CMakeFiles/new_printf.dir/srcs/flag_x.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/flag_x.c.o: ../srcs/flag_x.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/new_printf.dir/srcs/flag_x.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_x.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_x.c
+
+CMakeFiles/new_printf.dir/srcs/flag_x.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_x.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_x.c > CMakeFiles/new_printf.dir/srcs/flag_x.c.i
+
+CMakeFiles/new_printf.dir/srcs/flag_x.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_x.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_x.c -o CMakeFiles/new_printf.dir/srcs/flag_x.c.s
+
+CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../srcs/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/new_printf.dir/srcs/ft_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/ft_printf.c.o   -c /Users/artembykov/final_ft_printf/srcs/ft_printf.c
+
+CMakeFiles/new_printf.dir/srcs/ft_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/ft_printf.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/ft_printf.c > CMakeFiles/new_printf.dir/srcs/ft_printf.c.i
+
+CMakeFiles/new_printf.dir/srcs/ft_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/ft_printf.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/ft_printf.c -o CMakeFiles/new_printf.dir/srcs/ft_printf.c.s
+
+CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: ../srcs/pf_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o   -c /Users/artembykov/final_ft_printf/srcs/pf_strchr.c
+
+CMakeFiles/new_printf.dir/srcs/pf_strchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/pf_strchr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/pf_strchr.c > CMakeFiles/new_printf.dir/srcs/pf_strchr.c.i
+
+CMakeFiles/new_printf.dir/srcs/pf_strchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/pf_strchr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/pf_strchr.c -o CMakeFiles/new_printf.dir/srcs/pf_strchr.c.s
+
+CMakeFiles/new_printf.dir/srcs/get_flags.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../srcs/get_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/new_printf.dir/srcs/get_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/get_flags.c.o   -c /Users/artembykov/final_ft_printf/srcs/get_flags.c
+
+CMakeFiles/new_printf.dir/srcs/get_flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/get_flags.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/get_flags.c > CMakeFiles/new_printf.dir/srcs/get_flags.c.i
+
+CMakeFiles/new_printf.dir/srcs/get_flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/get_flags.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/get_flags.c -o CMakeFiles/new_printf.dir/srcs/get_flags.c.s
+
+CMakeFiles/new_printf.dir/srcs/print_d.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/print_d.c.o: ../srcs/print_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/new_printf.dir/srcs/print_d.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/print_d.c.o   -c /Users/artembykov/final_ft_printf/srcs/print_d.c
+
+CMakeFiles/new_printf.dir/srcs/print_d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/print_d.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/print_d.c > CMakeFiles/new_printf.dir/srcs/print_d.c.i
+
+CMakeFiles/new_printf.dir/srcs/print_d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/print_d.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/print_d.c -o CMakeFiles/new_printf.dir/srcs/print_d.c.s
+
+CMakeFiles/new_printf.dir/srcs/utils.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/utils.c.o: ../srcs/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/new_printf.dir/srcs/utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/utils.c.o   -c /Users/artembykov/final_ft_printf/srcs/utils.c
+
+CMakeFiles/new_printf.dir/srcs/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/utils.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/utils.c > CMakeFiles/new_printf.dir/srcs/utils.c.i
+
+CMakeFiles/new_printf.dir/srcs/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/utils.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/utils.c -o CMakeFiles/new_printf.dir/srcs/utils.c.s
+
+CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: ../srcs/calc_unsigned_precision.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o   -c /Users/artembykov/final_ft_printf/srcs/calc_unsigned_precision.c
+
+CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/calc_unsigned_precision.c > CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.i
+
+CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/calc_unsigned_precision.c -o CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.s
+
+CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o: ../srcs/calc_signed_precision.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o   -c /Users/artembykov/final_ft_printf/srcs/calc_signed_precision.c
+
+CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/calc_signed_precision.c > CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.i
+
+CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/calc_signed_precision.c -o CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.s
+
+CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: ../srcs/calc_signed_width.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o   -c /Users/artembykov/final_ft_printf/srcs/calc_signed_width.c
+
+CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/calc_signed_width.c > CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.i
+
+CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/calc_signed_width.c -o CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.s
+
+CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.o: ../srcs/calc_unsigned_width.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.o   -c /Users/artembykov/final_ft_printf/srcs/calc_unsigned_width.c
+
+CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/calc_unsigned_width.c > CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.i
+
+CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/calc_unsigned_width.c -o CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.s
+
+CMakeFiles/new_printf.dir/srcs/check_conventions.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/check_conventions.c.o: ../srcs/check_conventions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/new_printf.dir/srcs/check_conventions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/check_conventions.c.o   -c /Users/artembykov/final_ft_printf/srcs/check_conventions.c
+
+CMakeFiles/new_printf.dir/srcs/check_conventions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/check_conventions.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/check_conventions.c > CMakeFiles/new_printf.dir/srcs/check_conventions.c.i
+
+CMakeFiles/new_printf.dir/srcs/check_conventions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/check_conventions.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/check_conventions.c -o CMakeFiles/new_printf.dir/srcs/check_conventions.c.s
+
+CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o: ../srcs/ft_putnbr_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o   -c /Users/artembykov/final_ft_printf/srcs/ft_putnbr_base.c
+
+CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/ft_putnbr_base.c > CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.i
+
+CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/ft_putnbr_base.c -o CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.s
+
+CMakeFiles/new_printf.dir/srcs/print_o.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../srcs/print_o.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/new_printf.dir/srcs/print_o.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/print_o.c.o   -c /Users/artembykov/final_ft_printf/srcs/print_o.c
+
+CMakeFiles/new_printf.dir/srcs/print_o.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/print_o.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/print_o.c > CMakeFiles/new_printf.dir/srcs/print_o.c.i
+
+CMakeFiles/new_printf.dir/srcs/print_o.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/print_o.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/print_o.c -o CMakeFiles/new_printf.dir/srcs/print_o.c.s
 
 CMakeFiles/new_printf.dir/srcs/print_u.c.o: CMakeFiles/new_printf.dir/flags.make
 CMakeFiles/new_printf.dir/srcs/print_u.c.o: ../srcs/print_u.c
@@ -1409,6 +1409,97 @@ CMakeFiles/new_printf.dir/srcs/print_f.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/print_f.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/print_f.c -o CMakeFiles/new_printf.dir/srcs/print_f.c.s
 
+CMakeFiles/new_printf.dir/main.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/new_printf.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/main.c.o   -c /Users/artembykov/final_ft_printf/main.c
+
+CMakeFiles/new_printf.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/main.c > CMakeFiles/new_printf.dir/main.c.i
+
+CMakeFiles/new_printf.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/main.c -o CMakeFiles/new_printf.dir/main.c.s
+
+CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o: ../srcs/calc_float_width.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o   -c /Users/artembykov/final_ft_printf/srcs/calc_float_width.c
+
+CMakeFiles/new_printf.dir/srcs/calc_float_width.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/calc_float_width.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/calc_float_width.c > CMakeFiles/new_printf.dir/srcs/calc_float_width.c.i
+
+CMakeFiles/new_printf.dir/srcs/calc_float_width.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/calc_float_width.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/calc_float_width.c -o CMakeFiles/new_printf.dir/srcs/calc_float_width.c.s
+
+CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o: ../srcs/flag_f_handle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o   -c /Users/artembykov/final_ft_printf/srcs/flag_f_handle.c
+
+CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/flag_f_handle.c > CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.i
+
+CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/flag_f_handle.c -o CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.s
+
+CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o: ../srcs/ft_find_and_remove_char.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o   -c /Users/artembykov/final_ft_printf/srcs/ft_find_and_remove_char.c
+
+CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/ft_find_and_remove_char.c > CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.i
+
+CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/ft_find_and_remove_char.c -o CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.s
+
+CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o: ../srcs/pf_strchr_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o   -c /Users/artembykov/final_ft_printf/srcs/pf_strchr_flags.c
+
+CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/pf_strchr_flags.c > CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.i
+
+CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/pf_strchr_flags.c -o CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.s
+
+CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o: ../srcs/pf_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o   -c /Users/artembykov/final_ft_printf/srcs/pf_strcat.c
+
+CMakeFiles/new_printf.dir/srcs/pf_strcat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/pf_strcat.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/pf_strcat.c > CMakeFiles/new_printf.dir/srcs/pf_strcat.c.i
+
+CMakeFiles/new_printf.dir/srcs/pf_strcat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/pf_strcat.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/pf_strcat.c -o CMakeFiles/new_printf.dir/srcs/pf_strcat.c.s
+
+CMakeFiles/new_printf.dir/srcs/removes_flags.c.o: CMakeFiles/new_printf.dir/flags.make
+CMakeFiles/new_printf.dir/srcs/removes_flags.c.o: ../srcs/removes_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/new_printf.dir/srcs/removes_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/new_printf.dir/srcs/removes_flags.c.o   -c /Users/artembykov/final_ft_printf/srcs/removes_flags.c
+
+CMakeFiles/new_printf.dir/srcs/removes_flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/new_printf.dir/srcs/removes_flags.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/artembykov/final_ft_printf/srcs/removes_flags.c > CMakeFiles/new_printf.dir/srcs/removes_flags.c.i
+
+CMakeFiles/new_printf.dir/srcs/removes_flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/new_printf.dir/srcs/removes_flags.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/artembykov/final_ft_printf/srcs/removes_flags.c -o CMakeFiles/new_printf.dir/srcs/removes_flags.c.s
+
 # Object files for target new_printf
 new_printf_OBJECTS = \
 "CMakeFiles/new_printf.dir/libft/ft_abs.c.o" \
@@ -1483,6 +1574,10 @@ new_printf_OBJECTS = \
 "CMakeFiles/new_printf.dir/libft/ft_strtrim.c.o" \
 "CMakeFiles/new_printf.dir/libft/ft_tolower.c.o" \
 "CMakeFiles/new_printf.dir/libft/ft_toupper.c.o" \
+"CMakeFiles/new_printf.dir/libft/ft_atoul.c.o" \
+"CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o" \
+"CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o" \
+"CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o" \
 "CMakeFiles/new_printf.dir/srcs/alignment.c.o" \
 "CMakeFiles/new_printf.dir/srcs/flag_cs.c.o" \
 "CMakeFiles/new_printf.dir/srcs/flag_di.c.o" \
@@ -1493,7 +1588,6 @@ new_printf_OBJECTS = \
 "CMakeFiles/new_printf.dir/srcs/ft_printf.c.o" \
 "CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o" \
 "CMakeFiles/new_printf.dir/srcs/get_flags.c.o" \
-"CMakeFiles/new_printf.dir/main.c.o" \
 "CMakeFiles/new_printf.dir/srcs/print_d.c.o" \
 "CMakeFiles/new_printf.dir/srcs/utils.c.o" \
 "CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o" \
@@ -1503,9 +1597,6 @@ new_printf_OBJECTS = \
 "CMakeFiles/new_printf.dir/srcs/check_conventions.c.o" \
 "CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o" \
 "CMakeFiles/new_printf.dir/srcs/print_o.c.o" \
-"CMakeFiles/new_printf.dir/libft/ft_atoul.c.o" \
-"CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o" \
-"CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o" \
 "CMakeFiles/new_printf.dir/srcs/print_u.c.o" \
 "CMakeFiles/new_printf.dir/srcs/print_x.c.o" \
 "CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o" \
@@ -1514,7 +1605,14 @@ new_printf_OBJECTS = \
 "CMakeFiles/new_printf.dir/srcs/flag_percent.c.o" \
 "CMakeFiles/new_printf.dir/srcs/print_percent.c.o" \
 "CMakeFiles/new_printf.dir/srcs/flag_f.c.o" \
-"CMakeFiles/new_printf.dir/srcs/print_f.c.o"
+"CMakeFiles/new_printf.dir/srcs/print_f.c.o" \
+"CMakeFiles/new_printf.dir/main.c.o" \
+"CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o" \
+"CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o" \
+"CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o" \
+"CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o" \
+"CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o" \
+"CMakeFiles/new_printf.dir/srcs/removes_flags.c.o"
 
 # External object files for target new_printf
 new_printf_EXTERNAL_OBJECTS =
@@ -1591,6 +1689,10 @@ new_printf: CMakeFiles/new_printf.dir/libft/ft_strsub.c.o
 new_printf: CMakeFiles/new_printf.dir/libft/ft_strtrim.c.o
 new_printf: CMakeFiles/new_printf.dir/libft/ft_tolower.c.o
 new_printf: CMakeFiles/new_printf.dir/libft/ft_toupper.c.o
+new_printf: CMakeFiles/new_printf.dir/libft/ft_atoul.c.o
+new_printf: CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o
+new_printf: CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o
+new_printf: CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/alignment.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/flag_cs.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/flag_di.c.o
@@ -1601,7 +1703,6 @@ new_printf: CMakeFiles/new_printf.dir/srcs/flag_x.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/ft_printf.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/get_flags.c.o
-new_printf: CMakeFiles/new_printf.dir/main.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/print_d.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/utils.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o
@@ -1611,9 +1712,6 @@ new_printf: CMakeFiles/new_printf.dir/srcs/calc_unsigned_width.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/check_conventions.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/print_o.c.o
-new_printf: CMakeFiles/new_printf.dir/libft/ft_atoul.c.o
-new_printf: CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o
-new_printf: CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/print_u.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/print_x.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o
@@ -1623,9 +1721,16 @@ new_printf: CMakeFiles/new_printf.dir/srcs/flag_percent.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/print_percent.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/flag_f.c.o
 new_printf: CMakeFiles/new_printf.dir/srcs/print_f.c.o
+new_printf: CMakeFiles/new_printf.dir/main.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o
+new_printf: CMakeFiles/new_printf.dir/srcs/removes_flags.c.o
 new_printf: CMakeFiles/new_printf.dir/build.make
 new_printf: CMakeFiles/new_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Linking C executable new_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/artembykov/final_ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Linking C executable new_printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/new_printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

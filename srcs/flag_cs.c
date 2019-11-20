@@ -75,6 +75,7 @@ void flag_str(t_param *param)
 
 	param->str_value = param->arg_value != NULL ? (char *)param->arg_value : "(null)";
 	param->val_length = ft_strlen(param->str_value);
+	remove_conflicted_flags(param, (int)param->str_value);
 	calc_str_pres(param);
 	calc_str_width(param);
 	print_str(param);
@@ -87,6 +88,7 @@ void flag_char(t_param *param)
 
 	param->val_length = 1;
 	param->do_width = param->width - param->val_length;
+	remove_conflicted_flags(param, (char)param->arg_value);
 	if (pf_strchr(param->flags, '-'))
 	{
 		ft_putchar((char)param->arg_value);

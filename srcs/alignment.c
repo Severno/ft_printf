@@ -14,10 +14,31 @@
 
 void fill_width(t_param *param)
 {
-	if (pf_strchr(param->flags, '0') && param->precision == -1 )
+	if (pf_strchr(param->flags, '0') && (param->precision == -1 || param->precision == 0))
 		fill(param->do_width, '0', param);
 	else
 		fill(param->do_width, ' ', param);
+}
+
+void fill_float_width(t_param *param, long double value)
+{
+	if (pf_strchr(param->flags, '0') && is_value(value))
+	{
+		value <= 0.0 ? write(1, "-",1) : 0;
+		fill_float(param->do_width, '0', param);
+	}
+	else{
+		fill_float(param->do_width, ' ', param);
+	}
+}
+
+void fill_float(int value, char sign, t_param *param)
+{
+	(void)param;
+	while (value > 0) {
+		write(1, &sign, 1);
+		value--;
+	}
 }
 
 void fill_precision(t_param *param)

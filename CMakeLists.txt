@@ -76,6 +76,10 @@ add_executable(new_printf
         libft/ft_strtrim.c
         libft/ft_tolower.c
         libft/ft_toupper.c
+        libft/ft_atoul.c
+        libft/ft_unnum_of_fields.c
+        libft/ft_putunbr.c
+        libft/ft_ftoa.c
         srcs/alignment.c
         srcs/flag_cs.c
         srcs/flag_di.c
@@ -86,7 +90,6 @@ add_executable(new_printf
         srcs/ft_printf.c
         srcs/pf_strchr.c
         srcs/get_flags.c
-        main.c
         srcs/print_d.c
         srcs/utils.c
         srcs/calc_unsigned_precision.c
@@ -94,4 +97,16 @@ add_executable(new_printf
         srcs/calc_signed_width.c
         srcs/calc_unsigned_width.c
         srcs/check_conventions.c
-        srcs/ft_putnbr_base.c srcs/print_o.c libft/ft_atoul.c libft/ft_unnum_of_fields.c libft/ft_putunbr.c srcs/print_u.c srcs/print_x.c srcs/calc_str_width_precision.c srcs/print_p.c srcs/flag_p.c srcs/flag_percent.c srcs/print_percent.c srcs/flag_f.c srcs/print_f.c)
+        srcs/ft_putnbr_base.c
+        srcs/print_o.c
+        srcs/print_u.c
+        srcs/print_x.c
+        srcs/calc_str_width_precision.c
+        srcs/print_p.c
+        srcs/flag_p.c
+        srcs/flag_percent.c
+        srcs/print_percent.c
+        srcs/flag_f.c
+        srcs/print_f.c
+        main.c
+        srcs/calc_float_width.c srcs/flag_f_handle.c srcs/ft_find_and_remove_char.c srcs/pf_strchr_flags.c srcs/pf_strcat.c srcs/removes_flags.c)

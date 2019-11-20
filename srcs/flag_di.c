@@ -14,70 +14,75 @@
 
 void flag_d(t_param *param)
 {
-	char flags[2] = "di";
+	char flags[6] = "llhhdi";
 
 	param->value = check_convention(param);
 	param->val_length = ft_num_of_fields(param->value);
 	param->val_nums = (int)ft_num_of_digits(param->value);
-	calc_reserved_fields(param);
+	remove_conflicted_flags(param, param->value);
+	calc_reserved_fields(param, param->value);
 	get_do_precision(param);
-	get_do_width(param);
+	get_do_width(param, param->value);
 	print(param);
 	remove_current_flags(param, flags);
 }
-
-void flag_lld(t_param *param)
-{
-	char flags[4] = "lldi";
-
-	param->value = check_convention(param);
-	param->val_length = (int)ft_num_of_fields(param->value);
-	param->val_nums = (int)ft_num_of_digits(param->value);
-	calc_reserved_fields(param);
-	get_do_precision(param);
-	get_do_width(param);
-	print(param);
-	remove_current_flags(param, flags);
-}
-
-void flag_ld(t_param *param)
-{
-	char flags[3] = "ldi";
-
-	param->value = check_convention(param);
-	param->val_length = (int)ft_num_of_fields(param->value);
-	param->val_nums = (int)ft_num_of_digits(param->value);
-	calc_reserved_fields(param);
-	get_do_precision(param);
-	get_do_width(param);
-	print(param);
-	remove_current_flags(param, flags);
-}
-
-void flag_hhd(t_param *param)
-{
-	char flags[4] = "hhdi";
-
-	param->value = check_convention(param);
-	param->val_length = (int)ft_num_of_fields(param->value);
-	param->val_nums = (int)ft_num_of_digits(param->value);
-	calc_reserved_fields(param);
-	get_do_precision(param);
-	get_do_width(param);
-	print(param);
-	remove_current_flags(param, flags);
-}
-
-void flag_hd(t_param *param)
-{
-	char flags[3] = "hdi";
-
-	param->value = check_convention(param);
-	param->val_length = (int)ft_num_of_fields(param->value);
-	param->val_nums = (int)ft_num_of_digits(param->value);
-	calc_reserved_fields(param);
-	get_do_precision(param);
-	get_do_width(param);
-	print(param);
-	remove_current_flags(param, flags);
-}
+//
+//void flag_lld(t_param *param)
+//{
+//	char flags[4] = "lldi";
+//
+//	param->value = check_convention(param);
+//	param->val_length = (int)ft_num_of_fields(param->value);
+//	param->val_nums = (int)ft_num_of_digits(param->value);
+//	remove_conflicted_flags(param, param->value);
+//	calc_reserved_fields(param);
+//	get_do_precision(param);
+//	get_do_width(param);
+//	print(param);
+//	remove_current_flags(param, flags);
+//}
+//
+//void flag_ld(t_param *param)
+//{
+//	char flags[3] = "ldi";
+//
+//	param->value = check_convention(param);
+//	param->val_length = (int)ft_num_of_fields(param->value);
+//	param->val_nums = (int)ft_num_of_digits(param->value);
+//	remove_conflicted_flags(param, param->value);
+//	calc_reserved_fields(param);
+//	get_do_precision(param);
+//	get_do_width(param);
+//	print(param);
+//	remove_current_flags(param, flags);
+//}
+//
+//void flag_hhd(t_param *param)
+//{
+//	char flags[4] = "hhdi";
+//
+//	param->value = check_convention(param);
+//	param->val_length = (int)ft_num_of_fields(param->value);
+//	param->val_nums = (int)ft_num_of_digits(param->value);
+//	remove_conflicted_flags(param, param->value);
+//	calc_reserved_fields(param);
+//	get_do_precision(param);
+//	get_do_width(param);
+//	print(param);
+//	remove_current_flags(param, flags);
+//}
+//
+//void flag_hd(t_param *param)
+//{
+//	char flags[3] = "hdi";
+//
+//	param->value = check_convention(param);
+//	param->val_length = (int)ft_num_of_fields(param->value);
+//	param->val_nums = (int)ft_num_of_digits(param->value);
+//	remove_conflicted_flags(param, param->value);
+//	calc_reserved_fields(param);
+//	get_do_precision(param);
+//	get_do_width(param);
+//	print(param);
+//	remove_current_flags(param, flags);
+//}

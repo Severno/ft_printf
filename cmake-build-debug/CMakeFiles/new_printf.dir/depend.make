@@ -27,6 +27,9 @@ CMakeFiles/new_printf.dir/libft/ft_convert_dec_base.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/libft/ft_convert_undec_base.c.o: ../libft/ft_convert_undec_base.c
 CMakeFiles/new_printf.dir/libft/ft_convert_undec_base.c.o: ../libft/libft.h
 
+CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o: ../libft/ft_ftoa.c
+CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o: ../libft/libft.h
+
 CMakeFiles/new_printf.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
 CMakeFiles/new_printf.dir/libft/ft_isalnum.c.o: ../libft/libft.h
 
@@ -225,6 +228,10 @@ CMakeFiles/new_printf.dir/srcs/alignment.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/alignment.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/alignment.c.o: ../srcs/alignment.c
 
+CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/calc_float_width.c.o: ../srcs/calc_float_width.c
+
 CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/calc_signed_precision.c.o: ../srcs/calc_signed_precision.c
@@ -255,7 +262,11 @@ CMakeFiles/new_printf.dir/srcs/flag_di.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_di.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_di.c.o: ../srcs/flag_di.c
 
+CMakeFiles/new_printf.dir/srcs/flag_f.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/flag_f.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_f.c.o: ../srcs/flag_f.c
+
+CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o: ../srcs/flag_f_handle.c
 
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../libft/libft.h
@@ -277,6 +288,10 @@ CMakeFiles/new_printf.dir/srcs/flag_x.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_x.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_x.c.o: ../srcs/flag_x.c
 
+CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o: ../srcs/ft_find_and_remove_char.c
+
 CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../srcs/ft_printf.c
@@ -289,9 +304,15 @@ CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../srcs/get_flags.c
 
+CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o: ../srcs/pf_strcat.c
+
 CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o: ../srcs/pf_strchr.c
+
+CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/pf_strchr_flags.c.o: ../srcs/pf_strchr_flags.c
 
 CMakeFiles/new_printf.dir/srcs/precision.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/precision.c.o: ../libft/libft.h
@@ -301,6 +322,8 @@ CMakeFiles/new_printf.dir/srcs/print_d.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/print_d.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/print_d.c.o: ../srcs/print_d.c
 
+CMakeFiles/new_printf.dir/srcs/print_f.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/print_f.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/print_f.c.o: ../srcs/print_f.c
 
 CMakeFiles/new_printf.dir/srcs/print_o.c.o: ../includes/ft_printf.h
@@ -322,6 +345,10 @@ CMakeFiles/new_printf.dir/srcs/print_u.c.o: ../srcs/print_u.c
 CMakeFiles/new_printf.dir/srcs/print_x.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/print_x.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/print_x.c.o: ../srcs/print_x.c
+
+CMakeFiles/new_printf.dir/srcs/removes_flags.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/removes_flags.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/removes_flags.c.o: ../srcs/removes_flags.c
 
 CMakeFiles/new_printf.dir/srcs/utils.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/utils.c.o: ../libft/libft.h

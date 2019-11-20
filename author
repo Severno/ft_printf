@@ -41,3 +41,54 @@ PRINTF_OBJ =	alignment.o \
                 check_conventions.o \
 				pfft_putnbr.o \
 				print_o.c
+
+void print_lf(t_param *param)
+{
+	char *buf;
+	char *un_buf;
+	buf = (char *)ft_memalloc(100);
+	un_buf = (char *)ft_memalloc(100);
+	buf = ft_ftoa(param->ld_value, buf, param->precision, 1);
+	un_buf = ft_ftoa(param->ld_value, un_buf, param->precision, 0);
+	if (pf_strchr(param->flags, '-'))
+	{
+		if (pf_strchr(param->flags, '0'))
+		{
+			pf_strchr(param->flags, ' ') && !is_nan(param->ld_value) && is_inf(param->ld_value) < 2 && param->ld_value != -0.0? write(1, " ", 1) : 0;
+			pf_strchr(param->flags, '+') && param->ld_value >= 0? write(1, "+",1) : 0;
+			fill_float_width(param, param->ld_value);
+			ft_putstr(un_buf);
+			pf_strchr(param->flags, '#') && param->precision == 0 ? write(1, ".", 1) : 0;
+			if (param->precision > 53)
+				fill(param->precision - 53, '0', param);
+		} else{
+			pf_strchr(param->flags, ' ') && !is_nan(param->ld_value) && is_inf(param->ld_value) < 2 && param->ld_value != -0.0 ? write(1, " ", 1) : 0;
+			pf_strchr(param->flags, '+') && param->ld_value >= 0? write(1, "+",1) : 0;
+			param->ld_value <= -0.0 ? ft_putstr(buf) : ft_putstr(un_buf);
+			pf_strchr(param->flags, '#') && param->precision == 0 ? write(1, ".", 1) : 0;
+			if (param->precision > 53)
+				fill(param->precision - 53, '0', param);
+			fill_float_width(param, param->ld_value);
+		}
+	}
+	else {
+		if (pf_strchr(param->flags, '0'))
+		{
+			pf_strchr(param->flags, ' ') && !is_nan(param->ld_value) && is_inf(param->ld_value) < 2 && param->ld_value != -0.0 ? write(1, " ", 1) : 0;
+			pf_strchr(param->flags, '+') && param->ld_value >= 0? write(1, "+",1) : 0;
+			fill_float_width(param, param->ld_value);
+			ft_putstr(un_buf);
+			pf_strchr(param->flags, '#') && param->precision == 0 ? write(1, ".", 1) : 0;
+			if (param->precision > 53)
+				fill(param->precision - 53, '0', param);
+		} else{
+			fill_float_width(param, param->ld_value);
+			pf_strchr(param->flags, ' ') && !is_nan(param->ld_value) && is_inf(param->ld_value) < 2 && param->ld_value != -0.0 ? write(1, " ", 1) : 0;
+			pf_strchr(param->flags, '+') && param->ld_value >= 0? write(1, "+",1) : 0;
+			param->ld_value <= -0.0 ? ft_putstr(buf) : ft_putstr(un_buf);
+			pf_strchr(param->flags, '#') && param->precision == 0 ? write(1, ".", 1) : 0;
+			if (param->precision > 53)
+				fill(param->precision - 53, '0', param);
+		}
+	}
+}
