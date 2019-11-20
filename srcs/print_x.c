@@ -11,7 +11,6 @@ static void print_hash_zero(t_param *param)
 			else if (param->current_flag == 'X')
 				ft_putstr("0X");
 		}
-
 	}
 }
 
@@ -20,112 +19,30 @@ static void zero_handle_x(t_param *param)
 	char letter_case;
 
 	letter_case = param->current_flag == 'X' ? 'X' : 'x';
-	if (param->precision == -1)
-	{
-
-		if (pf_strchr(param->flags, '-'))
-		{
-			fill_precision(param);
-			write(1, "0", 1);
-			fill_width(param);
-		} else {
-			fill_width(param);
-			fill_precision(param);
-			if (pf_strchr(param->flags, '0') == 0)
-				write(1, "0", 1);
-		}
-		return;
-	}
 	if (pf_strchr(param->flags, '-'))
 	{
-		if (param->precision == 0)
-		{
-			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-			fill_precision(param);
-			print_hash_zero(param);
-			fill_width(param);
-		}
-		else if (param->precision == -1)
-		{
-			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-			fill_precision(param);
-			if (pf_strchr(param->flags, '#') == 0)
-				ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
-			print_hash_zero(param);
-			fill_width(param);
-		}
-		else if (param->precision > 0)
-		{
-			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-			fill_precision(param);
-			fill_width(param);
-		}
-		else
-		{
-			fill_precision(param);
+		print_hash_zero(param);
+		fill_precision(param);
+		if (pf_strchr(param->flags, '#') == 0 && param->precision < 0)
 			ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
-			fill_width(param);
-		}
+		else if (pf_strchr(param->flags, '#') != 0 && param->precision < 0)
+			ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
+		fill_width(param);
 	}
 	else{
-		if (param->precision == 0)
+		if (pf_strchr(param->flags, '0'))
 		{
 			fill_width(param);
-			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-			print_hash_zero(param);
 			fill_precision(param);
+			return;
 		}
-		else if (param->precision == -1)
-		{
-			if (pf_strchr(param->flags, '0'))
-			{
-				pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-				fill_width(param);
-				fill_precision(param);
-				print_hash_zero(param);
-			} else
-			{
-				fill_width(param);
-				pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-				fill_precision(param);
-				print_hash_zero(param);
-				if (pf_strchr(param->flags, '#') == 0)
-					ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
-			}
-		}
-		else if (pf_strchr(param->flags, '+'))
-		{
-			if (param->precision == -1)
-			{
-				write(1, "+", 1);
-				fill_width(param);
-				fill_precision(param);
-			} else{
-				fill_width(param);
-				write(1, "+", 1);
-				fill_precision(param);
-			}
-		}
-		else if (param->precision > 0)
-		{
-			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-			fill_width(param);
-			fill_precision(param);
-			print_hash_zero(param);
-		}
-		else
-		{
-			if (pf_strchr(param->flags, '0') && param->precision == -1 )
-			{
-				fill_width(param);
-				fill_precision(param);
-				print_hash_zero(param);
-			}
-			else{
-				fill_width(param);
-				fill_precision(param);
-			}
-		}
+		print_hash_zero(param);
+		fill_width(param);
+		fill_precision(param);
+		if (pf_strchr(param->flags, '#') == 0 && param->precision < 0)
+			ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
+		else if (pf_strchr(param->flags, '#') != 0 && param->precision < 0)
+			ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
 	}
 }
 
@@ -139,58 +56,34 @@ void print_x(t_param *param)
 		zero_handle_x(param);
 		return;
 	}
-
-	if (pf_strchr(param->flags, '-'))
-	{
-		if (pf_strchr(param->flags, '+'))
-		{
-			write(1, "+", 1);
-			fill_precision(param);
-			print_hash_zero(param);
-			ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
-			fill_width(param);
-		}
-		else
-		{
-			print_hash_zero(param);
-			fill_precision(param);
-			ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
-			fill_width(param);
-		}
+	if (pf_strchr(param->flags, '-')) {
+		param->precision > param->val_length ? print_hash_zero(param) : 0;
+		fill_precision(param);
+		param->precision < param->val_length ? print_hash_zero(param) : 0;
+		ft_putstr(ft_convert_undec_base(16, check_un_convention(param), 'x'));
+		fill_width(param);
 	}
-	else{
-		if (pf_strchr(param->flags, '+'))
+	else
 		{
-			if (pf_strchr(param->flags, '0') && param->precision == -1)
+		if (pf_strchr(param->flags, '0'))
+		{
+			if (param->width > param->precision && param->width > param->val_length)
 			{
-				write(1, "+", 1);
-				fill_width(param);
-				fill_precision(param);
 				print_hash_zero(param);
-				ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
-			} else
+				fill_width(param);
+			}
+			else
 			{
 				fill_width(param);
-				write(1, "+", 1);
-				fill_precision(param);
 				print_hash_zero(param);
-				ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
 			}
 		}
-		else
-		{
-			if (pf_strchr(param->flags, '0') && param->precision == -1 )
-			{
-				print_hash_zero(param);
-				fill_width(param);
-				fill_precision(param);
-				ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
-			} else{
-				fill_width(param);
-				print_hash_zero(param);
-				fill_precision(param);
-				ft_putstr(ft_convert_undec_base(16, check_un_convention(param), letter_case));
-			}
+		else{
+			fill_width(param);
+			param->precision > param->val_length ? print_hash_zero(param) : 0;
 		}
+		fill_precision(param);
+		param->precision <= param->val_length ? print_hash_zero(param) : 0;
+		ft_putstr(ft_convert_undec_base(16, check_un_convention(param), 'x'));
 	}
 }

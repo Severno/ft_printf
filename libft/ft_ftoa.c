@@ -1,6 +1,6 @@
 #include "libft.h"
 
-static long double round(int precision)
+static long double	round(int precision)
 {
 	long double rounder;
 
@@ -10,10 +10,10 @@ static long double round(int precision)
 		rounder /= 10;
 		precision--;
 	}
-	return rounder;
+	return (rounder);
 }
 
-static char * inf_nan_handle(long double floatNum)
+static char			*inf_nan_handle(long double floatNum)
 {
 	if (floatNum == -(1.0 / 0.0))
 		return ("-inf");
@@ -24,7 +24,7 @@ static char * inf_nan_handle(long double floatNum)
 	return "";
 }
 
-static void ftoa_init(int *precision, long double *floatNum, long long *intPart)
+static void			ftoa_init(int *precision, long double *floatNum, long long *intPart)
 {
 	*floatNum < 0 ? *floatNum = -*floatNum : 0;
 	*precision > MAX_PRECISION ? *precision = MAX_PRECISION : 0;
@@ -35,13 +35,12 @@ static void ftoa_init(int *precision, long double *floatNum, long long *intPart)
 	*precision > 19 && *precision < 53 ? *floatNum += round(*precision) : 0;
 }
 
-static void add_exponent(char *res, size_t *i, long long *intPart)
+static void			add_exponent(char *res, size_t *i, long long *intPart)
 {
 	size_t j;
 	size_t tmp_i;
 
 	char tmp;
-
 	j = 0;
 	tmp_i = *i;
 	res[tmp_i - 1] == '-' ? j++ : 0;
@@ -65,7 +64,7 @@ static void add_exponent(char *res, size_t *i, long long *intPart)
 	}
 }
 
-static void add_mantiss(long double *floatNum, int *precision, char *res, size_t *i)
+static void			add_mantiss(long double *floatNum, int *precision, char *res, size_t *i)
 {
 	char tmp;
 
@@ -103,5 +102,5 @@ char * ft_ftoa(long double floatNum, char * buf, int precision, int sign)
 	ftoa_init(&precision, &floatNum, &intPart);
 	add_exponent(buf, &i, &intPart);
 	add_mantiss(&floatNum, &precision, buf, &i);
-	return buf;
+	return (buf);
 }

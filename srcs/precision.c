@@ -16,20 +16,14 @@ static void calc_width(t_param *param, int *iter)
 {
 	param->width = 0;
 	while ((param->str[*iter] >= '0' && param->str[*iter] <= '9'))
-	{
-		param->width = param->width * 10 + (param->str[*iter] - '0');
-		*iter += 1;
-	}
+		param->width = param->width * 10 + (param->str[(*iter)++] - '0');
 }
 
 static void calc_precision(t_param *param, int *iter)
 {
 	param->precision = 0;
 	while ((param->str[(*iter)] >= '0' && param->str[(*iter)] <= '9'))
-	{
-		param->precision = param->precision * 10 + (param->str[*iter] - '0');
-		*iter += 1;
-	}
+		param->precision = param->precision * 10 + (param->str[(*iter)++] - '0');
 }
 
 void flag_width(t_param *param, int *iter)

@@ -26,7 +26,11 @@ unistd.h
 stdio.h
 -
 
-/Users/artembykov/final_ft_printf/srcs/alignment.c
-../includes/ft_printf.h
+/Users/artembykov/final_ft_printf/main.c
+stdio.h
+-
+math.h
+-
+includes/ft_printf.h
 /Users/artembykov/final_ft_printf/includes/ft_printf.h
 
