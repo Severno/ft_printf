@@ -101,7 +101,6 @@ add_executable(new_printf
         srcs/print_o.c
         srcs/print_u.c
         srcs/print_x.c
-        srcs/calc_str_width_precision.c
         srcs/print_p.c
         srcs/flag_p.c
         srcs/flag_percent.c

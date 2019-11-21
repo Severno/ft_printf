@@ -2,7 +2,6 @@
 
 static void check_letter(int num_arr[] , int j)
 {
-
 	while (j >= 0)
 	{
 		if (num_arr[j] > 9)
@@ -39,7 +38,7 @@ void ft_putnbr_base(long long int n, int base)
 	}
 	while (n != 0)
 	{
-		num_arr[i++] = n % base;
+		num_arr[i++] = (int)n % base;
 		n = n / base;
 	}
 	j = i - 1;
@@ -60,7 +59,7 @@ void ft_putunbr_base(unsigned long long int n, int base)
 	}
 	while (n != 0)
 	{
-		num_arr[i++] = n % base;
+		num_arr[i++] = (int)n % base;
 		n = n / base;
 	}
 	j = i - 1;

@@ -15,14 +15,14 @@
 void flag_x(t_param *param)
 {
 	char flags[6] = "llhhxX";
-	char letter_case;
+	char l_case;
 
-	letter_case = param->current_flag == 'X' ? 'X' : 'x';
+	l_case = param->current_flag == 'X' ? 'X' : 'x';
 	param->un_value = check_un_convention(param);
-	param->val_length = ft_strlen(ft_convert_undec_base(16, check_un_convention(param), letter_case));
+	param->val_length = ft_strlen(ft_convert_undec_base(16, param->un_value, l_case));
 	calc_unreserved_fields(param, param->un_value);
 	get_do_unprecision(param, param->un_value);
 	get_do_unwidth(param, param->un_value);
-	print_x(param);
+	print_x(param, param->un_value, l_case);
 	remove_current_flags(param, flags);
 }

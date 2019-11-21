@@ -10,6 +10,6 @@ void flag_p(t_param *param)
 	calc_unreserved_fields(param, param->un_value);
 	get_do_unprecision(param, param->un_value);
 	get_do_unwidth(param, param->un_value);
-	print_p(param);
+	print_p(param, param->un_value);
 	remove_current_flags(param, flags);
 }

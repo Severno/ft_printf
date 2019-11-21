@@ -106,8 +106,12 @@ int main()
 //	printf("%hhu, %hu, %u", (char)123, (short) 40000, 1234567890);
 //	printf("\n");
 //	ft_printf("%hhu, %hu, %u", (char)123, (short) 40000, 1234567890);
-	printf("%#37lx", 22337203685477ul);
+	printf("%-05%");
 	printf("\n");
-	ft_printf("%#37lx", 22337203685477ul);
+	ft_printf("%-05%");
+	printf("\n");
+	printf("%05%");
+	printf("\n");
+	ft_printf("%05%");
 	return 0;
 }

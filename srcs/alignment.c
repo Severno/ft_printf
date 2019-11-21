@@ -14,7 +14,9 @@
 
 void fill_width(t_param *param)
 {
-	if (pf_strchr(param->flags, '0') && (param->precision == -1 || param->precision == 0))
+	if (pf_strchr(param->flags, '%') && pf_strchr(param->flags, '-'))
+		fill(param->do_width, ' ', param);
+	else if (pf_strchr(param->flags, '0') && (param->precision == -1 || param->precision == 0))
 		fill(param->do_width, '0', param);
 	else
 		fill(param->do_width, ' ', param);

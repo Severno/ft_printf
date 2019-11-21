@@ -53,19 +53,3 @@ void ft_printf(char *input, ...)
 	}
 	va_end(param->args);
 }
-
-
-
-//while (ft_isspace(param->str[param->iter]))
-//{
-//space_counter++;
-//param->iter++;
-//}
-//if (space_counter > 1)
-//{
-//while (space_counter)
-//{
-//write(1, " ", 1);
-//space_counter--;
-//}
-//}
