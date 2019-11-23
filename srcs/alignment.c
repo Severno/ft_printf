@@ -6,55 +6,66 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/14 22:49:58 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/14 23:26:59 by sapril           ###   ########.fr       */
+/*   Updated: 2019/11/23 19:27:05 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
-void fill_width(t_param *param)
+void		fill_width(t_param *param)
 {
-	if (pf_strchr(param->flags, '%') && pf_strchr(param->flags, '-'))
+	if (param->t_f.percent && param->t_f.minus)
 		fill(param->do_width, ' ', param);
-	else if (pf_strchr(param->flags, '0') && (param->precision == -1 || param->precision == 0))
+	else if (param->t_f.zero && (param->precision == -1
+	|| param->precision == 0))
 		fill(param->do_width, '0', param);
 	else
 		fill(param->do_width, ' ', param);
 }
 
-void fill_float_width(t_param *param, long double value)
+void		fill_float_width(t_param *param, long double value, int *bits)
 {
-	if (pf_strchr(param->flags, '0') && is_value(value))
-		fill_float(param->do_width, '0', param);
+	if (is_inf(value))
+		fill(param->do_width, ' ', param);
+	else if (param->t_f.zero && is_value(value))
+		fill_float(param->do_width, '0', param, bits);
 	else
-		fill_float(param->do_width, ' ', param);
+		fill_float(param->do_width, ' ', param, bits);
 }
 
-void fill_float(int value, char sign, t_param *param)
+void		fill_float(int value, char sign, t_param *param, int *bits)
 {
 	(void)param;
-	while (value > 0) {
+	while (value > 0)
+	{
 		write(1, &sign, 1);
+		(*bits)++;
 		value--;
 	}
 }
 
-void fill_precision(t_param *param)
+void		fill_precision(t_param *param)
 {
 	fill(param->do_precision, '0', param);
 }
 
-void fill(int value, char sign, t_param *param)
+void		fill(int value, char sign, t_param *param)
 {
 	(void)param;
-	if (pf_strchr(param->flags, ' '))
+	if (pf_strchr(param->flags, ' ')
+	&& pf_strchr(param->flags, 'c') == 0
+	&& pf_strchr(param->flags, 'u') == 0
+	&& pf_strchr(param->flags, '%') == 0)
 	{
 		write(1, " ", 1);
+		param->bits++;
 		ft_find_and_remove_char(param->flags, ' ');
+		param->t_f.space = 0;
 	}
-	while (value > 0) {
+	while (value > 0)
+	{
 		write(1, &sign, 1);
+		param->bits++;
 		value--;
 	}
 }
-

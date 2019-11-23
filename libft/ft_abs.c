@@ -6,13 +6,13 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/30 16:05:14 by sapril            #+#    #+#             */
-/*   Updated: 2019/10/30 16:05:14 by sapril           ###   ########.fr       */
+/*   Updated: 2019/11/23 18:46:00 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_abs(int num)
+int	ft_abs(int num)
 {
 	if (num < 0)
-		num*=-1;
+		num *= -1;
 	return (num);
 }

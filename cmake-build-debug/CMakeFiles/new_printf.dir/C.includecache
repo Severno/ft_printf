@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/artembykov/final_ft_printf/includes/ft_printf.h
+/Users/sapril/ft_printf/includes/ft_printf.h
 ../libft/libft.h
-/Users/artembykov/final_ft_printf/libft/libft.h
+/Users/sapril/ft_printf/libft/libft.h
 stdarg.h
 -
 stdio.h
@@ -16,7 +16,7 @@ stdio.h
 float.h
 -
 
-/Users/artembykov/final_ft_printf/libft/libft.h
+/Users/sapril/ft_printf/libft/libft.h
 string.h
 -
 stdlib.h
@@ -26,7 +26,13 @@ unistd.h
 stdio.h
 -
 
-/Users/artembykov/final_ft_printf/srcs/print_f.c
-../includes/ft_printf.h
-/Users/artembykov/final_ft_printf/includes/ft_printf.h
+/Users/sapril/ft_printf/main.c
+stdio.h
+-
+math.h
+-
+limits.h
+-
+includes/ft_printf.h
+/Users/sapril/ft_printf/includes/ft_printf.h
 

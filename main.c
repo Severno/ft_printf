@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <limits.h>
 #include "includes/ft_printf.h"
 
 //void static test_func(void **value)
@@ -75,8 +76,6 @@
 //	return fraction;
 //}
 
-typedef vector<int> lnum;
-
 int main()
 {
 //	char res[20];
@@ -102,14 +101,32 @@ int main()
 //	printf("a = %d\n", a);
 //	printf("b = %d\n", b);
 //	printf("c = %d\n", c);
-//	printf("sign bit = %d\n", sign_bit);
+//	printf("sign bit = %d\n", sign_bit);®
 //	printf("exponent = %d\n", exponent);
 //	printf("mantissa = %d\n", mantissa);
 //	printf("%hhu, %hu, %u", (char)123, (short) 40000, 1234567890);
 //	printf("\n");
 //	ft_printf("%hhu, %hu, %u", (char)123, (short) 40000, 1234567890);
-	printf("%-6f", 0x8000000000000000);
+//	double_cast d1 = {
+//			.f = DBL_MAX
+//	};
+//	ldouble_cast d2 = {
+//			.f = -0.3131l
+//	};
+//	printf("sign = %x\n", d1.parts.sign);
+//	printf("exponent = %x\n", d1.parts.exponent);
+//	printf("mantisa = %lx\n", d1.parts.mantissa);
+//
+//	printf("sign = %x\n", d2.parts.sign);
+//	printf("exponent = %x\n", d2.parts.exponent);
+//	printf("int part = %x\n", d2.parts.int_part);
+//	printf("mantisa = %lx\n", d2.parts.mantissa);
+//////	double a = 1.4123;
+////	unsigned int* inta = (unsigned int*)(&a);
+////	*inta = *inta & (1 << 3);
+////	printf("%d", *inta);
+	printf("%18lc", (char)1);
 	printf("\n");
-	ft_printf("%-6f", 0x8000000000000000);
+	ft_printf("%18lc", (char)12);
 	return 0;
 }

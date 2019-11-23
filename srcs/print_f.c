@@ -1,64 +1,65 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_f.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/23 16:59:50 by sapril            #+#    #+#             */
+/*   Updated: 2019/11/23 20:26:03 by sapril           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../includes/ft_printf.h"
 
-static void handle_zero_fill(t_param *param, long double value, char *float_val)
+void		handle_width_float(t_param *param,
+		long double value, char *float_val, int *flag)
 {
-	pf_strchr(param->flags, ' ') && !is_nan(value) && is_inf(value) < 2 ? write(1, " ", 1) : 0;
-	pf_strchr(param->flags, '+') && value >= 0 ? write(1, "+",1) : 0;
-	value > -1.000000 && value < 0.000000 ? write(1, "-", 1) : 0;
-	value < 0 ? write(1, "-", 1) : 0;
-	fill_float_width(param, value);
-	value < 0.0 ? ft_putstr(ft_strchr(float_val, '-') + 1) : ft_putstr(float_val);
-	pf_strchr(param->flags, '#') && param->precision == 0 ? write(1, ".", 1) : 0;
-	if (param->precision > 53)
-		fill(param->precision - 53, '0', param);
-}
-
-static void handle_width(t_param *param, long double value, char *float_val)
-{
-	if (pf_strchr(param->flags, '-') == 0)
-		fill_float_width(param, value);
-	pf_strchr(param->flags, ' ') && !is_nan(value) && is_inf(value) < 2 ? write(1, " ", 1) : 0;
-	pf_strchr(param->flags, '+') && value >= 0 ? write(1, "+",1) : 0;
-	value > -1.000000 && value < 0.000000 ? write(1, "-", 1) : 0;
-	value < 0.0 ? ft_putstr(ft_strchr(float_val, '-')) : ft_putstr(float_val);
-	pf_strchr(param->flags, '#') && param->precision == 0 ? write(1, ".", 1) : 0;
-	if (param->precision > 53)
-		fill(param->precision - 53, '0', param);
-	if (pf_strchr(param->flags, '-') != 0)
-		fill_float_width(param, value);
-}
-
-static void check_left_condition(t_param *param, long double value, char *float_val)
-{
-	if (pf_strchr(param->flags, '0'))
-		handle_zero_fill(param, value, float_val);
+	if (param->t_f.minus)
+	{
+		param->t_f.space && !is_nan(value) && is_inf(value) < 2
+		? write(1, " ", 1) : 0;
+		p_f_sign(value, flag, &param->bits, param);
+		value < 0.0 ? pf_putstr(ft_strchr(float_val, '-') + 1, param)
+		: pf_putstr(float_val, param);
+		param->t_f.hash && param->precision == 0 ? write(1, ".", 1) : 0;
+		fill_float_width(param, value, &param->bits);
+	}
 	else
-		handle_width(param, value, float_val);
-}
-static void check_right_condition(t_param *param, long double value, char *float_val)
-{
-	if (pf_strchr(param->flags, '0'))
-		handle_zero_fill(param, value, float_val);
-	else
-		handle_width(param, value, float_val);
+	{
+		param->t_f.space && !is_nan(value) && is_inf(value) < 2
+		? write(1, " ", 1) : 0;
+		fill_float_width(param, value, &param->bits);
+		p_f_sign(value, flag, &param->bits, param);
+		value < 0.0 ? pf_putstr(ft_strchr(float_val, '-') + 1, param)
+		: pf_putstr(float_val, param);
+		param->t_f.hash && param->precision == 0
+		? write(1, ".", 1) : 0;
+	}
 }
 
-void print_f(t_param *param, long double value, char *float_val)
+void		print_f(t_param *param,
+		long double value, char *float_val)
 {
-	if (value > -1.000000 && value < 0.000000)
+	ldouble_cast	fl_sign;
+	int				flag;
+
+	fl_sign.f = value;
+	flag = 0;
+	if (check_is_special(param, float_val, value))
+		return ;
+	if (fl_sign.parts.sign == 1 && (int)value % 10 == 0)
 	{
 		float_neg_zero(param, value, float_val);
-		return;
+		return ;
 	}
-	else if (value > 0.000000 && value < 1.000000)
+	else if (fl_sign.parts.sign == 0 && (int)value % 10 == 0)
 	{
 		float_pos_zero(param, value, float_val);
-		return;
+		return ;
 	}
-	if (pf_strchr(param->flags, '-'))
-		check_left_condition(param, value, float_val);
+	if (param->t_f.minus)
+		check_left_condition(param, value, float_val, &flag);
 	else
-		check_right_condition(param,value, float_val);
+		check_right_condition_float(param, value, float_val, &flag);
 }
-
-

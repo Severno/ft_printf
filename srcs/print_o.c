@@ -1,58 +1,92 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_o.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/23 17:00:22 by sapril            #+#    #+#             */
+/*   Updated: 2019/11/23 20:03:59 by sapril           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../includes/ft_printf.h"
 
-static void print_hash_zero(t_param *param)
+static void		p_o_sign(t_param *param)
 {
-	if (pf_strchr(param->flags, '#') != 0 && param->precision <= param->val_length)
-		write(1, "0", 1);
-}
-
-static void zero_handle_o(t_param *param)
-{
-	if (pf_strchr(param->flags, '-'))
+	if (param->t_f.plus)
 	{
-		pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-		print_hash_zero(param);
-		fill_precision(param);
-		if (pf_strchr(param->flags, '#') == 0 && param->precision == -1)
-			ft_putstr(ft_convert_undec_base(8, check_un_convention(param), 'x'));
-		fill_width(param);
-	}
-	else{
-		if (pf_strchr(param->flags, '0'))
-		{
-			pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-			fill_width(param);
-			fill_precision(param);
-			return;
-		}
-		fill_width(param);
-		pf_strchr(param->flags, '+') ? write(1, "+", 1) : 0;
-		print_hash_zero(param);
-		fill_precision(param);
-		if (pf_strchr(param->flags, '#') == 0 && param->precision == -1)
-			ft_putstr(ft_convert_undec_base(8, check_un_convention(param), 'x'));
+		write(1, "+", 1);
+		param->bits++;
 	}
 }
 
-void print_o(t_param *param)
+static void		print_hash_zero(t_param *param)
 {
-	if (param->un_value == 0) {
-		zero_handle_o(param);
-		return;
+	if (param->t_f.hash != 0 && param->precision <= param->val_length)
+	{
+		write(1, "0", 1);
+		param->bits++;
 	}
-	if (pf_strchr(param->flags, '-')) {
-		if (pf_strchr(param->flags, '+'))
-			write(1, "+", 1);
-		fill_precision(param);
-		print_hash_zero(param);
-		ft_putstr(ft_convert_undec_base(8, check_un_convention(param), 'x'));
-		fill_width(param);
-	} else {
-		if (pf_strchr(param->flags, '+'))
-			write(1, "+", 1);
+}
+
+static void		zero_handle_o_right(t_param *param)
+{
+	if (param->t_f.zero)
+	{
+		p_o_sign(param);
 		fill_width(param);
 		fill_precision(param);
+		return ;
+	}
+	fill_width(param);
+	p_o_sign(param);
+	print_hash_zero(param);
+	fill_precision(param);
+	if (param->t_f.hash == 0 && param->precision == -1)
+		pf_putstr(ft_convert_undec_base(8,
+				check_un_convention(param), 'x'), param);
+}
+
+static void		zero_handle_o(t_param *param)
+{
+	if (param->t_f.minus)
+	{
+		p_o_sign(param);
 		print_hash_zero(param);
-		ft_putstr(ft_convert_undec_base(8, check_un_convention(param), 'x'));
+		fill_precision(param);
+		if (param->t_f.hash == 0 && param->precision == -1)
+			pf_putstr(ft_convert_undec_base(8,
+					check_un_convention(param), 'x'), param);
+		fill_width(param);
+	}
+	else
+		zero_handle_o_right(param);
+}
+
+void			print_o(t_param *param)
+{
+	if (param->un_value == 0)
+	{
+		zero_handle_o(param);
+		return ;
+	}
+	if (param->t_f.minus)
+	{
+		p_o_sign(param);
+		fill_precision(param);
+		print_hash_zero(param);
+		pf_putstr(ft_convert_undec_base(8,
+				check_un_convention(param), 'x'), param);
+		fill_width(param);
+	}
+	else
+	{
+		p_o_sign(param);
+		fill_width(param);
+		fill_precision(param);
+		print_hash_zero(param);
+		pf_putstr(ft_convert_undec_base(8,
+				check_un_convention(param), 'x'), param);
 	}
 }

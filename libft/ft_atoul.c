@@ -1,8 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_atoul.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/23 18:45:21 by sapril            #+#    #+#             */
+/*   Updated: 2019/11/23 18:45:35 by sapril           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-unsigned long long int ft_atoul(const char* str)
+unsigned long long	ft_atoul(const char *str)
 {
-	unsigned long long int					i;
+	unsigned long long						i;
 	uintmax_t								sum_long;
 
 	i = 0;

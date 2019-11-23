@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/07 17:48:40 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/14 07:56:53 by sapril           ###   ########.fr       */
+/*   Updated: 2019/11/23 17:22:16 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,14 +103,16 @@ int					ft_str_is_uppercase(char *str);
 int					ft_str_is_printable(char *str);
 int					ft_str_is_numeric(char *str);
 int					ft_isspace(char c);
-char				*ft_convert_dec_base(int base, long long int input_num, char sign);
+char				*ft_convert_dec_base(int base,
+		long long input_num, char sign);
 int					ft_num_of_fields(long long int num);
 int					ft_abs(int num);
-long long int		ft_atol(const char* str);
-char				*ft_convert_undec_base(int base, unsigned long long int input_num, char sign);
-unsigned long long int		ft_atoul(const char* str);
-int		ft_unnum_of_fields(unsigned long long int num);
-void	ft_putunbr(unsigned long long int nb);
-char * ft_ftoa(long double f, char * buf, int precision, int sign);
+long long			ft_atol(const char *str);
+char				*ft_convert_undec_base(int base,
+		unsigned long long input_num, char sign);
+unsigned long long	ft_atoul(const char *str);
+int					ft_unnum_of_fields(unsigned long long int num);
+void				ft_putunbr(unsigned long long int nb);
+char				*ft_ftoa(long double f, char *buf, int precision, int sign);
 
 #endif

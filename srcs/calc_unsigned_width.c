@@ -1,68 +1,70 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   calc_unsigned_width.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/11/23 15:42:24 by sapril            #+#    #+#             */
+/*   Updated: 2019/11/23 15:50:03 by sapril           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../includes/ft_printf.h"
 
-void get_do_unwidth(t_param *param, unsigned long long value)
+void		get_do_unwidth(t_param *param, unsigned long long value)
 {
 	if (value == 0)
 	{
 		if (pf_strchr(param->flags, '0'))
-			param->do_width = param->precision == -1 ? param->width + param->reserved_fields : param->width - param->precision + param->reserved_fields;
+			param->do_width = param->precision == -1 ?
+					param->width + param->res_fields :
+					param->width - param->precision + param->res_fields;
 		else
-			param->do_width = param->precision == -1 ? param->width + param->reserved_fields - param->val_length : param->width - param->precision + param->reserved_fields;
+			param->do_width = param->precision == -1 ?
+					param->width + param->res_fields - param->val_length :
+					param->width - param->precision + param->res_fields;
 	}
 	else if (param->precision >= param->val_length)
 	{
-		param->do_width = param->width - param->precision + param->reserved_fields;
-	} else
-		param->do_width = param->width - param->val_length + param->reserved_fields;
+		param->do_width = param->width - param->precision + param->res_fields;
+	}
+	else
+		param->do_width = param->width - param->val_length + param->res_fields;
 }
 
-void calc_unreserved_fields(t_param *param, unsigned long long value)
+static void	unreserved_o_u_check(t_param *param, int *res_fields,
+		unsigned long long value)
 {
-	int reserved_fields;
+	param->t_f.plus ? (*res_fields)-- : 0;
+	param->t_f.space ? (*res_fields)-- : 0;
+	if (param->t_f.hash && param->precision <= param->val_length
+		&& param->precision == 0 && value == 0)
+		(*res_fields)--;
+	if (param->t_f.hash && param->precision <= param->val_length
+		&& param->precision >= -1 && value != 0)
+		(*res_fields)--;
+}
 
-	reserved_fields = 0;
+void		calc_unreserved_fields(t_param *param, unsigned long long value)
+{
+	int res_fields;
 
+	res_fields = 0;
 	if ((pf_strchr("xX", param->current_flag) != 0))
 	{
-		pf_strchr(param->flags, '+') ? reserved_fields-- : 0;
-		pf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
-		if (pf_strchr(param->flags, '#') && param->precision >= -1 && value > 0)
-			reserved_fields -=2;
-	} else if (param->current_flag == 'o')
-	{
-		pf_strchr(param->flags, '+') ? reserved_fields-- : 0;
-		pf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
-		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision == 0 && value == 0)
-			reserved_fields--;
-		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision >= -1 && value != 0)
-			reserved_fields--;
-	} else if (param->current_flag == 'u')
-	{
-		pf_strchr(param->flags, '+') ? reserved_fields-- : 0;
-		pf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
-		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision == 0 && value == 0)
-			reserved_fields--;
-		if (pf_strchr(param->flags, '#') && param->precision <= param->val_length && param->precision >= -1 && value != 0)
-			reserved_fields--;
+		param->t_f.plus ? res_fields-- : 0;
+		param->t_f.space ? res_fields-- : 0;
+		if (param->t_f.hash && param->precision >= -1 && value > 0)
+			res_fields -= 2;
 	}
+	else if (param->current_flag == 'o' || param->current_flag == 'u')
+		unreserved_o_u_check(param, &res_fields, value);
 	else if (param->current_flag == 'p')
 	{
-		pf_strchr(param->flags, '+') ? reserved_fields-- : 0;
-		pf_strchr(param->flags, ' ') ? reserved_fields-- : 0;
-		reserved_fields -= 2;
+		param->t_f.plus ? res_fields-- : 0;
+		param->t_f.space ? res_fields-- : 0;
+		res_fields -= 2;
 	}
-	param->reserved_fields = reserved_fields;
-}
-
-int get_base(t_param *param)
-{
-	int base;
-	base = 10;
-	if (pf_strchr(param->flags, 'o'))
-		base = 8;
-	else if (pf_strchr(param->flags, 'u'))
-		base = 10;
-	else if (pf_strchr(param->flags, 'x') || pf_strchr(param->flags, 'X'))
-		base = 16;
-	return base;
+	param->res_fields = res_fields;
 }

@@ -10,8 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
 long long int		ft_num_of_digits(long long int num)
 {
 	int	count;

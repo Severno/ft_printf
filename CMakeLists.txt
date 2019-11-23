@@ -108,4 +108,9 @@ add_executable(new_printf
         srcs/flag_f.c
         srcs/print_f.c
         main.c
-        srcs/calc_float_width.c srcs/flag_f_handle.c srcs/ft_find_and_remove_char.c srcs/pf_strchr_flags.c srcs/pf_strcat.c srcs/removes_flags.c srcs/handle_float_zeros.c)
+        srcs/calc_float_width.c srcs/flag_f_handle.c srcs/ft_find_and_remove_char.c srcs/pf_strchr_flags.c srcs/pf_strcat.c srcs/removes_flags.c srcs/handle_float_zeros.c
+        srcs/pf_putnbr_base.c
+        srcs/pf_putstr.c
+        srcs/pf_putunbr.c
+        srcs/parse_flags.c
+        srcs/handle_float_conditions.c)
