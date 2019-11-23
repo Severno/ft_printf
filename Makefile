@@ -60,6 +60,7 @@ PRINTF_SRC = srcs/alignment.c \
                 srcs/ft_find_and_remove_char.c \
                 srcs/flag_f_handle.c \
                 srcs/removes_flags.c \
+                srcs/handle_float_zeros.c \
 
 PRINTF_OBJ = alignment.o \
 				calc_signed_precision.o \
@@ -95,6 +96,7 @@ PRINTF_OBJ = alignment.o \
                 ft_find_and_remove_char.o \
                 flag_f_handle.o \
                 removes_flags.o \
+                handle_float_zeros.o \
 
 
 SRC		= $(LIB_SRC) $(PRINTF_SRC)

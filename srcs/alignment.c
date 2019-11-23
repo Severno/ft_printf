@@ -25,13 +25,9 @@ void fill_width(t_param *param)
 void fill_float_width(t_param *param, long double value)
 {
 	if (pf_strchr(param->flags, '0') && is_value(value))
-	{
-		value <= 0.0 ? write(1, "-",1) : 0;
 		fill_float(param->do_width, '0', param);
-	}
-	else{
+	else
 		fill_float(param->do_width, ' ', param);
-	}
 }
 
 void fill_float(int value, char sign, t_param *param)

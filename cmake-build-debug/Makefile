@@ -2310,33 +2310,6 @@ srcs/calc_signed_width.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.s
 .PHONY : srcs/calc_signed_width.c.s
 
-srcs/calc_str_width_precision.o: srcs/calc_str_width_precision.c.o
-
-.PHONY : srcs/calc_str_width_precision.o
-
-# target to build an object file
-srcs/calc_str_width_precision.c.o:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o
-.PHONY : srcs/calc_str_width_precision.c.o
-
-srcs/calc_str_width_precision.i: srcs/calc_str_width_precision.c.i
-
-.PHONY : srcs/calc_str_width_precision.i
-
-# target to preprocess a source file
-srcs/calc_str_width_precision.c.i:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.i
-.PHONY : srcs/calc_str_width_precision.c.i
-
-srcs/calc_str_width_precision.s: srcs/calc_str_width_precision.c.s
-
-.PHONY : srcs/calc_str_width_precision.s
-
-# target to generate assembly for a file
-srcs/calc_str_width_precision.c.s:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.s
-.PHONY : srcs/calc_str_width_precision.c.s
-
 srcs/calc_unsigned_precision.o: srcs/calc_unsigned_precision.c.o
 
 .PHONY : srcs/calc_unsigned_precision.o
@@ -2768,6 +2741,33 @@ srcs/get_flags.s: srcs/get_flags.c.s
 srcs/get_flags.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/get_flags.c.s
 .PHONY : srcs/get_flags.c.s
+
+srcs/handle_float_zeros.o: srcs/handle_float_zeros.c.o
+
+.PHONY : srcs/handle_float_zeros.o
+
+# target to build an object file
+srcs/handle_float_zeros.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.o
+.PHONY : srcs/handle_float_zeros.c.o
+
+srcs/handle_float_zeros.i: srcs/handle_float_zeros.c.i
+
+.PHONY : srcs/handle_float_zeros.i
+
+# target to preprocess a source file
+srcs/handle_float_zeros.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.i
+.PHONY : srcs/handle_float_zeros.c.i
+
+srcs/handle_float_zeros.s: srcs/handle_float_zeros.c.s
+
+.PHONY : srcs/handle_float_zeros.s
+
+# target to generate assembly for a file
+srcs/handle_float_zeros.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.s
+.PHONY : srcs/handle_float_zeros.c.s
 
 srcs/pf_strcat.o: srcs/pf_strcat.c.o
 
@@ -3372,9 +3372,6 @@ help:
 	@echo "... srcs/calc_signed_width.o"
 	@echo "... srcs/calc_signed_width.i"
 	@echo "... srcs/calc_signed_width.s"
-	@echo "... srcs/calc_str_width_precision.o"
-	@echo "... srcs/calc_str_width_precision.i"
-	@echo "... srcs/calc_str_width_precision.s"
 	@echo "... srcs/calc_unsigned_precision.o"
 	@echo "... srcs/calc_unsigned_precision.i"
 	@echo "... srcs/calc_unsigned_precision.s"
@@ -3423,6 +3420,9 @@ help:
 	@echo "... srcs/get_flags.o"
 	@echo "... srcs/get_flags.i"
 	@echo "... srcs/get_flags.s"
+	@echo "... srcs/handle_float_zeros.o"
+	@echo "... srcs/handle_float_zeros.i"
+	@echo "... srcs/handle_float_zeros.s"
 	@echo "... srcs/pf_strcat.o"
 	@echo "... srcs/pf_strcat.i"
 	@echo "... srcs/pf_strcat.s"

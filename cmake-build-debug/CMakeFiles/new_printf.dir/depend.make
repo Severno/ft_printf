@@ -240,8 +240,6 @@ CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o: ../srcs/calc_signed_width.c
 
-CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o: ../srcs/calc_str_width_precision.c
-
 CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o: ../srcs/calc_unsigned_precision.c
@@ -303,6 +301,10 @@ CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o: ../srcs/ft_putnbr_base.c
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../srcs/get_flags.c
+
+CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.o: ../srcs/handle_float_zeros.c
 
 CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o: ../srcs/pf_strcat.c
 

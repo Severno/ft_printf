@@ -75,6 +75,8 @@
 //	return fraction;
 //}
 
+typedef vector<int> lnum;
+
 int main()
 {
 //	char res[20];
@@ -106,12 +108,8 @@ int main()
 //	printf("%hhu, %hu, %u", (char)123, (short) 40000, 1234567890);
 //	printf("\n");
 //	ft_printf("%hhu, %hu, %u", (char)123, (short) 40000, 1234567890);
-	printf("%-05%");
+	printf("%-6f", 0x8000000000000000);
 	printf("\n");
-	ft_printf("%-05%");
-	printf("\n");
-	printf("%05%");
-	printf("\n");
-	ft_printf("%05%");
+	ft_printf("%-6f", 0x8000000000000000);
 	return 0;
 }

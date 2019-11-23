@@ -240,8 +240,6 @@ CMakeFiles/new_printf.dir/srcs/calc_signed_width.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/calc_signed_width.c
-CMakeFiles/new_printf.dir/srcs/calc_str_width_precision.c.o
- /Users/artembykov/final_ft_printf/srcs/calc_str_width_precision.c
 CMakeFiles/new_printf.dir/srcs/calc_unsigned_precision.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
@@ -304,6 +302,10 @@ CMakeFiles/new_printf.dir/srcs/get_flags.c.o
  /Users/artembykov/final_ft_printf/includes/ft_printf.h
  /Users/artembykov/final_ft_printf/libft/libft.h
  /Users/artembykov/final_ft_printf/srcs/get_flags.c
+CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.o
+ /Users/artembykov/final_ft_printf/includes/ft_printf.h
+ /Users/artembykov/final_ft_printf/libft/libft.h
+ /Users/artembykov/final_ft_printf/srcs/handle_float_zeros.c
 CMakeFiles/new_printf.dir/srcs/pf_strcat.c.o
  /Users/artembykov/final_ft_printf/srcs/pf_strcat.c
 CMakeFiles/new_printf.dir/srcs/pf_strchr.c.o

@@ -164,4 +164,8 @@ int			is_nan(long double floatNum);
 int			is_inf(long double floatNum);
 int			is_value(long double floatNum);
 
+// handle_float_zeros.c
+void float_neg_zero(t_param *param, long double value, char *float_val);
+void float_pos_zero(t_param *param, long double value, char *float_val);
+
 #endif
