@@ -24,6 +24,8 @@ long long int					check_convention(t_param *param)
 		return (short int)param->arg_value;
 	else if (ft_strstr(param->flags, "d"))
 		return (int)param->arg_value;
+	else if (ft_strstr(param->flags, "D"))
+		return (int)param->arg_value;
 	else if (ft_strstr(param->flags, "lli"))
 		return (long long int)param->arg_value;
 	else if (ft_strstr(param->flags, "li"))

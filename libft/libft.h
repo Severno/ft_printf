@@ -113,6 +113,5 @@ char				*ft_convert_undec_base(int base,
 unsigned long long	ft_atoul(const char *str);
 int					ft_unnum_of_fields(unsigned long long int num);
 void				ft_putunbr(unsigned long long int nb);
-char				*ft_ftoa(long double f, char *buf, int precision, int sign);
 
 #endif

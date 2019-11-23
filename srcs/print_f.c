@@ -6,11 +6,34 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/23 16:59:50 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/23 20:26:03 by sapril           ###   ########.fr       */
+/*   Updated: 2019/11/23 22:10:12 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
+
+char		*inf_nan_handle(long double float_num)
+{
+	char *inf_nan;
+
+	if (float_num == -(1.0 / 0.0))
+	{
+		inf_nan = ft_strdup("-inf");
+		return (inf_nan);
+	}
+	else if (float_num == (1.0 / 0.0))
+	{
+		inf_nan = ft_strdup("inf");
+		return (inf_nan);
+	}
+	else if (float_num != float_num)
+	{
+		inf_nan = ft_strdup("nan");
+		return (inf_nan);
+	}
+	inf_nan = ft_strdup("");
+	return (inf_nan);
+}
 
 void		handle_width_float(t_param *param,
 		long double value, char *float_val, int *flag)
@@ -41,19 +64,19 @@ void		handle_width_float(t_param *param,
 void		print_f(t_param *param,
 		long double value, char *float_val)
 {
-	ldouble_cast	fl_sign;
+	t_ldbl_cast		fl_sign;
 	int				flag;
 
 	fl_sign.f = value;
 	flag = 0;
 	if (check_is_special(param, float_val, value))
 		return ;
-	if (fl_sign.parts.sign == 1 && (int)value % 10 == 0)
+	if (fl_sign.t_ldbl_parts.sign == 1 && (int)value % 10 == 0)
 	{
 		float_neg_zero(param, value, float_val);
 		return ;
 	}
-	else if (fl_sign.parts.sign == 0 && (int)value % 10 == 0)
+	else if (fl_sign.t_ldbl_parts.sign == 0 && (int)value % 10 == 0)
 	{
 		float_pos_zero(param, value, float_val);
 		return ;

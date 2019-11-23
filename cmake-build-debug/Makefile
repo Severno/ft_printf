@@ -366,33 +366,6 @@ libft/ft_convert_undec_base.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/libft/ft_convert_undec_base.c.s
 .PHONY : libft/ft_convert_undec_base.c.s
 
-libft/ft_ftoa.o: libft/ft_ftoa.c.o
-
-.PHONY : libft/ft_ftoa.o
-
-# target to build an object file
-libft/ft_ftoa.c.o:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o
-.PHONY : libft/ft_ftoa.c.o
-
-libft/ft_ftoa.i: libft/ft_ftoa.c.i
-
-.PHONY : libft/ft_ftoa.i
-
-# target to preprocess a source file
-libft/ft_ftoa.c.i:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/libft/ft_ftoa.c.i
-.PHONY : libft/ft_ftoa.c.i
-
-libft/ft_ftoa.s: libft/ft_ftoa.c.s
-
-.PHONY : libft/ft_ftoa.s
-
-# target to generate assembly for a file
-libft/ft_ftoa.c.s:
-	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/libft/ft_ftoa.c.s
-.PHONY : libft/ft_ftoa.c.s
-
 libft/ft_isalnum.o: libft/ft_isalnum.c.o
 
 .PHONY : libft/ft_isalnum.o
@@ -2661,6 +2634,33 @@ srcs/ft_find_and_remove_char.c.s:
 	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.s
 .PHONY : srcs/ft_find_and_remove_char.c.s
 
+srcs/ft_ftoa.o: srcs/ft_ftoa.c.o
+
+.PHONY : srcs/ft_ftoa.o
+
+# target to build an object file
+srcs/ft_ftoa.c.o:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_ftoa.c.o
+.PHONY : srcs/ft_ftoa.c.o
+
+srcs/ft_ftoa.i: srcs/ft_ftoa.c.i
+
+.PHONY : srcs/ft_ftoa.i
+
+# target to preprocess a source file
+srcs/ft_ftoa.c.i:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_ftoa.c.i
+.PHONY : srcs/ft_ftoa.c.i
+
+srcs/ft_ftoa.s: srcs/ft_ftoa.c.s
+
+.PHONY : srcs/ft_ftoa.s
+
+# target to generate assembly for a file
+srcs/ft_ftoa.c.s:
+	$(MAKE) -f CMakeFiles/new_printf.dir/build.make CMakeFiles/new_printf.dir/srcs/ft_ftoa.c.s
+.PHONY : srcs/ft_ftoa.c.s
+
 srcs/ft_printf.o: srcs/ft_printf.c.o
 
 .PHONY : srcs/ft_printf.o
@@ -3291,9 +3291,6 @@ help:
 	@echo "... libft/ft_convert_undec_base.o"
 	@echo "... libft/ft_convert_undec_base.i"
 	@echo "... libft/ft_convert_undec_base.s"
-	@echo "... libft/ft_ftoa.o"
-	@echo "... libft/ft_ftoa.i"
-	@echo "... libft/ft_ftoa.s"
 	@echo "... libft/ft_isalnum.o"
 	@echo "... libft/ft_isalnum.i"
 	@echo "... libft/ft_isalnum.s"
@@ -3546,6 +3543,9 @@ help:
 	@echo "... srcs/ft_find_and_remove_char.o"
 	@echo "... srcs/ft_find_and_remove_char.i"
 	@echo "... srcs/ft_find_and_remove_char.s"
+	@echo "... srcs/ft_ftoa.o"
+	@echo "... srcs/ft_ftoa.i"
+	@echo "... srcs/ft_ftoa.s"
 	@echo "... srcs/ft_printf.o"
 	@echo "... srcs/ft_printf.i"
 	@echo "... srcs/ft_printf.s"

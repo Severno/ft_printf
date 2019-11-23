@@ -11,7 +11,7 @@ LIB_SRC =	libft/ft_atoi.c libft/ft_bzero.c libft/ft_check_end_spaces.c libft/ft_
 			libft/ft_strsub.c libft/ft_strtrim.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_str_is_lowercase.c libft/ft_str_is_uppercase.c \
 			libft/ft_str_is_printable.c libft/ft_str_is_numeric.c libft/ft_strnlen.c libft/ft_isspace.c libft/ft_convert_dec_base.c \
 			libft/ft_num_of_fields.c libft/ft_abs.c libft/ft_atol.c libft/ft_convert_undec_base.c libft/ft_atoul.c libft/ft_unnum_of_fields.c \
-			libft/ft_putunbr.c libft/ft_ftoa.c libft/ft_putnbr_base.c
+			libft/ft_putunbr.c libft/ft_putnbr_base.c
 
 LIB_OBJ =	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_isalnum.o \
 			ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_itoa.o ft_lstadd.o ft_lstdel.o \
@@ -24,7 +24,7 @@ LIB_OBJ =	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_
 			ft_strsub.o ft_strtrim.o ft_tolower.o ft_toupper.o ft_str_is_lowercase.o ft_str_is_uppercase.o \
 			ft_str_is_printable.o ft_str_is_numeric.o ft_strnlen.o ft_isspace.o ft_convert_dec_base.o \
 			ft_num_of_fields.o ft_abs.o ft_atol.o ft_convert_undec_base.o ft_atoul.o ft_unnum_of_fields.o ft_putunbr.o \
-			ft_ftoa.o ft_putnbr_base.o
+			ft_putnbr_base.o
 
 PRINTF_SRC = srcs/alignment.c \
 				srcs/calc_signed_precision.c \
@@ -65,6 +65,7 @@ PRINTF_SRC = srcs/alignment.c \
                 srcs/pf_putunbr.c \
                 srcs/parse_flags.c \
                 srcs/handle_float_conditions.c \
+                srcs/ft_ftoa.c \
 
 PRINTF_OBJ = alignment.o \
 				calc_signed_precision.o \
@@ -105,6 +106,7 @@ PRINTF_OBJ = alignment.o \
                 pf_putunbr.o \
                 parse_flags.o \
                 handle_float_conditions.o \
+                ft_ftoa.o \
 
 
 SRC		= $(LIB_SRC) $(PRINTF_SRC)

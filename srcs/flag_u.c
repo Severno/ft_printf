@@ -19,6 +19,7 @@ void	flag_u(t_param *param)
 	flags = ft_strdup("llhhu");
 	param->un_value = check_un_convention(param);
 	param->val_length = ft_unnum_of_fields(param->un_value);
+	remove_unconflicted_flags(param);
 	calc_unreserved_fields(param, param->un_value);
 	get_do_unprecision(param, param->un_value);
 	get_do_unwidth(param, param->un_value);

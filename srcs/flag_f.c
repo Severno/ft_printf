@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/23 16:11:51 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/23 19:55:11 by sapril           ###   ########.fr       */
+/*   Updated: 2019/11/23 22:04:12 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	flag_f(t_param *param, long double value)
 	char		*flags;
 	char		*float_val;
 
-	flags = ft_strdup("Lf");
+	flags = ft_strdup("Llf");
 	float_val = ft_strnew(100);
 	float_val = ft_ftoa(value, float_val, param->precision, 1);
 	param->val_length = ft_strlen(float_val);
@@ -27,4 +27,5 @@ void	flag_f(t_param *param, long double value)
 	print_f(param, value, float_val);
 	remove_current_flags(param, flags);
 	free(flags);
+	free(float_val);
 }

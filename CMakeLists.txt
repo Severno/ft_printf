@@ -79,7 +79,6 @@ add_executable(new_printf
         libft/ft_atoul.c
         libft/ft_unnum_of_fields.c
         libft/ft_putunbr.c
-        libft/ft_ftoa.c
         srcs/alignment.c
         srcs/flag_cs.c
         srcs/flag_di.c
@@ -113,4 +112,5 @@ add_executable(new_printf
         srcs/pf_putstr.c
         srcs/pf_putunbr.c
         srcs/parse_flags.c
-        srcs/handle_float_conditions.c)
+        srcs/handle_float_conditions.c
+        srcs/ft_ftoa.c)

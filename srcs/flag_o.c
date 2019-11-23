@@ -20,6 +20,7 @@ void	flag_o(t_param *param)
 	param->un_value = ft_atoul(ft_convert_undec_base(8,
 			check_un_convention(param), 'x'));
 	param->val_length = ft_unnum_of_fields(param->un_value);
+	remove_unconflicted_flags(param);
 	calc_unreserved_fields(param, param->un_value);
 	get_do_unprecision(param, param->un_value);
 	get_do_unwidth(param, param->un_value);

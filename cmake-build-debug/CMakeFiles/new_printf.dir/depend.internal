@@ -27,9 +27,6 @@ CMakeFiles/new_printf.dir/libft/ft_convert_dec_base.c.o
 CMakeFiles/new_printf.dir/libft/ft_convert_undec_base.c.o
  /Users/sapril/ft_printf/libft/ft_convert_undec_base.c
  /Users/sapril/ft_printf/libft/libft.h
-CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o
- /Users/sapril/ft_printf/libft/ft_ftoa.c
- /Users/sapril/ft_printf/libft/libft.h
 CMakeFiles/new_printf.dir/libft/ft_isalnum.c.o
  /Users/sapril/ft_printf/libft/ft_isalnum.c
  /Users/sapril/ft_printf/libft/libft.h
@@ -289,6 +286,10 @@ CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o
  /Users/sapril/ft_printf/includes/ft_printf.h
  /Users/sapril/ft_printf/libft/libft.h
  /Users/sapril/ft_printf/srcs/ft_find_and_remove_char.c
+CMakeFiles/new_printf.dir/srcs/ft_ftoa.c.o
+ /Users/sapril/ft_printf/includes/ft_printf.h
+ /Users/sapril/ft_printf/libft/libft.h
+ /Users/sapril/ft_printf/srcs/ft_ftoa.c
 CMakeFiles/new_printf.dir/srcs/ft_printf.c.o
  /Users/sapril/ft_printf/includes/ft_printf.h
  /Users/sapril/ft_printf/libft/libft.h
@@ -301,6 +302,10 @@ CMakeFiles/new_printf.dir/srcs/get_flags.c.o
  /Users/sapril/ft_printf/includes/ft_printf.h
  /Users/sapril/ft_printf/libft/libft.h
  /Users/sapril/ft_printf/srcs/get_flags.c
+CMakeFiles/new_printf.dir/srcs/handle_float_conditions.c.o
+ /Users/sapril/ft_printf/includes/ft_printf.h
+ /Users/sapril/ft_printf/libft/libft.h
+ /Users/sapril/ft_printf/srcs/handle_float_conditions.c
 CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.o
  /Users/sapril/ft_printf/includes/ft_printf.h
  /Users/sapril/ft_printf/libft/libft.h

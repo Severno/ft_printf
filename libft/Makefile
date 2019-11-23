@@ -1,7 +1,7 @@
 NAME=libft.a
 
 
-SRC=	ft_atoi.c ft_bzero.c ft_check_end_spaces.c ft_check_start_spaces.c ft_isalnum.c \
+SRC=		ft_atoi.c ft_bzero.c ft_check_end_spaces.c ft_check_start_spaces.c ft_isalnum.c \
         			ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_itoa.c ft_lstadd.c ft_lstdel.c \
         			ft_lstdelone.c ft_lstiter.c ft_lstmap.c ft_lstnew.c ft_memalloc.c ft_memccpy.c ft_memchr.c \
         			ft_memcmp.c ft_memcpy.c ft_memdel.c ft_memmove.c ft_memset.c ft_num_of_digits.c ft_putchar.c \
@@ -12,10 +12,10 @@ SRC=	ft_atoi.c ft_bzero.c ft_check_end_spaces.c ft_check_start_spaces.c ft_isaln
         			ft_strsub.c ft_strtrim.c ft_tolower.c ft_toupper.c ft_str_is_lowercase.c ft_str_is_uppercase.c \
         			ft_str_is_printable.c ft_str_is_numeric.c ft_strnlen.c ft_isspace.c ft_convert_dec_base.c \
         			ft_num_of_fields.c ft_abs.c ft_atol.c ft_convert_undec_base.c ft_atoul.c ft_unnum_of_fields.c \
-        			ft_putunbr.c ft_ftoa.c ft_putnbr_base.c
+        			ft_putunbr.c ft_putnbr_base.c
 
 
-OBJ=	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_isalnum.o \
+OBJ=		ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_isalnum.o \
         			ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_itoa.o ft_lstadd.o ft_lstdel.o \
         			ft_lstdelone.o ft_lstiter.o ft_lstmap.o ft_lstnew.o ft_memalloc.o ft_memccpy.o ft_memchr.o \
         			ft_memcmp.o ft_memcpy.o ft_memdel.o ft_memmove.o ft_memset.o ft_num_of_digits.o ft_putchar.o \
@@ -26,7 +26,7 @@ OBJ=	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_isaln
         			ft_strsub.o ft_strtrim.o ft_tolower.o ft_toupper.o ft_str_is_lowercase.o ft_str_is_uppercase.o \
         			ft_str_is_printable.o ft_str_is_numeric.o ft_strnlen.o ft_isspace.o ft_convert_dec_base.o \
         			ft_num_of_fields.o ft_abs.o ft_atol.o ft_convert_undec_base.o ft_atoul.o ft_unnum_of_fields.o ft_putunbr.o \
-        			ft_ftoa.o ft_putnbr_base.o
+        			ft_putnbr_base.o
 
 HEADER = libft.h
 

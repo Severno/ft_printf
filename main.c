@@ -107,10 +107,10 @@ int main()
 //	printf("%hhu, %hu, %u", (char)123, (short) 40000, 1234567890);
 //	printf("\n");
 //	ft_printf("%hhu, %hu, %u", (char)123, (short) 40000, 1234567890);
-//	double_cast d1 = {
+//	dbl_cast d1 = {
 //			.f = DBL_MAX
 //	};
-//	ldouble_cast d2 = {
+//	ldbl_cast d2 = {
 //			.f = -0.3131l
 //	};
 //	printf("sign = %x\n", d1.parts.sign);
@@ -125,8 +125,8 @@ int main()
 ////	unsigned int* inta = (unsigned int*)(&a);
 ////	*inta = *inta & (1 << 3);
 ////	printf("%d", *inta);
-	printf("%18lc", (char)1);
+	printf("{%f}{%lf}{%Lf}", 1.11, 1.97, 1.42l);
 	printf("\n");
-	ft_printf("%18lc", (char)12);
+	ft_printf("{%f}{%lf}{%Lf}", 1.11, 1.97, 1.42l);
 	return 0;
 }

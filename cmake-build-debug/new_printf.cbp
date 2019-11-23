@@ -107,9 +107,6 @@
 		<Unit filename="/Users/sapril/ft_printf/libft/ft_convert_undec_base.c">
 			<Option target="new_printf"/>
 		</Unit>
-		<Unit filename="/Users/sapril/ft_printf/libft/ft_ftoa.c">
-			<Option target="new_printf"/>
-		</Unit>
 		<Unit filename="/Users/sapril/ft_printf/libft/ft_isalnum.c">
 			<Option target="new_printf"/>
 		</Unit>
@@ -360,6 +357,9 @@
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/ft_printf/srcs/ft_find_and_remove_char.c">
+			<Option target="new_printf"/>
+		</Unit>
+		<Unit filename="/Users/sapril/ft_printf/srcs/ft_ftoa.c">
 			<Option target="new_printf"/>
 		</Unit>
 		<Unit filename="/Users/sapril/ft_printf/srcs/ft_printf.c">

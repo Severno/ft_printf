@@ -74,7 +74,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/new_printf.dir/libft/ft_atoul.c.o"
   "CMakeFiles/new_printf.dir/libft/ft_unnum_of_fields.c.o"
   "CMakeFiles/new_printf.dir/libft/ft_putunbr.c.o"
-  "CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o"
   "CMakeFiles/new_printf.dir/srcs/alignment.c.o"
   "CMakeFiles/new_printf.dir/srcs/flag_cs.c.o"
   "CMakeFiles/new_printf.dir/srcs/flag_di.c.o"
@@ -115,6 +114,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/new_printf.dir/srcs/pf_putunbr.c.o"
   "CMakeFiles/new_printf.dir/srcs/parse_flags.c.o"
   "CMakeFiles/new_printf.dir/srcs/handle_float_conditions.c.o"
+  "CMakeFiles/new_printf.dir/srcs/ft_ftoa.c.o"
   "new_printf.pdb"
   "new_printf"
 )

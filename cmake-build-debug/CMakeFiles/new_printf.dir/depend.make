@@ -27,9 +27,6 @@ CMakeFiles/new_printf.dir/libft/ft_convert_dec_base.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/libft/ft_convert_undec_base.c.o: ../libft/ft_convert_undec_base.c
 CMakeFiles/new_printf.dir/libft/ft_convert_undec_base.c.o: ../libft/libft.h
 
-CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o: ../libft/ft_ftoa.c
-CMakeFiles/new_printf.dir/libft/ft_ftoa.c.o: ../libft/libft.h
-
 CMakeFiles/new_printf.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
 CMakeFiles/new_printf.dir/libft/ft_isalnum.c.o: ../libft/libft.h
 
@@ -289,6 +286,10 @@ CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o: ../includes/ft_print
 CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/ft_find_and_remove_char.c.o: ../srcs/ft_find_and_remove_char.c
 
+CMakeFiles/new_printf.dir/srcs/ft_ftoa.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/ft_ftoa.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/ft_ftoa.c.o: ../srcs/ft_ftoa.c
+
 CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/ft_printf.c.o: ../srcs/ft_printf.c
@@ -300,6 +301,10 @@ CMakeFiles/new_printf.dir/srcs/ft_putnbr_base.c.o: ../srcs/ft_putnbr_base.c
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/get_flags.c.o: ../srcs/get_flags.c
+
+CMakeFiles/new_printf.dir/srcs/handle_float_conditions.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/handle_float_conditions.c.o: ../libft/libft.h
+CMakeFiles/new_printf.dir/srcs/handle_float_conditions.c.o: ../srcs/handle_float_conditions.c
 
 CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/handle_float_zeros.c.o: ../libft/libft.h

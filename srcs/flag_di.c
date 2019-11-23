@@ -16,7 +16,7 @@ void		flag_d(t_param *param)
 {
 	char *flags;
 
-	flags = ft_strdup("llhhdi");
+	flags = ft_strdup("llhhdDi");
 	param->value = check_convention(param);
 	param->val_length = ft_num_of_fields(param->value);
 	param->val_nums = (int)ft_num_of_digits(param->value);
