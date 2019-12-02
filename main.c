@@ -125,8 +125,39 @@ int main()
 ////	unsigned int* inta = (unsigned int*)(&a);
 ////	*inta = *inta & (1 << 3);
 ////	printf("%d", *inta);
-	printf("{%f}{%lf}{%Lf}", 1.11, 1.97, 1.42l);
-	printf("\n");
-	ft_printf("{%f}{%lf}{%Lf}", 1.11, 1.97, 1.42l);
+	#define DBL_NZERO  0x8000000000000000
+	double special;
+//	*((unsigned long *)(&special)) = DBL_NZERO;
+//	ft_printf("%1s %1s %1s %1s %1s %1s %1s %1s.", "buffalo");
+//	printf("\n");
+//	printf("%1s %1s %1s %1s %1s %1s %1s %1s.", "buffalo");
+//	ft_printf("%s\n", NULL);
+//	printf("%s\n", NULL);
+//	ft_printf("%d\n", NULL);
+//	printf("%d\n", NULL);
+//	ft_printf("%c\n", NULL);
+//	printf("%c\n", NULL);
+//	ft_printf("%x\n", NULL);
+//	printf("%x\n", NULL);
+//	ft_printf("%u\n", NULL);
+//	printf("%u\n", NULL);
+//	ft_printf("%o\n", NULL);
+//	printf("%o\n", NULL);
+//	ft_printf("%p\n", NULL);
+//	printf("%p\n", NULL);
+//	ft_printf("%lf", DBL_MAX);
+//	printf("%lf", DBL_MAX);
+//	ft_printf("%lf", DBL_MAX);
+//	printf("%lf", DBL_MAX);
+//	ft_printf("%lf", DBL_MAX);
+//	printf("%lf", DBL_MAX);
+//	ft_printf("%lf", DBL_MAX);
+//	printf("%lf", DBL_MAX);
+//	ft_printf("%lf", DBL_MAX);
+//	printf("%lf", DBL_MAX);
+	ft_printf("%#X\n", 12234532);
+	printf("% 150.100d\n", 12234532);
+//	printf("%-100.20d", 12234532);
+
 	return 0;
 }

@@ -17,6 +17,7 @@ static void		free_content(void *content, size_t content_size)
 {
 	(void)content_size;
 	free(content);
+	content = NULL;
 }
 
 t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))

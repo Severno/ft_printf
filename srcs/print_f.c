@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/23 16:59:50 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/23 22:10:12 by sapril           ###   ########.fr       */
+/*   Updated: 2019/12/02 11:14:32 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,7 @@ char		*inf_nan_handle(long double float_num)
 		inf_nan = ft_strdup("nan");
 		return (inf_nan);
 	}
-	inf_nan = ft_strdup("");
-	return (inf_nan);
+	return (NULL);
 }
 
 void		handle_width_float(t_param *param,
@@ -71,7 +70,7 @@ void		print_f(t_param *param,
 	flag = 0;
 	if (check_is_special(param, float_val, value))
 		return ;
-	if (fl_sign.t_ldbl_parts.sign == 1 && (int)value % 10 == 0)
+	if (fl_sign.t_ldbl_parts.sign == 1 && fl_sign.f == -0)
 	{
 		float_neg_zero(param, value, float_val);
 		return ;

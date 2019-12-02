@@ -38,6 +38,7 @@ void		calc_reserved_fields(t_param *param, long long int value)
 		param->flags = ft_find_and_remove_char(param->flags, '+');
 		param->t_f.plus = 0;
 		free(tmp);
+		tmp = NULL;
 	}
 	if (value >= 0)
 	{

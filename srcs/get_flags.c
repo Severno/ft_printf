@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/14 19:10:39 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/23 22:27:38 by sapril           ###   ########.fr       */
+/*   Updated: 2019/12/02 10:19:40 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,7 +85,7 @@ static int			handle_unusual_flags(t_param *param, int *iter)
 	if (ft_strstr(param->flags, "Lf"))
 		param->ld_value = va_arg(param->args, long double);
 	else if (ft_strstr(param->flags, "lf"))
-		param->ld_value = va_arg(param->args, long double);
+		param->ld_value = va_arg(param->args, double);
 	else if (param->current_flag == 'f' || param->current_flag == 'F')
 		param->d_value = va_arg(param->args, double);
 	else if ((param->current_flag != '%'))

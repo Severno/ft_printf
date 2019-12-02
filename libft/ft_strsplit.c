@@ -55,8 +55,12 @@ static void			*free_words(char **words)
 
 	i = 0;
 	while (words[i])
+	{
 		free(words[i++]);
+		words[i] = NULL;
+	}
 	free(words);
+	words = NULL;
 	return (NULL);
 }
 

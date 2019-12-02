@@ -12,26 +12,15 @@
 
 #include "../includes/ft_printf.h"
 
-void	print_p(t_param *param, unsigned long long value)
+void	print_p(t_param *param, unsigned long long value,
+		char *undec_base)
 {
-	if (param->t_f.minus)
-	{
-		pf_putstr("0x", param);
-		fill_precision(param);
-		if (value > 0)
-			pf_putstr(ft_convert_undec_base(16, value, 'x'), param);
-		else if (value == 0 && param->precision == -1)
-			param->bits += write(1, "0", 1);
-		fill_width(param);
-	}
-	else
-	{
-		fill_width(param);
-		pf_putstr("0x", param);
-		fill_precision(param);
-		if (value > 0)
-			pf_putstr(ft_convert_undec_base(16, value, 'x'), param);
-		else if (value == 0 && param->precision == -1)
-			param->bits += write(1, "0", 1);
-	}
+	param->t_f.minus == 0 ? fill_width(param) : 0;
+	pf_putstr("0x", param);
+	fill_precision(param);
+	if (value > 0)
+		pf_putstr(undec_base, param);
+	else if (value == 0 && param->precision == -1)
+		param->bits += write(1, "0", 1);
+	param->t_f.minus == 1 ? fill_width(param) : 0;
 }

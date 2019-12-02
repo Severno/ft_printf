@@ -6,23 +6,23 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/23 17:24:24 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/23 20:59:52 by sapril           ###   ########.fr       */
+/*   Updated: 2019/12/02 11:45:06 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
-static long double	round(int precision)
+static void			ft_ftoa_init(long double *float_num, int *precision,
+									long long *int_part)
 {
-	long double rounder;
-
-	rounder = 0.5;
-	while (precision)
-	{
-		rounder /= 10;
-		precision--;
-	}
-	return (rounder);
+	*float_num < 0 ? *float_num = *float_num * -1 : 0;
+	*precision > MAX_PRECISION ? *precision = MAX_PRECISION : 0;
+	*precision == -1 ? *precision = 6 : 0;
+	*precision >= 0 ? *float_num += round_float(*precision) : 0;
+	*int_part = (long long)*float_num;
+	*float_num -= (long double)(*int_part);
+	*precision > 19 && *precision < 53 ?
+			*float_num += round_float(*precision) : 0;
 }
 
 static void			add_exponent(char *res, size_t *i, long long *int_part)
@@ -33,7 +33,7 @@ static void			add_exponent(char *res, size_t *i, long long *int_part)
 
 	j = 0;
 	tmp_i = *i;
-	res[tmp_i - 1] == '-' ? j++ : 0;
+	tmp_i > 0 ? j++ : 0;
 	if (*int_part == 0)
 		res[(*i)++] = '0';
 	else
@@ -66,7 +66,7 @@ static void			mantissa_fill(long double *float_num,
 		&& ((int)(*float_num * 100) % 10) <= 9
 		&& tmp_pres >= 20 && ((int)(*float_num * 10) % 10) >= 2
 		&& ((int)(*float_num * 10) % 10) <= 9)
-		*float_num += round(*precision);
+		*float_num += round_float(*precision);
 	*float_num *= 10.0;
 	if ((int)(*float_num) == 10)
 	{
@@ -98,21 +98,14 @@ char				*ft_ftoa(long double float_num, char *buf,
 	size_t		i;
 
 	i = 0;
-	if (!ft_strequ(inf_nan_handle(float_num), ""))
-		return (inf_nan_handle(float_num));
+	int_part = 0;
 	if (float_num < 0)
 	{
 		float_num = -float_num;
 		if (sign == 1)
 			buf[i++] = '-';
 	}
-	float_num < 0 ? float_num = -float_num : 0;
-	precision > MAX_PRECISION ? precision = MAX_PRECISION : 0;
-	precision == -1 ? precision = 6 : 0;
-	precision >= 0 ? float_num += round(precision) : 0;
-	int_part = (long long)float_num;
-	float_num -= (long double)int_part;
-	precision > 19 && precision < 53 ? float_num += round(precision) : 0;
+	ft_ftoa_init(&float_num, &precision, &int_part);
 	add_exponent(buf, &i, &int_part);
 	add_mantiss(&float_num, &precision, buf, &i);
 	return (buf);

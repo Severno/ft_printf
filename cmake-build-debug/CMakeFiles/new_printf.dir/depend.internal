@@ -261,6 +261,8 @@ CMakeFiles/new_printf.dir/srcs/flag_f.c.o
  /Users/sapril/ft_printf/libft/libft.h
  /Users/sapril/ft_printf/srcs/flag_f.c
 CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o
+ /Users/sapril/ft_printf/includes/ft_printf.h
+ /Users/sapril/ft_printf/libft/libft.h
  /Users/sapril/ft_printf/srcs/flag_f_handle.c
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o
  /Users/sapril/ft_printf/includes/ft_printf.h

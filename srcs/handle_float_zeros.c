@@ -33,6 +33,7 @@ static void	p_float_dot_sign(t_param *param)
 void		float_neg_zero(t_param *param, long double value, char *float_val)
 {
 	fill_float_width(param, value, &param->bits);
+	param->bits += write(1, "-", 1);
 	pf_putstr(float_val, param);
 	p_float_dot_sign(param);
 }

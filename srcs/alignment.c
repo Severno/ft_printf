@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/14 22:49:58 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/23 19:27:05 by sapril           ###   ########.fr       */
+/*   Updated: 2019/12/02 09:44:01 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,9 @@ void		fill_precision(t_param *param)
 
 void		fill(int value, char sign, t_param *param)
 {
-	(void)param;
+	char *removed_char;
+
+	removed_char = NULL;
 	if (pf_strchr(param->flags, ' ')
 	&& pf_strchr(param->flags, 'c') == 0
 	&& pf_strchr(param->flags, 'u') == 0
@@ -59,7 +61,7 @@ void		fill(int value, char sign, t_param *param)
 	{
 		write(1, " ", 1);
 		param->bits++;
-		ft_find_and_remove_char(param->flags, ' ');
+		removed_char = ft_find_and_remove_char(param->flags, ' ');
 		param->t_f.space = 0;
 	}
 	while (value > 0)
@@ -68,4 +70,6 @@ void		fill(int value, char sign, t_param *param)
 		param->bits++;
 		value--;
 	}
+	free(removed_char);
+	removed_char = NULL;
 }

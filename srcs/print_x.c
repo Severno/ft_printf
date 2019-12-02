@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/23 17:07:02 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/23 17:10:15 by sapril           ###   ########.fr       */
+/*   Updated: 2019/12/02 09:26:20 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,8 @@ static void		zero_handle_x(t_param *param,
 		zero_handle_x_rigth_align(param, value, l_case, flag);
 }
 
-void			print_x(t_param *param, unsigned long long value, char l_case)
+void			print_x(t_param *param, unsigned long long value,
+		char l_case, char *undec_base)
 {
 	int flag;
 
@@ -77,7 +78,7 @@ void			print_x(t_param *param, unsigned long long value, char l_case)
 	{
 		print_hash_zero(param, value, l_case, &flag);
 		fill_precision(param);
-		pf_putstr(ft_convert_undec_base(16, value, l_case), param);
+		pf_putstr(undec_base, param);
 		fill_width(param);
 	}
 	else
@@ -87,6 +88,6 @@ void			print_x(t_param *param, unsigned long long value, char l_case)
 		fill_width(param);
 		print_hash_zero(param, value, l_case, &flag);
 		fill_precision(param);
-		pf_putstr(ft_convert_undec_base(16, value, l_case), param);
+		pf_putstr(undec_base, param);
 	}
 }

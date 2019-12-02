@@ -260,6 +260,8 @@ CMakeFiles/new_printf.dir/srcs/flag_f.c.o: ../includes/ft_printf.h
 CMakeFiles/new_printf.dir/srcs/flag_f.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_f.c.o: ../srcs/flag_f.c
 
+CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o: ../includes/ft_printf.h
+CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o: ../libft/libft.h
 CMakeFiles/new_printf.dir/srcs/flag_f_handle.c.o: ../srcs/flag_f_handle.c
 
 CMakeFiles/new_printf.dir/srcs/flag_o.c.o: ../includes/ft_printf.h

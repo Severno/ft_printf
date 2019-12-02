@@ -26,4 +26,5 @@ void	flag_u(t_param *param)
 	print_u(param, param->un_value);
 	remove_current_flags(param, flags);
 	free(flags);
+	flags = NULL;
 }

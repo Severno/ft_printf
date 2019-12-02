@@ -6,14 +6,24 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 13:26:42 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/23 16:19:24 by sapril           ###   ########.fr       */
+/*   Updated: 2019/12/02 09:58:36 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_printf.h"
 
+static void		free_vars(t_param *param)
+{
+	if (param->flags != NULL)
+	{
+		free(param->flags);
+		param->flags = NULL;
+	}
+}
+
 static void		param_init(t_param *param)
 {
+	param->flags = NULL;
 	param->t_f.hash = 0;
 	param->t_f.minus = 0;
 	param->t_f.zero = 0;
@@ -35,31 +45,42 @@ static void		param_init(t_param *param)
 	param->float_sign = -1;
 }
 
+static void		check_condition(t_param *param)
+{
+	if (param->str[param->iter] == '%')
+	{
+		free_vars(param);
+		param_init(param);
+		param->iter += 1;
+		get_flags(param);
+		parse_flag(param);
+	}
+	else
+	{
+		write(1, &param->str[param->iter], 1);
+		param->bits++;
+	}
+	param->iter++;
+}
+
 int				ft_printf(char *input, ...)
 {
-	t_param *param;
+	t_param	*param;
+	int		bits;
+	size_t	input_len;
 
 	param = (t_param*)ft_memalloc(sizeof(t_param));
 	param->str = input;
 	param->iter = 0;
 	param->bits = 0;
+	input_len = ft_strlen(input);
 	va_start(param->args, input);
-	while (param->str[param->iter] && (size_t)param->iter < ft_strlen(input))
-	{
-		if (param->str[param->iter] == '%')
-		{
-			param_init(param);
-			param->iter += 1;
-			get_flags(param);
-			parse_flag(param);
-		}
-		else
-		{
-			write(1, &param->str[param->iter], 1);
-			param->bits++;
-		}
-		param->iter++;
-	}
+	while (param->str[param->iter] && (size_t)param->iter < input_len)
+		check_condition(param);
 	va_end(param->args);
-	return (param->bits);
+	bits = param->bits;
+	free_vars(param);
+	free(param);
+	param = NULL;
+	return (bits);
 }

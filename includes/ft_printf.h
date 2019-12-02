@@ -6,7 +6,7 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 13:56:43 by sapril            #+#    #+#             */
-/*   Updated: 2019/11/23 21:24:34 by sapril           ###   ########.fr       */
+/*   Updated: 2019/12/02 09:26:20 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,17 +105,18 @@ void						get_do_unwidth(t_param *param,
 void						calc_unreserved_fields(t_param *param,
 		unsigned long long value);
 void						print(t_param *param);
-void						print_o(t_param *param);
+void						print_o(t_param *param, char *undec_base);
 void						print_u(t_param *param, unsigned long long value);
 void						print_x(t_param *param,
-		unsigned long long value, char l_case);
-void						print_p(t_param *param, unsigned long long value);
+		unsigned long long value, char l_case, char *undec_base);
+void						print_p(t_param *param,
+		unsigned long long value, char *undec_base);
 void						flag_percent(t_param *param);
 void						print_percent(t_param *param);
 void						flag_f(t_param *param, long double value);
 void						calc_do_float_width(t_param *param);
 void						calc_reserved_float_fields(t_param *param,
-		long double value);
+		long double value, int sign);
 void						print_f(t_param *param, long double value,
 		char *float_val);
 void						handle_width_float(t_param *param,
@@ -151,5 +152,6 @@ int							check_is_special(t_param *param,
 char						*inf_nan_handle(long double float_num);
 char						*ft_ftoa(long double f, char *buf,
 		int precision, int sign);
+long double					round_float(int precision);
 
 #endif

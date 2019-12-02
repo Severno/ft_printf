@@ -26,4 +26,5 @@ void		flag_percent(t_param *param)
 	print_percent(param);
 	remove_current_flags(param, flags);
 	free(flags);
+	flags = NULL;
 }

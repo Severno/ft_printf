@@ -26,7 +26,13 @@ unistd.h
 stdio.h
 -
 
-/Users/sapril/ft_printf/srcs/get_flags.c
-../includes/ft_printf.h
+/Users/sapril/ft_printf/main.c
+stdio.h
+-
+math.h
+-
+limits.h
+-
+includes/ft_printf.h
 /Users/sapril/ft_printf/includes/ft_printf.h
 
