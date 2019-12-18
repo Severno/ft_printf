@@ -1,2 +1,2 @@
 # final_ft_printf
-Test
+My implementation of standard C printf function
