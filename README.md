@@ -5,6 +5,15 @@
 ##### Bonus
 12/25
 ***
+## How to run
+```console
+git clone https://github.com/Severno/ft_printf;
+cd ft_printf;
+make;
+gcc -Wall -Werror -Wextra main.c libftprintf.a -o run;
+./run;
+```
+
 ### Challenge
 To recode libc's `printf`.  
   
