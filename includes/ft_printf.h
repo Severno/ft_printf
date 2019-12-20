@@ -6,17 +6,16 @@
 /*   By: sapril <sapril@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/17 13:56:43 by sapril            #+#    #+#             */
-/*   Updated: 2019/12/02 09:26:20 by sapril           ###   ########.fr       */
+/*   Updated: 2019/12/06 11:11:07 by sapril           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include "../libft/libft.h"
-# include <stdarg.h>
-# include <stdio.h>
+# include "../libft/includes/libft.h"
 # include <float.h>
+# include <stdarg.h>
 
 typedef union				u_dbl_cast{
 	double					f;
@@ -153,5 +152,6 @@ char						*inf_nan_handle(long double float_num);
 char						*ft_ftoa(long double f, char *buf,
 		int precision, int sign);
 long double					round_float(int precision);
+int							*ft_merge_sort(int *arr, int low, int high);
 
 #endif

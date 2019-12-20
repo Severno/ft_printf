@@ -1,137 +1,123 @@
-NAME	= libftprintf.a
+NAME=libftprintf.a
+LIBFT_NAME=libft/libft.a
 
-LIB_SRC =	libft/ft_atoi.c libft/ft_bzero.c libft/ft_check_end_spaces.c libft/ft_check_start_spaces.c libft/ft_isalnum.c \
-			libft/ft_isalpha.c libft/ft_isascii.c libft/ft_isdigit.c libft/ft_isprint.c libft/ft_itoa.c libft/ft_lstadd.c libft/ft_lstdel.c \
-			libft/ft_lstdelone.c libft/ft_lstiter.c libft/ft_lstmap.c libft/ft_lstnew.c libft/ft_memalloc.c libft/ft_memccpy.c libft/ft_memchr.c \
-			libft/ft_memcmp.c libft/ft_memcpy.c libft/ft_memdel.c libft/ft_memmove.c libft/ft_memset.c libft/ft_num_of_digits.c libft/ft_putchar.c \
-			libft/ft_putchar_fd.c libft/ft_putendl.c libft/ft_putendl_fd.c libft/ft_putnbr.c libft/ft_putnbr_fd.c libft/ft_putstr.c libft/ft_putstr_fd.c \
-			libft/ft_strcat.c libft/ft_strchr.c libft/ft_strclr.c libft/ft_strcmp.c libft/ft_strcpy.c libft/ft_strdel.c libft/ft_strdup.c libft/ft_strequ.c libft/ft_striter.c \
-			libft/ft_striteri.c libft/ft_strjoin.c libft/ft_strlcat.c libft/ft_strlen.c libft/ft_strmap.c libft/ft_strmapi.c libft/ft_strncat.c libft/ft_strncmp.c \
-			libft/ft_strncpy.c libft/ft_strnequ.c libft/ft_strnew.c libft/ft_strnstr.c libft/ft_strrchr.c libft/ft_strsplit.c libft/ft_strstr.c \
-			libft/ft_strsub.c libft/ft_strtrim.c libft/ft_tolower.c libft/ft_toupper.c libft/ft_str_is_lowercase.c libft/ft_str_is_uppercase.c \
-			libft/ft_str_is_printable.c libft/ft_str_is_numeric.c libft/ft_strnlen.c libft/ft_isspace.c libft/ft_convert_dec_base.c \
-			libft/ft_num_of_fields.c libft/ft_abs.c libft/ft_atol.c libft/ft_convert_undec_base.c libft/ft_atoul.c libft/ft_unnum_of_fields.c \
-			libft/ft_putunbr.c libft/ft_putnbr_base.c
+# ===== Colors =====
+END:="\033[0;0m"
+BLACK:="\033[1;30m"
+RED:="\033[1;31m"
+GREEN:="\033[1;32m"
+LIGHT_GREEN:="\033[1;92m"
+PURPLE:="\033[1;35m"
+CYAN:="\033[1;36m"
+WHITE:="\033[1;37m"
 
-LIB_OBJ =	ft_atoi.o ft_bzero.o ft_check_end_spaces.o ft_check_start_spaces.o ft_isalnum.o \
-			ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_itoa.o ft_lstadd.o ft_lstdel.o \
-			ft_lstdelone.o ft_lstiter.o ft_lstmap.o ft_lstnew.o ft_memalloc.o ft_memccpy.o ft_memchr.o \
-			ft_memcmp.o ft_memcpy.o ft_memdel.o ft_memmove.o ft_memset.o ft_num_of_digits.o ft_putchar.o \
-			ft_putchar_fd.o ft_putendl.o ft_putendl_fd.o ft_putnbr.o ft_putnbr_fd.o ft_putstr.o ft_putstr_fd.o \
-			ft_strcat.o ft_strchr.o ft_strclr.o ft_strcmp.o ft_strcpy.o ft_strdel.o ft_strdup.o ft_strequ.o ft_striter.o \
-			ft_striteri.o ft_strjoin.o ft_strlcat.o ft_strlen.o ft_strmap.o ft_strmapi.o ft_strncat.o ft_strncmp.o \
-			ft_strncpy.o ft_strnequ.o ft_strnew.o ft_strnstr.o ft_strrchr.o ft_strsplit.o ft_strstr.o \
-			ft_strsub.o ft_strtrim.o ft_tolower.o ft_toupper.o ft_str_is_lowercase.o ft_str_is_uppercase.o \
-			ft_str_is_printable.o ft_str_is_numeric.o ft_strnlen.o ft_isspace.o ft_convert_dec_base.o \
-			ft_num_of_fields.o ft_abs.o ft_atol.o ft_convert_undec_base.o ft_atoul.o ft_unnum_of_fields.o ft_putunbr.o \
-			ft_putnbr_base.o
+END_IN:=\033[0;0m
+BLACK_IN:=\033[1;30m
+RED_IN:=\033[1;31m
+GREEN_IN:=\033[1;32m
+PURPLE_IN:=\033[1;35m
+CYAN_IN:=\033[1;36m
+WHITE_IN:=\033[1;37m
+# ==================
 
-PRINTF_SRC = srcs/alignment.c \
-				srcs/calc_signed_precision.c \
-				srcs/calc_signed_width.c \
-				srcs/calc_unsigned_precision.c \
-				srcs/calc_unsigned_width.c \
-				srcs/flag_cs.c \
-				srcs/flag_di.c \
-				srcs/flag_o.c \
-				srcs/precision.c \
-				srcs/flag_u.c \
-				srcs/flag_x.c \
-				srcs/ft_printf.c \
-				srcs/pf_strchr.c \
-				srcs/get_flags.c \
-				srcs/print_d.c \
-				srcs/print_o.c \
-				srcs/utils.c \
-				srcs/check_conventions.c \
-				srcs/print_o.c \
-				srcs/print_u.c \
-				srcs/print_p.c \
-				srcs/flag_p.c \
-				srcs/flag_percent.c \
-				srcs/print_percent.c \
-				srcs/print_f.c \
-                srcs/flag_f.c \
-                srcs/calc_float_width.c \
-                srcs/flag_f_handle.c \
-                srcs/pf_strchr_flags.c \
-                srcs/pf_strcat.c \
-                srcs/ft_find_and_remove_char.c \
-                srcs/flag_f_handle.c \
-                srcs/removes_flags.c \
-                srcs/handle_float_zeros.c \
-                srcs/pf_putnbr_base.c \
-                srcs/pf_putstr.c \
-                srcs/pf_putunbr.c \
-                srcs/parse_flags.c \
-                srcs/handle_float_conditions.c \
-                srcs/ft_ftoa.c \
-
-PRINTF_OBJ = alignment.o \
-				calc_signed_precision.o \
-				calc_signed_width.o \
-				calc_unsigned_precision.o \
-				calc_unsigned_width.o \
-				flag_cs.o \
-				flag_di.o \
-				flag_o.o \
-				precision.o \
-				flag_u.o \
-				flag_x.o \
-				ft_printf.o \
-				pf_strchr.o \
-				get_flags.o \
-				print_d.o \
-				print_o.o \
-				check_conventions.o \
-				utils.o \
-				print_u.o \
-				print_x.o \
-				print_p.o \
-				flag_p.o \
-				flag_percent.o \
-				print_percent.o \
-				print_f.o \
-                flag_f.o \
-                calc_float_width.o \
-                flag_f_handle.o \
-                pf_strchr_flags.o \
-                pf_strcat.o \
-                ft_find_and_remove_char.o \
-                flag_f_handle.o \
-                removes_flags.o \
-                handle_float_zeros.o \
-                pf_putnbr_base.o \
-                pf_putstr.o \
-                pf_putunbr.o \
-                parse_flags.o \
-                handle_float_conditions.o \
-                ft_ftoa.o \
+FILES = alignment \
+		calc_float_width \
+		calc_signed_precision \
+		calc_signed_width \
+		calc_unsigned_precision \
+		calc_unsigned_width \
+		check_conventions \
+		flag_cs \
+		flag_di \
+		flag_f \
+		flag_f_handle \
+		flag_o \
+		flag_p \
+		flag_percent \
+		flag_u \
+		flag_x \
+		ft_ftoa \
+		ft_printf \
+		get_flags \
+		handle_float_conditions \
+		handle_float_zeros \
+		parse_flags \
+		pf_putnbr_base \
+		pf_putstr \
+		pf_putunbr \
+		pf_strcat \
+		pf_strchr \
+		pf_strchr_flags \
+		precision \
+		print_d \
+		print_f \
+		print_o \
+		print_p \
+		print_percent \
+		print_u \
+		print_x \
+		removes_flags \
+		utils
 
 
-SRC		= $(LIB_SRC) $(PRINTF_SRC)
+OBJ_PATH=objects/
+SRC_PATH=src/
+HEAD_PATH= includes/
 
-OBJ		= $(LIB_OBJ) $(PRINTF_OBJ)
-FLAGS	= -Wall -Wextra -Werror
-HEADER	= includes/
+SRC=$(addprefix src/, $(addsuffix .c, $(FILES)))
+OBJ=$(addprefix $(OBJ_PATH), $(addsuffix .o, $(FILES)))
+OBJ_LIB=objects/*/*.o
 
-%.o: libft/%.c
-	gcc $(FLAGS) -c -I $(HEADER) -I libft/ $< -o $@
-	ar rc $(NAME) $@
+CC:=gcc
+C_FLAGS:=-Wall -Wextra -Werror -I $(HEAD_PATH)
+CACHE=.cache_exists
 
-%.o: srcs/%.c includes/ft_printf.h
-	gcc $(FLAGS) -c -I $(HEADER) -I libft/ $< -o $@
-	ar rc $(NAME) $@
+#test:
+#	@echo $(FILES_PUSH_SWAP) "PUSH_SWAP"
+#	@echo $(FILES_CHECKER) "CHECKER"
 
-all: $(NAME)
+all: libft_make $(NAME)
 
-$(NAME): $(OBJ) includes/ft_printf.h
-	ranlib $(NAME)
+$(NAME): $(OBJ)
+	@echo $(END)
+	@ar rc $(NAME) $(OBJ) $(OBJ_LIB)
+	@ranlib $(NAME)
+	@echo $(GREEN) " - Done" $(END)
+	@echo "\n"
+	@echo $(RED)"You can write something in main.c file and run:"$(END) $(CYAN)"\"gcc main.c libftprintf.a -o my_prog; ./my_prog\". "$(END)
+
+libft_make:
+	@cd libft/; make; cp -R objects ../objects;
+
+$(OBJ_PATH)%.o: $(SRC_PATH)%.c $(HEAD_PATH)
+	@printf '$(CYAN_IN)%-20s$(RED_IN)%-50s $(GREEN_IN)%-8s' "- Compile function:" "$<" "$(COUNTER)/$(LENGTH)"
+	@echo "\r\c"
+	@$(eval COUNTER=$(shell echo $$(($(COUNTER)+1))))
+	@$(CC) $(C_FLAGS) -c $< -o $@
+
+
+
+%.c:
+	@echo $(RED) "Missing file : $@"
+
+$(CACHE):
+	@mkdir $(OBJ_PATH)
+	@touch $(CACHE)
 
 clean:
-	rm -f $(OBJ)
+	@rm -rf $(OBJ_PATH)
+	@rm -f $(CACHE)
 
 fclean: clean
-	rm -f $(NAME)
+	@cd libft/; make fclean; cd ..;
+	@rm libftprintf.a
 
-re: fclean all
+re: fclean
+	$(MAKE) all
+
+norm:
+	@echo $(RED)
+	@norminette src/ $(HEAD_PATH) | grep -v Norme -B1 || echo $(END)$(LIGHT_GREEN)"Norm - OK!"$(END)
+	@echo $(END)
+
+.PHONY: all clean fclean re test norm libft_make
