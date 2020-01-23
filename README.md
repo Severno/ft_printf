@@ -4,6 +4,7 @@
 100/100
 ##### Bonus
 12/25
+![Score](Score.png)
 ***
 ## How to run
 ```console
